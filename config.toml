@@ -15,4 +15,8 @@ theme = "acmumn"
 title = "ACM UMN"
 
 [extra]
-# Put all your custom variables here
+nav_links = [
+    { url = "/events", text = "Events" },
+    { url = "/officers", text = "Officers" },
+    { url = "/blog", text = "Blog" },
+]
