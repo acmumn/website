@@ -1,5 +1,7 @@
 +++
-+++
+template = "blog.html"
 
-# Blog
+paginate_by = 10
+paginate_path = "page"
++++
 

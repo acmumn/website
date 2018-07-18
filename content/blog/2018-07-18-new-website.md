@@ -6,6 +6,9 @@ date = 2018-07-18
 slug = "new-website"
 
 tags = [ "systems", "website" ]
+
+[extra]
+author = "michael"
 +++
 
 This is the first blog post!
