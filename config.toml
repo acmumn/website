@@ -19,5 +19,5 @@ nav_links = [
     { url = "/events", text = "Events" },
     { url = "/officers", text = "Officers" },
     { url = "/newsletters", text = "Newsletters" },
-    { url = "/meeting-notes", text = "Meeting Notes" },
+    { url = "/meeting-minutes", text = "Meeting Minutes" },
 ]
