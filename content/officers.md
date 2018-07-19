@@ -17,5 +17,3 @@ title = "Officers"
 |The Architect|Ari Bible|
 |God-Emperor|Kairi Lassard|
 |Faculty Advisor|Shana Watters|
-|Head Todd Engineer|Todd|
-

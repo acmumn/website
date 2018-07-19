@@ -18,5 +18,6 @@ title = "ACM UMN"
 nav_links = [
     { url = "/events", text = "Events" },
     { url = "/officers", text = "Officers" },
-    { url = "/blog", text = "Blog" },
+    { url = "/newsletters", text = "Newsletters" },
+    { url = "/meeting-minutes", text = "Meeting Minutes" },
 ]
