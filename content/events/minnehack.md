@@ -2,6 +2,7 @@
 title = "MinneHack"
 date = 2019-02-02
 
+tags = ["competition", "food"]
 template = "post.html"
 +++
 
