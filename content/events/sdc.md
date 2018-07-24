@@ -6,8 +6,7 @@ tags = ["competition", "food"]
 template = "post.html"
 +++
 
-Test your skills at designing and implementing software.  
-Food included. Prizes for top finishers. 
+Test your skills at designing and implementing software.
 
 <!-- more -->
 

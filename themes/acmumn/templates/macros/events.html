@@ -12,8 +12,11 @@
                         <small>{{ event.date }}</small>
 						<small class="event-icons">
 							{% if event.tags is containing("food") %}
-                        		<i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
-							{% endif %}
+                                <i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
+                            {% endif %}
+                            {% if event.tags is containing("competition") %}
+                                <i class="fa fa-fw fa-trophy" title="Competition"></i>
+                            {% endif %}
 						</small>
                         <div>
                             {% if event.summary %}{{ event.summary | safe }}{% else %}{{ event.content | safe }}{% endif %}

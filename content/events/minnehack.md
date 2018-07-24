@@ -6,7 +6,7 @@ tags = ["competition", "food"]
 template = "post.html"
 +++
 
-We give you a prompt. 24 hours later you give us a solution. 
+We give you a prompt. 24 hours later you give us a solution.
 
 <!-- more -->
 
