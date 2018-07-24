@@ -1,0 +1,29 @@
+{% import "layout.html" as layout %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% if page.title %}{{ page.title }} - {{ config.title }}{% else %}{{ config.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/font-awesome.min.css" />
+    {% block header %} {% endblock %}
+</head>
+
+<body>
+    <header>
+        {{ layout::navbar(config=config) }}
+    </header>
+    <div style="min-height: 50vh;">
+        {% block content %}{% endblock %}
+    </div>
+    <footer class="site-footer site-footer--sticky">
+        {{ layout::footer() }}
+    </footer>
+</body>
+
+</html>

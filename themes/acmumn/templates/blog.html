@@ -1,0 +1,7 @@
+{% extends "page.html" %}
+{% import "macros/blog.html" as blog %}
+
+{% block pagecontent %}
+    <h1>{{ section.title | replace(from=" ", to="&nbsp;") }}</h1>
+    {{ blog::postlisting(posts=section.pages) }}
+{% endblock %}

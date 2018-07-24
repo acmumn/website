@@ -1,0 +1,43 @@
+/*
+@include media-breakpoint-down(sm) {
+    .mobile-hide {
+        display: none;
+    }
+}
+*/
+
+.site-footer {
+    margin-top: 40px;
+    background-color: lighten($gray, 35%);
+    color: #999;
+    padding: 3em 0 0;
+    font-size: 14.3px;
+    position: relative;
+    div#getintouch {
+        h5 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #links {
+            text-align: center;
+        }
+    }
+    .footer-heading {
+        color: #555;
+    }
+    .footer-copyright p {
+        margin: auto;
+        margin-top: 2em;
+        padding: 2em 2em;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    h5,
+    .h5 {
+        font-size: 1.2em;
+    }
+    #links {
+        margin-top: 5px;
+        font-size: 1.5em;
+    }
+}

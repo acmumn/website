@@ -1,0 +1,7 @@
+{% extends "page.html" %}
+{% import "macros/events.html" as events %}
+
+{% block pagecontent %}
+    <h1>Events</h1>
+    {{ events::eventlisting(events=section.pages) }}
+{% endblock %}

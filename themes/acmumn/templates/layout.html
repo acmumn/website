@@ -1,0 +1,52 @@
+{% macro navbar(config) %}
+    <div class="container">
+        <a href="/" class="title nocolorlink">{{ config.title }}</a>
+
+        <div id="nav">
+            {% for link in config.extra.nav_links %}
+                <a href="{{ link.url | safe }}" class="link">{{ link.text | replace(from=" ", to="&nbsp;") }}</a>
+            {% endfor %}
+        </div>
+    </div>
+{% endmacro navbar %}
+
+{% macro footer() %}
+    <div class="container">
+        <div class="row">
+            <div class="col mobile-hide">
+                <h5 class="footer-heading">ACM UMN</h5>
+                <p>
+                    We work to promote knowledge and greater interest in the science, design, development, language, management, and applications
+                    of modern computing on the Twin Cities campus and around the Twin Cities area.
+                </p>
+            </div>
+            <div class="col mobile-hide">
+                <h5 class="footer-heading">Useful Links</h5>
+                <ul>
+                    <li><a href="/events">Events</a></li>
+                    <li><a href="/officers">Officers</a></li>
+                </ul>
+            </div>
+            <div class="col" id="getintouch">
+                <h5 class="footer-heading">Get in touch with us</h5>
+                <p id="links">
+                    <a href="mailto:acm@umn.edu" target="_blank" rel="noopener" class="nocolorlink">
+                        <i class="fa fa-fw fa-envelope"></i>
+                    </a>
+                    <a href="https://facebook.com/acmuofmn" target="_blank" rel="noopener" class="nocolorlink">
+                        <i class="fa fa-fw fa-facebook-square"></i>
+                    </a>
+                    <a href="https://twitter.com/acmumn" target="_blank" rel="noopener" class="nocolorlink">
+                        <i class="fa fa-fw fa-twitter"></i>
+                    </a>
+                    <a href="https://github.com/acmumn" target="_blank" rel="noopener" class="nocolorlink">
+                        <i class="fa fa-fw fa-github"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="row footer-copyright">
+            <p>Copyright &copy; 2018 ACM UMN.</p>
+        </div>
+    </div>
+{% endmacro navbar %}

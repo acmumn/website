@@ -1,0 +1,11 @@
+{% extends "page.html" %}
+
+{% block pagecontent %}
+    <h1 style="margin-bottom: 0;">{{ page.title }}</h1>
+    <small style="display: block; margin-bottom: 20px;">
+        Posted
+        {% if page.extra.author %}by {{ page.extra.author }}{% endif %}
+        on {{ page.date }}
+    </small>
+    {{ page.content | safe }}
+{% endblock %}

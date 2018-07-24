@@ -1,0 +1,115 @@
+// @import "https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400";
+// @import "grid/main.scss";
+
+@import "grid.scss";
+@import "color.scss";
+@import "footer.scss";
+@import "fonts.scss";
+@import "timeline.scss";
+@import "mixins.scss";
+
+html,
+body {
+    margin: 0; // margin-top: 40px;
+    // font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 11pt; // @media (min-width: $screen-md-min) {
+    //     font-size: 1.0em;
+    // }
+    // @media (min-width: $screen-lg-min) {
+    //     font-size: 1.1em;
+    // }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+    color: $brand;
+    font-weight: 400;
+}
+
+*::selection {
+    background-color: $brand;
+    color: white;
+}
+
+a {
+    &:not(.nocolorlink) {
+        @include colored-link(1px, $link);
+    }
+    color: black;
+    text-decoration: none;
+}
+
+code {
+    font-family: "Inconsolata", monospace;
+}
+
+small {
+    font-size: 0.9em;
+    color: #999;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/* .container {
+    h3 {
+        margin-top: 27px;
+        margin-bottom: 10px;
+    }
+} */
+
+header {
+    padding-bottom: 25px;
+    padding-top: 30px;
+    border-top: 10px solid $brand;
+    list-style-type: none;
+    font-size: 1.3em;
+    @media only screen and (max-width: $breakpoint-small) { 
+        padding-bottom: 0;
+    }
+    a.title {
+        @media only screen and (max-width: $breakpoint-small) { 
+            display: block;
+            text-align: center;
+            margin-right: 0;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        margin-right: 30px;
+        color: $brand;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+    div#nav {
+        display: inline;
+    }
+    @media only screen and (max-width: $breakpoint-small) { 
+        div#nav {
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+    }
+    a.link {
+        @include colored-link(1px, black);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.page {
+    @include box-sizing(border-box);
+    padding: 30px; // border: 1px solid $gray;
+    // @include border-radius(5px);
+    // @include box-shadow(0px 0px 2px #999);
+    // &.flat-top {
+    //     @include border-radius(0px 0px 5px 5px);
+    // }
+}

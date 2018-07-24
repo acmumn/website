@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "font";
+    src: url("/fonts/light.woff2");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "font";
+    src: url("/fonts/regular.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "font";
+    src: url("/fonts/bold.woff2");
+    font-weight: 400;
+}
+
+body {
+    font-family: "font";
+    font-weight: 300;
+}
