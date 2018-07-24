@@ -10,6 +10,8 @@ build_search_index = false
 # Title of the site
 title = "ACM UMN"
 
+generate_rss = true
+
 [extra]
 nav_links = [
     { url = "/about", text = "Home" }

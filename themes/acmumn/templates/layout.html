@@ -10,7 +10,7 @@
     </div>
 {% endmacro navbar %}
 
-{% macro footer() %}
+{% macro footer(config) %}
     <div class="container">
         <div class="row">
             <div class="col mobile-hide">
@@ -30,6 +30,9 @@
             <div class="col" id="getintouch">
                 <h5 class="footer-heading">Get in touch with us</h5>
                 <p id="links">
+				<a href="{{config.base_url}}rss.xml" target="_blank" rel="noopener" class="nocolorlink">
+                        <i class="fa fa-fw fa-rss"></i>
+                    </a>
                     <a href="mailto:acm@umn.edu" target="_blank" rel="noopener" class="nocolorlink">
                         <i class="fa fa-fw fa-envelope"></i>
                     </a>

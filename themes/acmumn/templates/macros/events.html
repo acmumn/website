@@ -10,6 +10,11 @@
                     <a class="panel nocolorlink" href="{{ event.permalink }}">
                         <h4>{{ event.title }}</h4>
                         <small>{{ event.date }}</small>
+						<small class="event-icons">
+							{% if event.tags is containing("food") %}
+                        		<i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
+							{% endif %}
+						</small>
                         <div>
                             {% if event.summary %}{{ event.summary | safe }}{% else %}{{ event.content | safe }}{% endif %}
                         </div>
