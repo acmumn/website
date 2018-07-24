@@ -3,6 +3,7 @@ title = "TEMPLATE"
 template = "post.html"
 date = 1970-01-01
 draft = true
+tags = []
 +++
 
 REMEMBER TO CHANGE THE DATE UP TOP AND REMOVE THE `draft` LINE
