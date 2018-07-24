@@ -4,7 +4,7 @@
         <div class="line">
             <div class="timeline-path"></div>
             <div class="timeline-item--offset"></div>
-            {% for event in events %}
+            {% for event in events | reverse %}
                 <div class="timeline-item timeline-item--{% if loop.index is odd %}odd{% else %}even{% endif %}">
                     <div class="timeline-item-node"></div>
                     <a class="panel nocolorlink" href="{{ event.permalink }}">
