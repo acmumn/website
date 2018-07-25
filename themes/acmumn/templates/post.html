@@ -8,4 +8,7 @@
         on {{ page.date }}
     </small>
     {{ page.content | safe }}
+	{% if page.extra.link %}
+		<p>Visit <a href="{{ page.extra.link }}">here</a> for more info.</p>
+	{% endif %}
 {% endblock %}

@@ -4,15 +4,13 @@
 {% block pagecontent %}
     <h1>Events</h1>
     <p>
-   		{{ events::eventlisting(events=section.pages) }}
-   	</p>
-   	<br/>
-   	<p>
-    	<i class="fa fa-fw fa-cutlery" title="Food Provided"></i> = Food will be provided,
-      <i class="fa fa-fw fa-handshake-o" title="Booth"></i> = We're running a booth (come say hi!),
-    	<i class="fa fa-fw fa-trophy" title="Competition"></i> = This is a competition (with prizes!)
-	</p>
-    <p>
-    	Additionally, officer meetings are normally held Wednesdays at 19:00 in Keller 2-204. These are open to the public and you are welcome to attend, but they may not be very exciting. If you wish to attend it may be prudent to check that the meeting has not been cancelled.
+        {{ events::eventlisting(events=section.pages) }}
     </p>
+    <br/>
+    <p>
+        <i class="fa fa-fw fa-cutlery" title="Food Provided"></i> = Food will be provided,
+        <i class="fa fa-fw fa-handshake-o" title="Booth"></i> = We're running a booth (come say hi!),
+        <i class="fa fa-fw fa-trophy" title="Competition"></i> = This is a competition (with prizes!)
+    </p>
+    <p>Additionally, officer meetings are normally held Wednesdays at 19:00 in Keller 2-204. These are open to the public and you are welcome to attend, but they may not be very exciting. If you wish to attend it may be prudent to check that the meeting has not been cancelled.</p>
 {% endblock %}
