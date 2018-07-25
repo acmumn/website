@@ -1,0 +1,7 @@
+table:not(.no-table) {
+    & tr {
+        & td {
+            padding: 3px 10px;
+        }
+    }
+}

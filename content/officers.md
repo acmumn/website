@@ -12,7 +12,7 @@ template = "officers.html"
 |Treasurer|Thomas Tang|
 |Secretary|Mike McPherson|
 |Membership|Cassandra Bleskachek|
-|Community Ambassador&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Jack Stanek|
+|Community Ambassador|Jack Stanek|
 |Webmaster|Michael Zhang|
 |Systems Admin|Louis Goessling|
 |The Architect|Ari Bible|
