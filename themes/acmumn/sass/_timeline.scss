@@ -27,6 +27,10 @@
 
     .panel--bold {
         border: 4px solid #999;
+
+        &:hover {
+            border: 4px solid #a8a8a8;
+        }
     }
 
     @media only screen and (min-width: $breakpoint-small) { 
