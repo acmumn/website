@@ -9,7 +9,7 @@
                     <div class="timeline-item-node"></div>
                     <a class="panel nocolorlink" href="{{ event.permalink }}">
                         <h4>{{ event.title }}</h4>
-                        <small>{{ event.date | date(format="%B $e, %Y") }}</small>
+                        <small>{{ event.date | date(format="%B %e, %Y") }}</small>
 						<small class="event-icons">
 							{% if event.tags is containing("food") %}
                                 <i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
