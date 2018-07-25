@@ -7,7 +7,7 @@
             {% for event in events | reverse %}
                 <div class="timeline-item timeline-item--{% if loop.index is odd %}odd{% else %}even{% endif %}">
                     <div class="timeline-item-node"></div>
-                    <a class="panel nocolorlink" href="{{ event.permalink }}">
+                    <a class="panel nocolorlink {% if not event.tags is containing("booth") %}panel--bold{% endif %}" href="{{ event.permalink }}">
                         <h4>{{ event.title }}</h4>
                         <small>{{ event.date | date(format="%B %e, %Y") }}{% if event.ztime %}{{ event.ztime }}{% endif %}</small>
 						<small class="event-icons">
