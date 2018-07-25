@@ -5,6 +5,9 @@
 	document.addEventListener("DOMContentLoaded", function(event) {
 	    [].filter.call(document.querySelectorAll("tr"),
 	    	e => /Todd/.test(e.textContent)).forEach(e => e.style.opacity = 0.01);
+	    var e = document.getElementById("no-js-badge");
+		e.parentNode.removeChild(e);
+		// Sorry, but it's for a better gag
 	});
 </script>
 {% endblock %}
