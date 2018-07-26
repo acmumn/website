@@ -1,6 +1,6 @@
 {% macro postlisting(posts) %}
     <table style="width: 100%;">
-    {% for post in posts %}
+    {% for post in posts | reverse %}
 		{% if not post.draft %}
         	<tr>
             	<td>
