@@ -16,6 +16,12 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "font";
+    src: url("/fonts/bold.woff2");
+    font-weight: bold;
+}
+
 body {
     font-family: "font";
     font-weight: 300;
