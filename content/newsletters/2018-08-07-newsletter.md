@@ -1,15 +1,16 @@
 +++
-
 title = "2018-08-07 Newsletter"
 template = "post.html"
+
 date = 2018-08-07
 slug = "newsletter"
-tags = [ "systems", "website" ]
+tags = []
 
 [extra]
 author = "mike"
-
 +++
+
+<!-- more -->
 
 Hello ACM@UMN members,
 
@@ -26,5 +27,6 @@ Hope you're all enjoying your summers. Here are some of the events we have comin
  - Returning ACMUMN members must pay the membership fee before the end of August to maintain paid member status. The membership fee can be paid to any officer. Also, starting this semester, the membership fee has been lowered to five dollars per semester.
 
 If you want to get more involved with ACM@UMN or see what we’re up to, our weekly officer meetings are held on Wednesdays at 7:00 pm in Keller 2-204, and our meeting minutes can be found at acm.umn.edu/meeting-minutes. You can also join our Discord server at z.umn.edu/acm-discord
+
 Hope to see you all next semester!
 
