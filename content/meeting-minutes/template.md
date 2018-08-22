@@ -8,6 +8,12 @@ tags = []
 
 REMEMBER TO CHANGE THE DATE UP TOP AND REMOVE THE `draft` LINE
 
+## Last Week's TODOs
+
+ - [x] Alice: At vero eos et accusamus et iusto odio dignissimos ducimus
+ - [x] Bob: Qui blanditiis praesentium voluptatum deleniti atque corrupti
+ - [ ] Charlie: All Latin is Lorem Ipsum change my mind
+
 ## Topics for Discussion
  
  - Foo
