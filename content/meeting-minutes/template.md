@@ -8,6 +8,12 @@ tags = []
 
 REMEMBER TO CHANGE THE DATE UP TOP AND REMOVE THE `draft` LINE
 
+## Attendance
+ 
+ - Alice (Jabberwock-Slayer)
+ - Bob (Voiced by French Stewart)
+ - Charlie (Finger Biter)
+
 ## Last Week's TODOs
 
  - [x] Alice: At vero eos et accusamus et iusto odio dignissimos ducimus
