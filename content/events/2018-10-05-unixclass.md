@@ -12,7 +12,7 @@ Come learn UNIX basics with us! Lesson 4: Pipes and Filters. There will be Mesa 
 
 ## What are the UNIX Class Topics?
 
-The fourth UNIX Class will be on more advanced UNIX topics! This will build on the first, second, and third classes, though attendance of those is not required.
+The fourth UNIX Class will be about pipes and filters in the terminal! This will build on the first, second, and third classes, though attendance of those is not required.
 
 ## What do I need to know before I attend?
 
@@ -25,7 +25,7 @@ We always have vegan and vegetarian options! We also (usually) bring lactaid for
 If you are gluten free, let us know in advance and we will do our best to accommodate you.
 
 ## When are the UNIX Classes?
-The fourth and final UNIX Class is October 5th from 5:00 pm to 6:00 pm.
+The fourth and final UNIX Class is October 5th from 12:00 pm to 1:00 pm.
 
 ## Where are the UNIX Classes?
-Keller Hall 3-115 for all dates.
+Mechanical Engineering 108

@@ -16,7 +16,7 @@ The first UNIX Class will be on shell basics! If you've never really used UNIX o
 
 ## What do I need to know before I attend?
 
-No prior knowledge of UNIX is required! Just bring yourself, your computer, and a hunger for pizza. There will be pizza!
+No prior knowledge of UNIX is required! Just bring yourself, your computer, and a hunger for pizza.
 
 ## What dietary restrictions do you cater to?
 

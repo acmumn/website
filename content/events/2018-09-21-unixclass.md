@@ -12,7 +12,7 @@ Come learn UNIX basics with us! Lesson 2: Git and Github. There will be Mesa Piz
 
 ## What are the UNIX Class Topics?
 
-The second UNIX Class will be on more advanced UNIX topics! This will build on the first class, though attendance ofit is not required.
+The second UNIX Class will be about Git and GitHub. This will build on the first class, though attendance of it is not required.
 
 ## What do I need to know before I attend?
 
@@ -25,7 +25,7 @@ We always have vegan and vegetarian options! We also (usually) bring lactaid for
 If you are gluten free, let us know in advance and we will do our best to accommodate you.
 
 ## When are the UNIX Classes?
-The second UNIX Class is September 21st from 5:00 pm to 6:00 pm. The next UNIX Classes will be in the same time and place, just one week later. (9/28, 10/5).
+The second UNIX Class is September 21st from 12:00 pm to 1:00 pm. The next UNIX Classes will be in the same time and place, just one week later. (9/28, 10/5).
 
 ## Where are the UNIX Classes?
-Keller Hall 3-115 for all dates.
+Mechanical Engineering 108
