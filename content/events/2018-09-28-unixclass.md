@@ -8,7 +8,7 @@ template = "post.html"
 
 Come learn UNIX basics with us! There will be Mesa Pizza. 
 
-<!--more-->
+<!-- more -->
 
 ## What are the UNIX Class Topics?
 
