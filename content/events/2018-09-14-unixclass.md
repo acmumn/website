@@ -12,11 +12,11 @@ Come learn UNIX basics with us! Lesson 1: Shell Basics. There will be Mesa Pizza
 
 ## What are the UNIX Class Topics?
 
-The first UNIX Class will be on UNIX basics! If you've never really used UNIX before this is a great primer.
+The first UNIX Class will be on shell basics! If you've never really used UNIX or the command line before, this is a great primer.
 
 ## What do I need to know before I attend?
 
-No prior knowledge of UNIX is required! Just bring yourself, your computer, and a hungry tummy. There will be pizza!
+No prior knowledge of UNIX is required! Just bring yourself, your computer, and a hunger for pizza. There will be pizza!
 
 ## What dietary restrictions do you cater to?
 
