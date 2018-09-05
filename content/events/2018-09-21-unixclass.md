@@ -6,7 +6,7 @@ tags = ["food"]
 template = "post.html"
 +++
 
-Come learn UNIX basics with us! There will be Mesa Pizza. 
+Come learn UNIX basics with us! Lesson 2: Git and Github. There will be Mesa Pizza. 
 
 <!-- more -->
 
