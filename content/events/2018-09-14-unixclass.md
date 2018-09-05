@@ -25,7 +25,7 @@ We always have vegan and vegetarian options! We also (usually) bring lactaid for
 If you are gluten free, let us know in advance and we will do our best to accommodate you.
 
 ## When are the UNIX Classes?
-The first UNIX Class is September 14th from 5:00 pm to 6:00 pm. The next UNIX Classes will be in the same time and place, just one week later. (9/21, 9/28, 10/5).
+The first UNIX Class is September 14th from 12:00 pm to 1:00 pm. The next UNIX Classes will be in the same time and place, just one week later. (9/21, 9/28, 10/5).
 
 ## Where are the UNIX Classes?
-Keller Hall 3-115 for all dates.
+Mechanical Engineering 108 for all dates.
