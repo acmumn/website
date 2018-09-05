@@ -6,7 +6,7 @@ tags = ["food"]
 template = "post.html"
 +++
 
-Come learn UNIX basics with us! There will be Mesa Pizza. 
+Come learn UNIX basics with us! Lesson 4: Pipes and Filters. There will be Mesa Pizza. 
 
 <!-- more -->
 
