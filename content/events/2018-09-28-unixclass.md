@@ -6,8 +6,6 @@ tags = ["food", "display-small"]
 template = "post.html"
 +++
 
-d
-
 <!-- more -->
 
 ## What are the UNIX Class Topics?
