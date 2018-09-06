@@ -3,7 +3,7 @@ title = "2018-09-03 Newsletter"
 template = "post.html"
 
 date = 2018-09-03
-slug = "newsletter"
+slug = "newsletter-2018-09-03"
 tags = []
 
 [extra]
