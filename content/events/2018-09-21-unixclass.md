@@ -1,13 +1,10 @@
 +++
-title = "UNIX Class 2"
+title = "UNIX Class 2: Git and Github"
 date = 2018-09-21
 
 tags = ["food"]
 template = "post.html"
 +++
-
-Come learn UNIX basics with us! Lesson 2: Git and Github. There will be Mesa Pizza. 
-
 <!-- more -->
 
 ## What are the UNIX Class Topics?

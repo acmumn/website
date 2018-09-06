@@ -1,12 +1,10 @@
 +++
-title = "UNIX Class 3"
+title = "UNIX Class 3: VIM"
 date = 2018-09-28
 
 tags = ["food"]
 template = "post.html"
 +++
-
-Come learn UNIX basics with us! Lesson 3: VIM . There will be Mesa Pizza. 
 
 <!-- more -->
 

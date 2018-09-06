@@ -1,12 +1,11 @@
 +++
-title = "UNIX Class 1"
+title = "UNIX Class 1: Shell basics"
 date = 2018-09-14
 
 tags = ["food"]
 template = "post.html"
 +++
 
-Come learn UNIX basics with us! Lesson 1: Shell Basics. There will be Mesa Pizza. 
 
 <!-- more -->
 
