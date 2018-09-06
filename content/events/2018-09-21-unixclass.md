@@ -2,9 +2,12 @@
 title = "UNIX Class 2: Git and Github"
 date = 2018-09-21
 
-tags = ["food"]
+tags = ["food", "display-small"]
 template = "post.html"
 +++
+
+d
+
 <!-- more -->
 
 ## What are the UNIX Class Topics?

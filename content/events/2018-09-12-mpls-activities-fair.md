@@ -2,7 +2,7 @@
 title = "Mpls Activities Fair"
 date = 2018-09-12
 
-tags = ["booth"]
+tags = ["booth", "display-small"]
 template = "post.html"
 
 [extra]

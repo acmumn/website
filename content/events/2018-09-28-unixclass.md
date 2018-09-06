@@ -2,9 +2,11 @@
 title = "UNIX Class 3: VIM"
 date = 2018-09-28
 
-tags = ["food"]
+tags = ["food", "display-small"]
 template = "post.html"
 +++
+
+d
 
 <!-- more -->
 

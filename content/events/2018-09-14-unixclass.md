@@ -2,10 +2,11 @@
 title = "UNIX Class 1: Shell basics"
 date = 2018-09-14
 
-tags = ["food"]
+tags = ["food", "display-small"]
 template = "post.html"
 +++
 
+d
 
 <!-- more -->
 
