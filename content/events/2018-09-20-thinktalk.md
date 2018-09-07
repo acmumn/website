@@ -6,9 +6,9 @@ tags = ["food"]
 template = "post.html"
 +++
 
-<!-- more -->
-
 Join ACM UMN and Polaris for a Think Talk and Mesa Pizza!
+
+<!-- more -->
 
 ## When is the Think Talk?
 Thursday September 20th from 6:00pm to 7:00pm
