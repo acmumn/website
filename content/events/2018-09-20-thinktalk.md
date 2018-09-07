@@ -4,7 +4,6 @@ date = 2018-09-20
 
 tags = ["food"]
 template = "post.html"
-
 +++
 
 <!-- more -->
