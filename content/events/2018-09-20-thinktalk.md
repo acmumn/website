@@ -2,7 +2,7 @@
 title = "Polaris Think Talk"
 date = 2018-09-20
 
-tags = ["food"]
+tags = ["food", "display-small"]
 template = "post.html"
 
 +++
@@ -12,7 +12,7 @@ template = "post.html"
 Join ACM UMN and Polaris for a Think Talk and Mesa Pizza!
 
 ## When is the Think Talk?
-Thursday September 20th from 6:00pm to 7:00pm
+Thursday September 20th from 6:00pm to 7:30pm
 
 ## Where is the Think Talk?
 Bruininks 220
