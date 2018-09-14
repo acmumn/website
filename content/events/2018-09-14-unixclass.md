@@ -2,7 +2,7 @@
 title = "UNIX Class 1: Shell basics"
 date = 2018-09-14
 
-tags = ["food", "display-small"]
+tags = ["food", "display-small", "no-timeline-display"]
 template = "post.html"
 +++
 

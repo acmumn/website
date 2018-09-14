@@ -5,40 +5,42 @@
             <div class="timeline-path"></div>
             <div class="timeline-item--offset"></div>
             {% for event in events | reverse %}
-                <div class="timeline-item timeline-item--{% if loop.index is odd %}odd{% else %}even{% endif %}">
-                    <div class="timeline-item-node"></div>
-                    <a class="panel nocolorlink {% if event.tags is containing("display-small") %}panel--mini{% else %}panel--bold{% endif %}"
-					        href="{% if event.extra.link %}{{ event.extra.link }}{% else %}{{ event.permalink }}{% endif %}">
-                        <h4>{{ event.title }}</h4>
-                        <small class="event-subtitle">
-							{{ event.date | date(format="%B %e, %Y") }}{% if event.ztime %}{{ event.ztime }}{% endif %}
-                        	<span class="event-icons">
-                            	{% if event.tags is containing("food") %}
-                                	<i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
+                {% if not event.tags is containing("no-timeline-display") %}
+                    <div class="timeline-item timeline-item--{% if loop.index is odd %}odd{% else %}even{% endif %}">
+                        <div class="timeline-item-node"></div>
+                        <a class="panel nocolorlink {% if event.tags is containing("display-small") %}panel--mini{% else %}panel--bold{% endif %}"
+    					        href="{% if event.extra.link %}{{ event.extra.link }}{% else %}{{ event.permalink }}{% endif %}">
+                            <h4>{{ event.title }}</h4>
+                            <small class="event-subtitle">
+    							{{ event.date | date(format="%B %e, %Y") }}{% if event.ztime %}{{ event.ztime }}{% endif %}
+                            	<span class="event-icons">
+                                	{% if event.tags is containing("food") %}
+                                    	<i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
+                                	{% endif %}
+                                	{% if event.tags is containing("competition") %}
+                                    	<i class="fa fa-fw fa-trophy" title="Competition"></i>
+                                	{% endif %}
+                                	{% if event.tags is containing("booth") %}
+                                    	<i class="fa fa-fw fa-handshake-o" title="Booth"></i>
+                                	{% endif %}
+                            	</span>
+                            	{% if event.tags is containing("display-small") %}
+                            		<small class="panel-ctlm">
+                                		<i class="fa fa-fw fa-external-link"></i>
+                            		</small>
                             	{% endif %}
-                            	{% if event.tags is containing("competition") %}
-                                	<i class="fa fa-fw fa-trophy" title="Competition"></i>
-                            	{% endif %}
-                            	{% if event.tags is containing("booth") %}
-                                	<i class="fa fa-fw fa-handshake-o" title="Booth"></i>
-                            	{% endif %}
-                        	</span>
-                        	{% if event.tags is containing("display-small") %}
-                        		<small class="panel-ctlm">
-                            		<i class="fa fa-fw fa-external-link"></i>
-                        		</small>
-                        	{% endif %}
-						</small>
-                        {% if not event.tags is containing("display-small") %}
-                            <div>
-                                {% if event.summary %}{{ event.summary | safe }}{% else %}{{ event.content | safe }}{% endif %}
-                            </div>
-                        	<small class="panel-ctlm">
-                            	<i>Click to learn more</i>
-                        	</small>
-                        {% endif %}
-                    </a>
-                </div>
+    						</small>
+                            {% if not event.tags is containing("display-small") %}
+                                <div>
+                                    {% if event.summary %}{{ event.summary | safe }}{% else %}{{ event.content | safe }}{% endif %}
+                                </div>
+                            	<small class="panel-ctlm">
+                                	<i>Click to learn more</i>
+                            	</small>
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     {% else %}
