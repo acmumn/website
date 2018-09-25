@@ -2,7 +2,7 @@
 title = "UNIX Class 2: Git and Github"
 date = 2018-09-21
 
-tags = ["food", "display-small"]
+tags = ["food", "display-small", "no-timeline-display"]
 template = "post.html"
 +++
 
