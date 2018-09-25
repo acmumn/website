@@ -2,7 +2,7 @@
 title = "Polaris Think Talk"
 date = 2018-09-20
 
-tags = ["food"]
+tags = ["food", "no-timeline-display"]
 template = "post.html"
 +++
 
