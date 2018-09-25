@@ -9,7 +9,7 @@
                     <div class="timeline-item timeline-item--{% if loop.index is odd %}odd{% else %}even{% endif %}">
                         <div class="timeline-item-node"></div>
                         <a class="panel nocolorlink {% if event.tags is containing("display-small") %}panel--mini{% else %}panel--bold{% endif %}"
-    					        href="{% if event.extra.link %}{{ event.extra.link }}{% else %}{{ event.permalink }}{% endif %}">
+    					        href="{% if event.extra.link %}{{ event.extra.link | safe }}{% else %}{{ event.permalink | safe }}{% endif %}">
                             <h4>{{ event.title }}</h4>
                             <small class="event-subtitle">
     							{{ event.date | date(format="%B %e, %Y") }}{% if event.ztime %}{{ event.ztime }}{% endif %}
@@ -32,7 +32,7 @@
     						</small>
                             {% if not event.tags is containing("display-small") %}
                                 <div>
-                                    {% if event.summary %}{{ event.summary | safe }}{% else %}{{ event.content | safe }}{% endif %}
+                                    {% if event.summary %}{{ event.summary | safe }}{% endif %}
                                 </div>
                             	<small class="panel-ctlm">
                                 	<i>Click to learn more</i>
