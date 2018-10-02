@@ -2,8 +2,10 @@
 title = "UNIX Class 1: Shell basics"
 date = 2018-09-14
 
-tags = ["food", "display-small", "no-timeline-display"]
 template = "post.html"
+
+[taxonomies]
+tags = ["food", "display-small", "no-timeline-display"]
 +++
 
 <!-- more -->

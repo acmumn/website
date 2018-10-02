@@ -2,8 +2,10 @@
 title = "Mpls Activities Fair"
 date = 2018-09-12
 
-tags = ["booth", "display-small", "no-timeline-display"]
 template = "post.html"
+
+[taxonomies]
+tags = ["booth", "display-small", "no-timeline-display"]
 
 [extra]
 link = "https://sua.umn.edu/events/calendar/event/12098/"
