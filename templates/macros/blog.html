@@ -13,9 +13,9 @@
                     	on {{ post.date }}
                 	</small>
             	</td>
-				{% if post.tags %}
+				{% if post.taxonomies.tags %}
             		<td style="text-align: right;" class="hidden-sm">
-                		<small>{{ post.tags | join(sep=", ") }}</small>
+                		<small>{{ post.taxonomies.tags | join(sep=", ") }}</small>
             		</td>
 				{% endif %}
         	</tr>

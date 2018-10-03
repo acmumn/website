@@ -4,7 +4,9 @@ template = "post.html"
 
 date = 2018-09-17
 slug = "newsletter-2018-09-17"
-tags = []
+
+[taxonomies]
+tags = [ "newsletter" ]
 
 [extra]
 author = "mike"

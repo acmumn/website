@@ -2,8 +2,10 @@
 title = "Coffee & Donuts with the CS&E Dept!"
 date = 2018-09-25
 
-tags = ["food", "display-small"]
 template = "post.html"
+
+[taxonomies]
+tags = ["food", "display-small", "no-timeline-display"]
 +++
 
 <!-- more -->

@@ -2,8 +2,10 @@
 title = "Polaris Think Talk"
 date = 2018-09-20
 
-tags = ["food", "no-timeline-display"]
 template = "post.html"
+
+[taxonomies]
+tags = ["food", "no-timeline-display"]
 +++
 
 Join ACM UMN and Polaris for a Think Talk and Mesa Pizza!

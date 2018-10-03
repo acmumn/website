@@ -2,8 +2,10 @@
 title = "UNIX Class 4: Pipes and filters"
 date = 2018-10-05
 
-tags = ["food", "display-small"]
 template = "post.html"
+
+[taxonomies]
+tags = ["food", "display-small"]
 +++
 
 <!-- more -->

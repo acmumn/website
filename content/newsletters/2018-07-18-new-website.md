@@ -5,6 +5,7 @@ template = "post.html"
 date = 2018-07-18
 slug = "new-website"
 
+[taxonomies]
 tags = [ "systems", "website" ]
 
 [extra]

@@ -8,6 +8,10 @@ title = "ACM UMN"
 # Enable if you want to check, but this is slow and dip doesn't send us back logs afaik.
 # check_external_links = true
 
+taxonomies = [
+	{name = "tags", rss = true}
+]
+
 [extra]
 nav_links = [
     { url = "/events", text = "Events" },

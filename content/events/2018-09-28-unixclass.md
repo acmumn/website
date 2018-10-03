@@ -2,8 +2,10 @@
 title = "UNIX Class 3: VIM"
 date = 2018-09-28
 
-tags = ["food", "display-small"]
 template = "post.html"
+
+[taxonomies]
+tags = ["food", "display-small", "no-timeline-display"]
 +++
 
 <!-- more -->
