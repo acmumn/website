@@ -5,7 +5,7 @@ date = 2018-11-27
 template = "post.html"
 
 [taxonomies]
-tags = ["food", "display-small", "no-timeline-display"]
+tags = ["food", "display-small"]
 +++
 
 <!-- more -->
