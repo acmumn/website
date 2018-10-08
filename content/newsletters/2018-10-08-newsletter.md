@@ -1,9 +1,9 @@
 +++
-title = "2018-10-01 Newsletter"
+title = "2018-10-08 Newsletter"
 template = "post.html"
 
-date = 2018-10-01
-slug = "newsletter-2018-10-01"
+date = 2018-10-08
+slug = "newsletter-2018-10-08"
 tags = []
 
 [extra]
