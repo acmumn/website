@@ -22,7 +22,7 @@ Mech E. 102
   
 The HeartLogic™ Heart Failure Diagnostic combines multiple physiologic measurements into a composite algorithm that detects pre-symptomatic changes in a patient’s condition weeks in advance.  
 
-## Can I get more information about Polaris?
+## Can I get more information about Boston Scientific?
   
 Boston Scientific is dedicated to transforming lives through innovative medical solutions that improve the health of patients around the world.  
 
