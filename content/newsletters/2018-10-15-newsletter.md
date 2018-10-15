@@ -22,6 +22,9 @@ Here are some of the events we have coming up in the next few weeks:
  - **Boston Scientific Think Talk:**
    - On Tuesday, October 23rd, ACM UMN will be hosting a Think Talk with Boston Scientific from 6:00 pm to 7:30 pm in Mech E 102. Representatives from Boston Scientific will be talking about how their HeartLogic™ Heart Failure Diagnostic combines multiple physiologic measurements into a composite algorithm that detects pre-symptomatic changes in a patient’s condition weeks in advance. To learn more, stop by the Think Talk and talk to the representatives. Mesa pizza will also be provided.
 
+ - **Systems Committee Recruiting:**
+   - ACM UMN's systems committee is currently looking for more members. If you have experience with systems administration or are willing to learn, come to our room and talk to one of our current systems committee members.
+
 If you want to get more involved with ACM UMN or see what we’re up to, you can stop by our room, Keller Hall 2-204, any time. In addition, our weekly officer meetings are held on Mondays at 7:00 pm, and our meeting minutes can be found [on our website](https://acm.umn.edu/meeting-minutes). You can also join our [Discord server](https://z.umn.edu/acm-discord).
 
 Have a great week!
