@@ -13,7 +13,7 @@ Join ACM UMN and Epic for a Think Talk!
 <!-- more -->
 
 ## When is the Think Talk?
-Tuesday October 23rd from 6:00pm to 7:30pm
+Thursday November 15th from 6:00pm to 7:30pm
 
 ## Where is the Think Talk?
 Tate Lab 101
