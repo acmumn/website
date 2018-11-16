@@ -1,0 +1,11 @@
+{% extends "page.html" %}
+{% import "macros/events.html" as events %}
+{% import "layout.html" as layout %}
+
+{% block pagecontent %}
+    <h1>Winners</h1>
+	<p>TODO FILL ME IN WITH CONTENT</p>
+    <p>
+        {{ events::eventlisting(events=section.pages) }}
+    </p>
+{% endblock %}
