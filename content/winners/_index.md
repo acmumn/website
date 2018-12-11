@@ -28,8 +28,9 @@ on each candidate and it would show the candidates contact information
 and social media feed. Then one could keep track of which candidate they
 would vote for when it came time to hit the polls. 
 
-<!-- [[picture of polliato team]] [[app picture]]
-From the left: Marcus Virginia, Kevin Maldonado, Alec Lorimer, Samuel Hanson -->
+![](sdc_2018_first_place.jpg)
+
+From the left: Marcus Virginia, Kevin Maldonado, Alec Lorimer, Samuel Hanson
 
 "This idea came to us after we all agreed, that most of the time, we were very ill-informed about the candidates we were voting for. Then in came Polliato. We wanted an easy way to get updates about candidates we cared about, and learn about candidates we have never heard about."
 
@@ -43,8 +44,9 @@ users to form 'mobs' and get groups of people together for events. Users
 create an event, others can join in on the mob and follow the activities of
 other users. It is functional here: mob2018.herokuapp.com/
 
-<!-- [[picture of mob team]]
-From the left: Charlie Vuong, Lukas Kelsey-Friedemann -->
+![](sdc_2018_second_place.jpg)
+
+From the left: Charlie Vuong, Lukas Kelsey-Friedemann
 
 "Our approach was to take the ideals and political causes of individuals and fascilitate taking action. We want people to get excited about their movements and ideals, and hopefully get other people behind their mobs as well."
 
