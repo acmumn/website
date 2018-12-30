@@ -1,9 +1,10 @@
 +++
-template = "winners.html"
+template = "finalists.html"
 sort_by = "date"
+title = "Event Finalists"
 +++
 
-# Event Winners
+# Event Finalists
 
 ## Software Design Competition
 
