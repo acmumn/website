@@ -1,0 +1,7 @@
+{% extends "page.html" %}
+{% import "macros/events.html" as events %}
+{% import "layout.html" as layout %}
+
+{% block pagecontent %}
+    {{ section.content | safe }}
+{% endblock %}

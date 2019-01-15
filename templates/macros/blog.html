@@ -1,25 +1,23 @@
 {% macro postlisting(posts) %}
     <table style="width: 100%;">
     {% for post in posts %}
-		{% if not post.draft %}
-        	<tr>
-            	<td>
-                	<span style="font-size: 1.2em;">
-                    	<a href="{{ post.permalink }}">{{ post.title }}</a>
-                	</span>
-                	<br />
-                	<small>
-                    	Posted {% if post.extra.author %}by {{ post.extra.author }}{% endif %}
-                    	on {{ post.date }}
-                	</small>
-            	</td>
-				{% if post.taxonomies.tags %}
-            		<td style="text-align: right;" class="hidden-sm">
-                		<small>{{ post.taxonomies.tags | join(sep=", ") }}</small>
-            		</td>
-				{% endif %}
-        	</tr>
-		{% endif %}
+    	<tr>
+        	<td>
+            	<span style="font-size: 1.2em;">
+                	<a href="{{ post.permalink }}">{{ post.title }}</a>
+            	</span>
+            	<br />
+            	<small>
+                	Posted {% if post.extra.author %}by {{ post.extra.author }}{% endif %}
+                	on {{ post.date }}
+            	</small>
+        	</td>
+			{% if post.taxonomies.tags %}
+        		<td style="text-align: right;" class="hidden-sm">
+            		<small>{{ post.taxonomies.tags | join(sep=", ") }}</small>
+        		</td>
+			{% endif %}
+    	</tr>
     {% endfor %}
     </table>
 {% endmacro postlisting %}
