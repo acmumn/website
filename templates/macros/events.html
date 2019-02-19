@@ -16,7 +16,7 @@
     					        href="{% if event.extra.link %}{{ event.extra.link | safe }}{% else %}{{ event.permalink | safe }}{% endif %}">
                             <h4>{{ event.title }}</h4>
                             <small class="event-subtitle">
-    							{{ event.date | date(format="%B %e, %Y") }}{% if event.ztime %}{{ event.ztime }}{% endif %}
+    							{% if event.extra.altdatetext %}{{ event.extra.altdatetext }}{% else %}{{ event.date | date(format="%B %e, %Y") }}{% if event.extra.ztime %}&nbsp;&nbsp;&nbsp;{{ event.extra.ztime }}{% endif %}{% endif %}
                             	<span class="event-icons">
                                 	{% if event.taxonomies.tags is containing("food") %}
                                     	<i class="fa fa-fw fa-cutlery" title="Food Provided"></i>
