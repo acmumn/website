@@ -1,6 +1,6 @@
 +++
 title = "Resources"
-template = "layout.html"
+template = "page.html"
 +++
 
 Resources
@@ -11,8 +11,8 @@ ACM UMN Produced
 
 -	[Unix Class 1 (Shell Basics)](https://acm.umn.edu/~nathan/unix-videos/ACM-UNIX_2018-09-14_twopane.mp4)
 -	[Unix Class 2 (Git)](https://acm.umn.edu/~nathan/unix-videos/ACM-UNIX_2018-09-21_widescreen.mp4)
--	[Unix Class 3 (Vim)](undefined)
--	[Unix Class 3 (Pipes and Filters)](undefined)
+-	[Unix Class 3 (Vim)](https://acm.umn.edu/~nathan/unix-videos/ACM-UNIX_2018-09-28_twopane.mp4)
+-	[Unix Class 4 (Pipes and Filters)](https://acm.umn.edu/~nathan/unix-videos/ACM-UNIX_2018-10-05_twopane.mp4)
 
 Others
 ------
