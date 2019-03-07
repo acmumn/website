@@ -9,7 +9,7 @@ title = "ACM UMN"
 # check_external_links = true
 
 taxonomies = [
-	{name = "tags", rss = true}
+    {name = "tags", rss = true}
 ]
 
 [extra]
@@ -17,4 +17,5 @@ nav_links = [
     { url = "/events", text = "Events" },
     { url = "/officers", text = "Officers" },
     { url = "/newsletters", text = "Newsletters" },
+    { url = "/resources", text = "Resources" },
 ]
