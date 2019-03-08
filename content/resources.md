@@ -51,4 +51,3 @@ Low-level
 Math
 
 - [MIT OCW Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) - Lecture videos from Spring 2010 (same content as 2033)
-```
