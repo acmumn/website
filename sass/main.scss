@@ -120,3 +120,12 @@ header {
     //     @include border-radius(0px 0px 5px 5px);
     // }
 }
+
+pre {
+    overflow-x: auto;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    line-height: 1.1;
+}
