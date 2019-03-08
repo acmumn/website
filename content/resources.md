@@ -25,7 +25,7 @@ Coding Learning + Practice
 - [FreeCodeCamp](https://www.freecodecamp.org/) - Learn frontend web dev
 - [Gymnasium](https://thegymnasium.com/) - Learn web dev
 - [Learn X in Y Minutes](https://learnxinyminutes.com/) - Community-driven whirlwind tour of languages
-- [Amethyst's Lisp Books](http://a.co/ghWE4Hw)
+- [Amethyst's Lisp Books](http://a.co/ghWE4Hw) - Assembly Language Programming on Linux
 
 Cybersecurity
 
@@ -43,12 +43,12 @@ Low-level
 
 - [godbolt](https://godbolt.org/) - Compiler explorer
 - [cdecl](https://cdecl.org/) - Convert C gibberish to English
-- [OSDev Wiki](https://wiki.osdev.org/Main_Page) - OS development guides
+- [OSDev Wiki](https://wiki.osdev.org/Main_Page) - OS development wiki
 - [os.phil-opp.com](https://os.phil-opp.com/) - Writing an OS in Rust
 - [int80h](http://www.int80h.org/)
 - [A Beginner's Guide to Forth](http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm)
 
 Math
 
-- [MIT OCW Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) - Lecture videos from Spring 2010
+- [MIT OCW Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) - Lecture videos from Spring 2010 (same content as 2033)
 ```
