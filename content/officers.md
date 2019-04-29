@@ -8,15 +8,14 @@ Officers
 
 |                      |                      |
 |----------------------|----------------------|
-| President            | Isai Ortiz           |
-| Vice President       | Helen Larson         |
-| Treasurer            | Thomas Tang          |
-| Secretary            | Mike McPherson       |
-| Membership           | Cassandra Bleskachek |
-| Community Ambassador | Jack Stanek          |
-| Webmaster            | Michael Zhang        |
+| President            | Helen Larson         |
+| Vice President       | Mike McPherson       |
+| Treasurer            | Nathan Utect         |
 | Systems Admin        | Louis Goessling      |
+| Community Ambassador | Charlie Vuong        |
+| Membership           | Cassandra Bleskachek |
+| Secretary            | Charlie Moonen       |
+| Webmaster            | Ashmita Sarma        |
+| Surgeon General      | Isai Ortiz           |
 | The Architect        | Ari Bible            |
-| God-Emperor          | Kairi Lassard        |
 | Faculty Advisor      | Shana Watters        |
-| Head Todd Engineer   | Todd                 |
