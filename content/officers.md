@@ -10,7 +10,7 @@ Officers
 |----------------------|----------------------|
 | President            | Helen Larson         |
 | Vice President       | Mike McPherson       |
-| Treasurer            | Nathan Utect         |
+| Treasurer            | Nathan Utech         |
 | Systems Admin        | Louis Goessling      |
 | Community Ambassador | Charlie Vuong        |
 | Membership           | Cassandra Bleskachek |
