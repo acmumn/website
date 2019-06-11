@@ -30,4 +30,10 @@ There are no hard-and-fast rules on what activities are allowed when, but this i
 
 We strive to make our room an inclusive and friendly space, so we don't allow racism, homophobia, or other hate speech at any time of day. There are a few other important rules posted around the space, and available in our bylaws.
 
-In general, **membership is not required to use the room** if someone is already in there. However membership (and an active UMN UCard) is required to be granted door access. There are also some services we provide that require membership: checking out assets from our hardware or Apple labs, using our server hardware, or checking out [books from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing). We'd like it (although we don't enforce it) if you became a member to use the fridge.
+In general, **membership is not required to use the room** if someone is already in there. However membership (and an active UMN UCard) is required to be granted door access. There are also some services we provide that require membership: 
+ - checking out assets from our hardware lab
+ - checking out our Mac Mini or iPad
+ - an account on our server hardware
+ - checking out [books from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing).
+
+We'd like it (although we don't enforce it) if you became a member to use the fridge.
