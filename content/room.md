@@ -35,6 +35,6 @@ In general, **membership is not required to use the room** if someone is already
  - Checking out our Mac Mini or iPad
  - An account on our server hardware
  - Checking out [books from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing)
- - Getting into the room when nobody is in there (via your UCard)
+ - Being granted access to the room via your UCard
 
 We'd like it (although we don't enforce it) if you became a member to use the fridge.
