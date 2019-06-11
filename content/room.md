@@ -34,6 +34,6 @@ In general, **membership is not required to use the room** if someone is already
  - checking out assets from our hardware lab
  - checking out our Mac Mini or iPad
  - an account on our server hardware
- - checking out [books from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing).
+ - checking out [books from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing)
 
 We'd like it (although we don't enforce it) if you became a member to use the fridge.
