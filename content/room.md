@@ -26,7 +26,7 @@ After 3PM and on weekends you might find our members
  - Napping
  - Drawing pictures of Garfield on the whiteboard
 
-There are no hard-and-fast rules on what activities are allowed when, but this is more-or-less representative. Some days the room lights might be off, some days the space might be taken over for a study group for an upcoming final, and some days we might be watching Westworld at one in the morning.
+There are no hard-and-fast rules on what activities are allowed when, but this is more-or-less representative. Some days the room lights might be off, some days the space might be taken over by a study group preparing for an upcoming final, and some days we might be watching Westworld at one in the morning.
 
 We strive to make our room an inclusive and friendly space, so we don't allow racism, homophobia, or other hate speech at any time of day. There are a few other important rules posted around the space, and available in our bylaws.
 
