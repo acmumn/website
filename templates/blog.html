@@ -4,5 +4,6 @@
 
 {% block pagecontent %}
     <h1>{{ section.title | replace(from=" ", to="&nbsp;") }}</h1>
+    
     {{ blog::postlisting(posts=section.pages) }}
 {% endblock %}

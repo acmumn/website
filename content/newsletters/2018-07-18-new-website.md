@@ -9,7 +9,7 @@ slug = "new-website"
 tags = [ "systems", "website" ]
 
 [extra]
-author = "Michael Zhang"
+author = "michael"
 +++
 
 This is the first blog post!
