@@ -17,7 +17,7 @@ Social
 Contact
 =======
 
-**Club officer contact/mailing list: [acm@umn.edu](mailto:acm@umn.edu).**
+**Club officer contact/mailing list: [acm@umn.edu](mailto:acm@umn.edu).** (This is the preferred contact for club business.)
 
 Officers
 ========
