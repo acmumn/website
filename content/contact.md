@@ -10,9 +10,9 @@ Social
 [Github](https://github.com/acmumn) - 
 [Facebook](https://www.facebook.com/acmuofmn) - 
 [Keybase](https://keybase.io/team/acmumn) -
-[Suggestion Box](http://z.umn.edu/suggest_acm)
+[Suggestion Box](https://z.umn.edu/suggest_acm)
 
-**Join our [Discord](discord.gg/Uzt3adQ) or our [Mailing List](z.umn.edu/acmnews).**
+**Join our [Discord](https://discord.gg/Uzt3adQ) or our [Mailing List](https://z.umn.edu/acmnews).**
 
 Contact
 =======
