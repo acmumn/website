@@ -14,6 +14,8 @@ ACM UMN Produced
 -	[Unix Class 3 (Vim)](https://acm.umn.edu/~nathan/unix-videos/ACM-UNIX_2018-09-28_twopane.mp4)
 -	[Unix Class 4 (Pipes and Filters)](https://acm.umn.edu/~nathan/unix-videos/ACM-UNIX_2018-10-05_twopane.mp4)
 
+Some books (including some books required for CSCI and MATH courses) may be checked out [from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing) if you are a member. Generally we do not allow people to check books out for a whole semester, but you are free to reference them or check them out to use for an open-book test.
+
 Others
 ------
 
@@ -30,6 +32,7 @@ Coding Learning + Practice
 Cybersecurity
 
 - [CTFTime](https://ctftime.org/) - List of upcoming CTF competitions
+- [OverTheWire: Bandit](http://overthewire.org/wargames/bandit/) - Connect to a remote sandbox system and try simple but real linux exploits
 
 Interview Practice
 
@@ -51,3 +54,5 @@ Low-level
 Math
 
 - [MIT OCW Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) - Lecture videos from Spring 2010 (same content as 2033)
+
+
