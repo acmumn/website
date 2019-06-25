@@ -32,6 +32,6 @@ Officers
 | Membership           | Cassandra Bleskachek | [blesk011@umn.edu](mailto:blesk011@umn.edu) |
 | Secretary            | Charlie Moonen       | [moone237@umn.edu](mailto:moone237@umn.edu) |
 | Webmaster            | Ashmita Sarma        | [sarma013@umn.edu](mailto:sarma013@umn.edu) |
-| Surgeon General      | Isai Ortiz           |                                             |
+| Pirate King          | Isai Ortiz           |                                             |
 | The Architect        | Ari Bible            |                                             |
 | Faculty Advisor      | Shana Watters        |                                             |
