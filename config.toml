@@ -16,7 +16,7 @@ taxonomies = [
 nav_links = [
 	{ url = "/room", text = "Room" },
     { url = "/events", text = "Events" },
-    { url = "/officers", text = "Officers" },
+    { url = "/contact", text = "Contact" },
     { url = "/newsletters", text = "Newsletters" },
     { url = "/resources", text = "Resources" },
 ]
