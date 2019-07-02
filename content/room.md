@@ -14,7 +14,6 @@ Between 8AM and 3PM you might find our members
  - Working on group projects
  - Working on side projects unrelated to class
  - Doing their homework
- - Napping
  - Organizing a food run to restaurants near campus
  - Listening to `lofi hip hop radio - beats to relax/study to` on the room audio equipment
  - Whiteboarding ideas for their classes or projects
@@ -26,7 +25,6 @@ After 3PM and on weekends you might find our members
  - Tinkering with computer hardware
  - Playing video games on the Battlestation's GTX 1080Ti or using it to run our Oculus Rift
  - Napping
- - Drawing pictures of Garfield on the whiteboard
 
 There are no hard-and-fast rules on what activities are allowed when, but this is more-or-less representative. Some days the room lights might be off, some days the space might be taken over by a study group preparing for an upcoming final, and some days we might be watching Westworld at one in the morning.
 

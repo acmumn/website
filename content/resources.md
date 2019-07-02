@@ -27,7 +27,6 @@ Coding Learning + Practice
 - [FreeCodeCamp](https://www.freecodecamp.org/) - Learn frontend web dev
 - [Gymnasium](https://thegymnasium.com/) - Learn web dev
 - [Learn X in Y Minutes](https://learnxinyminutes.com/) - Community-driven whirlwind tour of languages
-- [Amethyst's Lisp Books](http://a.co/ghWE4Hw)
 
 Cybersecurity
 
