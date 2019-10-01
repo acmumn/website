@@ -9,7 +9,7 @@ tags = ["food"]
 
 [extra]
 ztime = "12:15 PM-3:30PM"
-link = "https://z.umn.edu/acmtarget/" +++
+link = "https://z.umn.edu/acmtarget/"
 +++
 
 Visit Target Headquarters with ACM! If you are interested please RSVP at the link provided.
