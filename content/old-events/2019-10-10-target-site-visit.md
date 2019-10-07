@@ -11,7 +11,10 @@ tags = ["food"]
 ztime = "12:15 PM-3:30PM"
 +++
 
+**CANCELLED**, sorry!
+
 Visit Target Headquarters with ACM!
+
 
 <!-- more -->
 
