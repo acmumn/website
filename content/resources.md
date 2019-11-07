@@ -16,6 +16,11 @@ ACM UMN Produced
 
 Some books (including some books required for CSCI and MATH courses) may be checked out [from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing) if you are a member. Generally we do not allow people to check books out for a whole semester, but you are free to reference them or check them out to use for an open-book test.
 
+Past CTF Challenge Info
+-----------------------
+
+- [ACM UMN A/D CTF 1 (2019) - Enterprisemail](https://louis.goessling.com/posts/acm-ctf3-enterprisemail/)
+
 Others
 ------
 
