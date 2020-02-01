@@ -30,7 +30,7 @@ Officers
 | Systems Admin        | Louis Goessling      | [louisg@umn.edu](mailto:louisg@umn.edu)     |
 | Community Ambassador | Charlie Moonen       | [moone237@umn.edu](mailto:moone237@umn.edu) |
 | Membership           | Hemant Gouni         | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
-| Secretary            | *Looking for one!*   |                                             |
+| Secretary            | Cole Greenlee        | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
 | Webmaster            | Ashmita Sarma        | [sarma013@umn.edu](mailto:sarma013@umn.edu) |
 | Pirate King          | Isai Ortiz           |                                             |
 | The Architect        | Ari Bible            |                                             |
