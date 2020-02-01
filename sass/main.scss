@@ -130,3 +130,67 @@ pre {
     margin-bottom: 3px;
     line-height: 1.1;
 }
+
+@mixin colored-box($color, $lighten) {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid darken($color, 10%); */
+    h2 {
+        margin: 0;
+        padding: 10px;
+        font-weight: 400;
+        border-top-left-radius: 10px;
+        background-color: lighten($color, $lighten / 2);
+        color: black;
+    }
+    div {
+        margin: 0;
+        padding: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: lighten($color, $lighten);
+        p {
+            margin: 8px;
+        }
+    }
+}
+
+
+div.box.platinum { @include colored-box(#D0D0D0, 15%); }
+div.box.gold { @include colored-box(#BB9922, 30%); }
+div.box.silver{ @include colored-box(#999999, 30%); }
+div.box.bronze{ @include colored-box(#996633, 30%); }
+.sponsorship > .box { margin-top: 2em; }
+
+.sponsor-logos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-logos > a {
+    margin: 1em;
+    display: inline-block;
+}
+
+.platinum .sponsor-logos > img { width: 20em; }
+.platinum .sponsor-logos > a > img { width: 20em; }
+.gold .sponsor-logos > img { width: 17em; }
+.gold .sponsor-logos > a > img { width: 17em; }
+.silver .sponsor-logos > img { width: 15em; }
+.silver .sponsor-logos > a > img { width: 15em; }
+.bronze .sponsor-logos > img { width: 10em; }
+.bronze .sponsor-logos > a > img { width: 10em; }
+.grinkus .sponsor-logos > img { width: 10em; }
+.grinkus .sponsor-logos > a > img { width: 10em; }
+
+
+.sponsor-perks { flex-grow: 1; }
+
+.twoimage-box {
+    text-align:center;
+    img {
+        width: 45%;
+    }
+}
