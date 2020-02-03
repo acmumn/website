@@ -16,6 +16,8 @@ author = "louis"
 
 During MinneHack 2020 student programmers competed over a 24-hour event to build the best project on a theme. The event was attended by 310 hackers, around 50 corporate sponsors and mentors, and run by 8 staff and a number of awesome voulenteers. The prompt this year was: **develop a solution for local communities to help them foster social good.**
 
+[Photos from the event](https://drive.google.com/drive/folders/1lXd090zISJ-5CHA9sy5ebZb10fwae58-).
+
 <br/>
 <hr/>
 <br/>
