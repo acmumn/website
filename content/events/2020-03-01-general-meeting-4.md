@@ -5,7 +5,7 @@ date = 2020-03-01
 template = "post.html"
 
 [taxonomies]
-tags = ["display-small"]
+tags = []
 
 [extra]
 ztime = "3-5 PM"
