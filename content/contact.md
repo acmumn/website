@@ -24,14 +24,12 @@ Officers
 
 | Position             | Person               | UMN Email                                   |
 |----------------------|----------------------|---------------------------------------------|
-| President            | Helen Larson         | [lars5188@umn.edu](mailto:lars5188@umn.edu) |
+| President            | Charles Moonen       | [moone237@umn.edu](mailto:moone237@umn.edu) |
 | Vice President       | Mike McPherson       | [mcphe160@umn.edu](mailto:mcphe160@umn.edu) |
-| Treasurer            | Nathan Utect         | [utech049@umn.edu](mailto:utech049@umn.edu) |
-| Systems Admin        | Louis Goessling      | [louisg@umn.edu](mailto:louisg@umn.edu)     |
-| Community Ambassador | Charlie Moonen       | [moone237@umn.edu](mailto:moone237@umn.edu) |
-| Membership           | Hemant Gouni         | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
-| Secretary            | Cole Greenlee        | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
-| Webmaster            | Ashmita Sarma        | [sarma013@umn.edu](mailto:sarma013@umn.edu) |
+| Treasurer            | Cole Greenlee        | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
+| Treasurer            | Kelton O'Brien       | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
+| Systems Admin        | Hemant Gouni         | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
+| Webmaster            | Andrew Pan           | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
+| Knit Witch           | Helen Larson         |                                             |
 | Pirate King          | Isai Ortiz           |                                             |
-| The Architect        | Ari Bible            |                                             |
 | Faculty Advisor      | Shana Watters        |                                             |
