@@ -1,4 +1,5 @@
 +++
+slug = "2018-09-12-mpls-activities-fair"
 title = "Mpls Activities Fair"
 date = 2018-09-12
 

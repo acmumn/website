@@ -1,4 +1,5 @@
 +++
+slug = "2019-10-10-target-site-visit"
 title = "Target Site Visit"
 date = 2019-10-10
 

@@ -1,4 +1,5 @@
 +++
+slug = "2018-09-28-unixclass"
 title = "UNIX Class 3: VIM"
 date = 2018-09-28
 

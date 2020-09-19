@@ -1,4 +1,5 @@
 +++
+slug = "2019-09-09-coffee-and-donuts"
 title = "Coffee & Donuts with the CS&E Dept!"
 date = 2019-09-09
 

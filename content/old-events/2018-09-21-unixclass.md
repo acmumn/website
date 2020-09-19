@@ -1,4 +1,5 @@
 +++
+slug = "2018-09-21-unixclass"
 title = "UNIX Class 2: Git and Github"
 date = 2018-09-21
 

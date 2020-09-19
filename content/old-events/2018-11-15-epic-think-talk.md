@@ -1,4 +1,5 @@
 +++
+slug = "2018-11-15-epic-think-talk"
 title = "Epic Think Talk"
 date = 2018-10-23
 

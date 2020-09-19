@@ -1,4 +1,5 @@
 +++
+slug = "2018-10-23-thinktalkbsci"
 title = "Boston Scientific Think Talk"
 date = 2018-10-23
 
