@@ -1,4 +1,5 @@
 +++
+slug = "2019-04-18-thinktalktarget"
 title = "Target Think Talk"
 date = 2019-04-18
 

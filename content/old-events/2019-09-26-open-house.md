@@ -1,4 +1,5 @@
 +++
+slug = "2019-09-26-open-house"
 title = "Room Open House"
 date = 2019-09-26
 

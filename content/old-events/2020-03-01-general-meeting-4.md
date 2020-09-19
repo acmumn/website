@@ -1,4 +1,5 @@
 +++
+slug = "2020-03-01-general-meeting-4"
 title = "General Meeting"
 date = 2020-03-01
 

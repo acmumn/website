@@ -1,4 +1,5 @@
 +++
+slug = "2018-10-05-unixclass"
 title = "UNIX Class 4: Pipes and filters"
 date = 2018-10-05
 

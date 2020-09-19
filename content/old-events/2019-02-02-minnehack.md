@@ -1,4 +1,5 @@
 +++
+slug = "2019-02-02-minnehack"
 title = "MinneHack"
 date = 2019-02-02
 
