@@ -25,6 +25,6 @@ Topic: ACM UMN with Target Resume and Interview Prep Event
 Time: Sep 23, 2020 05:00 PM Central Time (US and Canada)
 
 Join Zoom Meeting
-https://umn.zoom.us/j/95522963983
+<https://umn.zoom.us/j/95522963983>
 
 Meeting ID: 955 2296 3983
