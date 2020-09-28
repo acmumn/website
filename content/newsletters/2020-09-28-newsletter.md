@@ -35,5 +35,5 @@ Our administrative meetings are held on Mondays at 5pm, and are open to all memb
 
 You can join our Discord server here [https://z.umn.edu/acm-discord](https://z.umn.edu/acm-discord), and you can join our IRC at [ircs://acm.umn.edu:6669](ircs://acm.umn.edu:6669)
 
-Lots of love,
+Lots of love,  
 The ACM Officers
