@@ -12,7 +12,7 @@ Our [constitution](/static/constitution.pdf), [bylaws](/static/bylaws.pdf), and 
 
 We normally provide a place on campus in Keller Hall, room 2-204, where anyone can come to meet and discuss computing.
 
-This year, things are a bit different. Our club room is closed due to covid-19, so the best way to get involved is to chat during the ACM social hour every Tuesday from 5-6 PM CT on our discord [https://discord.gg/Uzt3adQ](https://discord.gg/Uzt3adQ).
+This year, things are a bit different. Our club room is closed due to COVID-19, so the best way to get involved is to chat during the ACM social hour every Tuesday from 5-6 PM CT on [Discord](https://discord.gg/Uzt3adQ).
 Come drop by if you're a computer science student, a computer engineering student, an electrical engineering student, or just someone interested in computing!
 <!-- Our room is open to any and all, and we welcome computer science, computer engineering, and electrical engineering students, as well as anyone with an interest in computing or programming. Dropping by our room is the easiest way to get involved beyond attending events. [More about this space](/room). -->
 
@@ -22,7 +22,7 @@ We also host several events throughout the year, including MinneHack (the larges
 
 ### Who can be a member?
 
-Membership is open to anyone and everyone who's interested in computing. Enrollment at the University of Minnesota, Twin Cities, or even as a student in general is not required. For Fall 2020, the membership fee have been waived. In its place, **you can fill out [this form](https://forms.gle/hZzG1uRBu6kAKL3dA/) to become a member**.
+Membership is open to anyone and everyone who's interested in computing. Enrollment at the University of Minnesota, Twin Cities, or even as a student in general is not required. For Fall 2020, the membership fee have been waived. **In its place, you can fill out [this form](https://forms.gle/hZzG1uRBu6kAKL3dA/) to become a member**.
 
 Becoming a member (which, again, is free this year) grants you:
  - A virtual machine on our server hardware

@@ -4,13 +4,13 @@ template = "page.html"
 +++
 
 ## About our Room
-Our room is currently closed due to the covid-19 pandemic.
+Our room is currently closed due to the COVID-19 pandemic.
 
-You can instead join in on our weekly **ACM social hour** every Tuesday from 5-6 pm CT on [our discord](https://discord.gg/Uzt3adQ).
+You can instead join in on our weekly **ACM social hour** every Tuesday from 5-6 pm CT on [Discord](https://discord.gg/Uzt3adQ).
 
-Our discord is currently serving a lot of the functions that the room used to have, such as homework help, chatting, complaining about computers, and discussing club activities. The best way to get involved right now is to join the discord!
+Discord is currently serving a lot of the functions that the room used to have, such as homework help, chatting, complaining about computers, and discussing club activities. The best way to get involved right now is to join the Discord!
 
-Also make sure to attend our (many) [events](/events)!
+Also make sure to attend our [events](/events)!
 
 We strive to make an inclusive and friendly space, so we don't allow racism, homophobia, or other hate speech at any time of day. There are a few other important rules available in our [constitution](/static/constitution.pdf), [bylaws](/static/bylaws.pdf), and [rules](/static/rules.pdf).
 
@@ -22,6 +22,7 @@ Becoming a member (which is free this year) grants you:
  - A virtual machine on our server hardware
  - Access to member-only channels in the discord
  - Access to colocation in our server closet 
+
 In order to become a member, please fill our [this form](https://z.umn.edu/membership).
 
 <!--
