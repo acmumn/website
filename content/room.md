@@ -4,12 +4,31 @@ template = "page.html"
 +++
 
 ## About our Room
+Our room is currently closed due to the covid-19 pandemic.
 
-One of the most important resources ACM provides to students at and around the University of Minnesota is our club room: Keller Hall room 2-204. This space is configured to serve as a lounge and study area. Many ACM members spend a lot of their free time in this space: hanging out, working on projects, or chatting. **Generally, the best way to get involved with the group beyond events is to spend time in/around the club room**. If you're interested in getting more involved, drop by any time - people are usually around during most times of day during the year. 
+You can instead join in on our weekly **ACM social hour** every Tuesday from 5-6 pm CT on [our discord](https://discord.gg/Uzt3adQ).
+
+Our discord is currently serving a lot of the functions that the room used to have, such as homework help, chatting, complaining about computers, and discussing club activities. The best way to get involved right now is to join the discord!
+
+Also make sure to attend our (many) [events](/events)!
+
+We strive to make an inclusive and friendly space, so we don't allow racism, homophobia, or other hate speech at any time of day. There are a few other important rules available in our [constitution](/static/constitution.pdf), [bylaws](/static/bylaws.pdf), and [rules](/static/rules.pdf).
+
+Connect with us on [Social Media, Discord, and Email](/contact).
+
+## Membership Benefits
+
+Becoming a member (which is free this year) grants you:
+ - A virtual machine on our server hardware
+ - Access to member-only channels in the discord
+ - Access to colocation in our server closet 
+In order to become a member, please fill our [this form](https://z.umn.edu/membership).
+
+<!--
+One of the most important resources ACM provides to students at and around the University of Minnesota is our club room: Keller Hall room 2-204. This space is configured to serve as a lounge and study area. Many ACM members spend a lot of their free time in this space: hanging out, working on projects, or chatting. **Generally, the best way to get involved with the group beyond events is to spend time in/around the club room**. If you're interested in getting more involved, drop by any time people are usually around during most times of day during the year. 
 
 **Open Houses** are 15:00-17:00 on Tuesdays in our club room, Keller 2-204. This is a low-key general-meeting-like time that is a great opportunity for people interested in learning more and joining to drop by.
 
-Connect with us on [Social Media, Discord, and Email](/contact).
 
 ## What happens in the Room?
 
@@ -44,3 +63,4 @@ In general, **membership is not required to use the room** if someone is already
  - Being granted access to the room via your UCard
 
 We'd like it (although we don't really enforce it) if you became a member to use the fridge.
+-->
