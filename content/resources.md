@@ -10,7 +10,7 @@ ACM UMN Produced
 ----------------
 
 -	[Unix Class 1 (Shell Basics)](https://jotunn.acm.umn.edu/archive/ACM-UNIX_2018-09-14_twopane.mp4)
--	[Unix Class 2 (Git)](https://hemantscoolwebsite.com/unix_class_2.mkv)
+-	[Unix Class 2 (Git)](https://jotunn.acm.umn.edu/archive/ACM-UNIX_2018-09-21_widescreen.mp4)
 -	[Unix Class 3 (Vim)](https://jotunn.acm.umn.edu/archive/ACM-UNIX_2018-09-28_twopane.mp4)
 -	[Unix Class 4 (Pipes and Filters)](https://jotunn.acm.umn.edu/archive/ACM-UNIX_2018-10-05_twopane.mp4)
 
