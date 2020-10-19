@@ -2,5 +2,6 @@
 
 for x in $argv
 	set tm (printf '%.10s' $x)
-	sed -E -i.bak 's/^date.*/date = '$tm'/g' $x
+	set old (sed -En 's/^date = ([_0-9]+)/\1/p' $x)
+    sed -E -i.bak "s/$old/$x/g" $x
 end
