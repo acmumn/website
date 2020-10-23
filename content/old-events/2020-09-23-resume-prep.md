@@ -1,4 +1,5 @@
 +++
+slug = "2020-09-23-resume-prep"
 title = "Resume and Interview Prep with Target"
 date = 2020-09-23
 
