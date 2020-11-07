@@ -12,7 +12,7 @@ Social
 [Keybase](https://keybase.io/team/acmumn) -
 [Suggestion Box](https://z.umn.edu/suggest_acm)
 
-**Join our [Discord](https://discord.gg/Uzt3adQ) and our [Mailing List](https://z.umn.edu/acmnews)!**
+**Join our [Discord](https://discord.gg/Uzt3adQ), our [IRC](/irc), and our [Mailing List](https://z.umn.edu/acmnews)!**
 
 Contact
 =======
