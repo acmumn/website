@@ -4,7 +4,7 @@ template = "page.html"
 +++
 
 
-You Can join our IRC by clicking this link: [ircs://acm.umn.edu:6697](ircs://acm.umn.edu:6669)
+You Can join our IRC by clicking this link: [ircs://acm.umn.edu:6697](ircs://acm.umn.edu:6697)
 
 If that doesn't work, and you use the weechat irc client, you can connect by typing (or pasting in) these commands:
 
