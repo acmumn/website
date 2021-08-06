@@ -1,4 +1,5 @@
 +++
+slug = "2021-03-20-paper-pals"
 title = "Paperpals Meeting 2"
 date = 2021-03-20
 
