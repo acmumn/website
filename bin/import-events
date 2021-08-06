@@ -1,0 +1,45 @@
+#!/usr/bin/env fish
+
+pwd | if ! grep '/events' >/dev/null
+    echo "Please run this from the events folder."
+   exit 1
+end
+
+gawk -F'\t' \
+'
+BEGIN {
+    OFS="\n"
+}
+$2 ~ /[0-9]+/ {
+    gsub(/#/, "", $1)
+    print
+}
+' |
+while read -l name
+    read -l date
+    read -l time
+    read -l location
+    read -l owner
+    set -l filename "$date-"(echo $name | string replace -a ' ' '-' | string lower).md
+    if test -f $filename; continue; end
+
+    echo "+++
+title = \"$name\"
+date = $date
+
+template = \"post.html\"
+
+[taxonomies]
+tags = []
+
+[extra]
+ztime = \"$time\"
++++
+
+<!-- more -->
+
+## Organizer
+
+* $owner
+" >$filename
+end

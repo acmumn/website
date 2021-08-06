@@ -1,0 +1,29 @@
+#!/usr/bin/env fish
+
+test (count $argv) -gt 0 || exit
+
+for x in $argv
+    if ! test -f $x; exit; end
+end
+
+echo "elucidating" (echo $argv | string join ", ")
+echo 'event description body, multiline
+Ctrl-D to stop.'
+set -l desc (read -z | string escape --style=regex |
+while read
+    echo '\\'
+end | string collect)
+
+echo "one line summary"
+set -l summ (read -P '')
+
+for x in $argv
+    sed -i.bak \
+        "/<!-- more -->/ c\\
+$summ\\
+\\
+<!-- more --> \\
+\\
+$desc
+" $x
+end
