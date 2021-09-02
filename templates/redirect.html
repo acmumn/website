@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+
+{% block header %}
+<meta http-equiv="refresh" content="1; url={{ page.extra.url }}">
+{% endblock header %}
+
+{% block pagecontent %}
+<p><a href="{{ page.extra.url }}">Click here</a> if you are not redirected automatically.</p>
+{% endblock content %}
