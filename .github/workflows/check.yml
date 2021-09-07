@@ -1,16 +1,16 @@
-name: Check site validity
-
-on: [push, pull_request]
-
+name: "Check site validity"
+on:
+  push:
+    branches:
+      - master
 jobs:
-  check:
+  site:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: download gutenberg
-        run: >
-          curl -L
-          https://github.com/getzola/zola/releases/download/v0.12.0/zola-v0.12.0-x86_64-unknown-linux-gnu.tar.gz
-          | sudo tar -C /usr/local/bin -xzf -
-      - run: zola build
-      
+      - uses: nixbuild/nix-quick-install-action@v5
+        with:
+          nix_version: 2.4pre20201205_a5d85d0
+          nix_conf: experimental-features = nix-command flakes
+     - name: nix build
+        run: nix build -L .#site

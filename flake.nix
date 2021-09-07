@@ -15,7 +15,7 @@
 
           buildInputs = with pkgs; [ zola ];
           phases = [ "unpackPhase" "buildPhase" ];
-          buildPhase = "";
+          buildPhase = "zola build -o $out";
         };
       });
 }
