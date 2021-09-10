@@ -18,6 +18,6 @@ We also host several events throughout the year, including MinneHack (the larges
 
 ### Who can be a member?
 
-Membership is open to anyone and everyone who's interested in computing. Enrollment at the University of Minnesota, Twin Cities, or even as a student in general is not required. The cost of membership is $5 per semester. The easiest way to get involved to drop by our room (Keller 2-204,) especially during our open houses 15:00-17:00 on Thursdays.
+Membership is open to anyone and everyone who's interested in computing. Enrollment at the University of Minnesota, Twin Cities, or even as a student in general is not required. [Learn more about what membership gets you](/room). The easiest way to get involved to drop by our room (Keller 2-204,) especially during our open houses 16:00-18:00 on Tuesdays. Yearly membership is **free** for those that have attended two [events](/events) (open houses and officer meetings count!) Simply walk in the door and we'll be keeping track. 
 
-To pay your membership fee, use one of the following e-payment links and email your receipt to `acm@umn.edu`:  [semester](https://z.umn.edu/acmsm) ($5) or [year](https://z.umn.edu/acmam) ($10). [Learn more about what membership gets you](/room).
+Alternatively, for people that are unable to attend events, we offer membership for a fee. To pay your membership fee, use one of the following e-payment links and email your receipt to `acm@umn.edu`:  [semester](https://z.umn.edu/acmsm) ($5) or [year](https://z.umn.edu/acmam) ($10). 
