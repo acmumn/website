@@ -11,14 +11,11 @@ tags = ["food"]
 ztime = "19:00"
 +++
 
-Come watch Movies/TV shows with ACM!
+Watch HBO's Chernobyl with the ACM :)
 
 <!-- more -->
 
-This week, we're going to be eating pizza and watching the first few episodes of HBO's Chernobyl!
-Come down to the ACM room (keller 2-204) to hang out, watch a show, and eat some free pizza!
-
-
+This week, we're going to be eating pancakes and watching the first few episodes of HBO's Chernobyl! Come on down to the [ACM room](/room) (Keller 2-204).
 
 ## Organizer
 * Charlie
