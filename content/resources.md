@@ -18,7 +18,8 @@ Some books (including some books required for CSCI and MATH courses) may be chec
 
 ### Past CTF Challenge Info
 
-- [ACM UMN A/D CTF 1 (2019) - Enterprisemail](https://louis.goessling.com/posts/acm-ctf3-enterprisemail/)
+- [ACM UMN A/D CTF (2018-2019) - Enterprisemail](https://louis.goessling.com/posts/acm-ctf3-enterprisemail/)
+- [ACM UMN CTF3 (2019-2020) - Todd, Stego, Trivia, &c](https://louis.goessling.com/posts/acm-ctf1-2019/)
 
 University Affiliated
 ---------------------
