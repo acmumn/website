@@ -1,5 +1,5 @@
 +++
-title = "Movie Night 2"
+title = "Movie Night 1.5"
 date = 2021-09-23
 
 template = "post.html"
