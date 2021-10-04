@@ -1,6 +1,6 @@
 +++
 title = "Study Group Meeting 6"
-date = 2021-11-29
+date = "2021-11-30"
 
 template = "post.html"
 
@@ -8,7 +8,7 @@ template = "post.html"
 tags = []
 
 [extra]
-ztime = "TBD (based on whentomeet)"
+ztime = "16:00-17:00"
 +++
 
 Meet new people. Eat pizza. Study with new people. Make friends.
