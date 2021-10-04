@@ -5,7 +5,7 @@ date = "2021-10-06"
 template = "post.html"
 
 [taxonomies]
-tags = []
+tags = ["food"]
 
 [extra]
 ztime = "16:00-17:00"
