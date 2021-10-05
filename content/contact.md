@@ -26,7 +26,7 @@ Officers
 |-----------------|--------------------|---------------------------------------------|
 | President       | Charles Moonen     | [moone237@umn.edu](mailto:moone237@umn.edu) |
 | Vice President  | Kelton O'Brien     | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
-| secretary       | Louis Goessling    | [louisg@umn.edu](mailto:louisg@umn.edu)     |
+| Some Guy        | Louis Goessling    | [louisg@umn.edu](mailto:louisg@umn.edu)     |
 | Treasurer       | Cole Greenlee      | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
 | Treasurer       | Marguerite Brugger | [brugg150@umn.edu](mailto:brugg150@umn.edu) |
 | Systems Admin   | Hemant Gouni       | [gouni008@umn.edu](mailto:gouni008@umn.edu) |

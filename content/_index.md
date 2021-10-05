@@ -12,7 +12,7 @@ Our [constitution](/static/constitution.pdf), [bylaws](/static/bylaws.pdf), and 
 
 We provide a place on campus in Keller Hall, room 2-204, where anyone can come to meet and discuss modern computing. Our room is open to any and all, and we welcome computer science, computer engineering, and electrical engineering students, as well as anyone with an interest in computing or programming. Dropping by our room is the easiest way to get involved beyond attending events. [More about this space](/room).
 
-We provide computing resources to our members. These include website hosting, gigabit Internet connection, high powered servers, IRC and Discord servers, and other miscellaneous utilities. Members are granted access to our server `argo`, a dual Xeon E5-2430 system with 32GB RAM and over 5TB of available disk.
+We provide computing resources to our members. These include website hosting, gigabit Internet connection, high powered servers, IRC and Discord servers, and other miscellaneous utilities. Members are granted access to our server `argo`, a dual Xeon E5-2430 system with 128GB RAM and over 5TB of available disk.
 
 We also host several events throughout the year, including MinneHack (the largest Hackathon in the Twin Cities), the UMN Software Design Competition, Capture-the-Flag cybersecurity events, and the semesterly Keller LAN Party.
 
