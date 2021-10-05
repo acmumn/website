@@ -1,6 +1,6 @@
 +++
 title = "Study Group Meeting 2"
-date = "2021-10-06"
+date = "2021-10-05"
 
 template = "post.html"
 
