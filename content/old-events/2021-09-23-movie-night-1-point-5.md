@@ -1,4 +1,5 @@
 +++
+slug = "2021-09-23-movie-night-1-point-5"
 title = "Movie Night 1.5"
 date = 2021-09-23
 

@@ -1,4 +1,5 @@
 +++
+slug = "2021-09-20-study-group-meeting-1"
 title = "Study Group Meeting 1"
 date = 2021-09-28
 
