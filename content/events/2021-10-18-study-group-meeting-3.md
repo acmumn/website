@@ -15,6 +15,8 @@ Meet new people. Eat pizza. Study with new people. Make friends.
 
 <!-- more --> 
 
+# Study Buddies 3 is cancelled. We're figuring out if this event format is a good fit for the ACM.
+
 ## What is this?
 
 This is a meeting for the ACM Study Buddies. The ACM UMN is facilitating
