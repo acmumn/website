@@ -24,7 +24,7 @@ Officers
 
 | Position        | Person          | UMN Email                                   |
 |-----------------|-----------------|---------------------------------------------|
-| President       | Kelton O'Brien  | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
+| President       | Kelton OBrien  | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
 | Vice President  | Shaun Loo       | [loo00013@umn.edu](loo00013@umn.edu)        |
 | Treasurer       | Cole Greenlee   | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
 | Systems Admin   | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
