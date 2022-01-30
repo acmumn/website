@@ -22,15 +22,15 @@ Contact
 Officers
 ========
 
-| Position        | Person             | UMN Email                                   |
-|-----------------|--------------------|---------------------------------------------|
-| President       | Charles Moonen     | [moone237@umn.edu](mailto:moone237@umn.edu) |
-| Vice President  | Kelton O'Brien     | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
-| Some Guy        | Louis Goessling    | [louisg@umn.edu](mailto:louisg@umn.edu)     |
-| Treasurer       | Cole Greenlee      | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
-| Treasurer       | Marguerite Brugger | [brugg150@umn.edu](mailto:brugg150@umn.edu) |
-| Systems Admin   | Hemant Gouni       | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
-| Webmaster       | Andrew Pan         | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
-| Knit Witch      | Helen Larson       |                                             |
-| Pirate King     | Isai Ortiz         |                                             |
-| Faculty Advisor | Shana Watters      |                                             |
+| Position        | Person          | UMN Email                                   |
+|-----------------|-----------------|---------------------------------------------|
+| President       | Kelton O'Brien  | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
+| Vice President  | Shaun Loo       | [loo00013@umn.edu](loo00013@umn.edu)        |
+| Treasurer       | Cole Greenlee   | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
+| Systems Admin   | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
+| Webmaster       | Andrew Pan      | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
+| Some Guy        | Louis Goessling | [louisg@umn.edu](mailto:louisg@umn.edu)     |
+| American Hero   | Charles Moonen  |                                             |
+| Knit Witch      | Helen Larson    |                                             |
+| Pirate King     | Isai Ortiz      |                                             |
+| Faculty Advisor | Shana Watters   |                                             |
