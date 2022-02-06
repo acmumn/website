@@ -1,4 +1,9 @@
 +++
 title = "Mascot"
-template = "mascot.html"
+template = "page.html"
 +++
+
+yeah
+====
+
+![Our Mascot](/xenia.png "fursona")
