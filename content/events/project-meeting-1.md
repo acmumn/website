@@ -1,5 +1,5 @@
 +++
-slug = "project-meeting-1'
+slug = "project-meeting-1"
 title = "Project Meeting 1"
 date = 2022-02-23
 
@@ -16,5 +16,5 @@ Build a cool thing with the ACM!
 
 <!-- more -->
 
-# Organizer
+## Organizer
 * Kelton

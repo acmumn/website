@@ -16,5 +16,5 @@ Set up version control for your portfolio site
 
 <!-- more -->
 
-# Organizer
+## Organizer
 * Andrew
