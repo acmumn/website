@@ -1,8 +1,6 @@
 name: "Check site validity"
 on:
-  push:
-    branches:
-      - master
+  push
 jobs:
   site:
     runs-on: ubuntu-latest
