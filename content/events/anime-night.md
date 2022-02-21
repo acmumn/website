@@ -1,7 +1,7 @@
 +++
 slug = "anime-night"
 title = "Anime Night"
-date = 2022-02-25
+date = 2022-04-01
 
 template = "post.html"
 
