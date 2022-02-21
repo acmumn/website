@@ -1,5 +1,5 @@
 +++
-slug = "blog-workshop-1"
+slug = "blog-workshop-2"
 title = "Blog Workshop: Part 2"
 date = 2022-03-04
 
