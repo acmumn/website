@@ -9,7 +9,7 @@ template = "post.html"
 tags = ["food"]
 
 [extra]
-ztime = "TBD"
+ztime = "17:00"
 +++
 
 Build a cool thing with ACM!
