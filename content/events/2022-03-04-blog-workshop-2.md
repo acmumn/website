@@ -1,5 +1,5 @@
 +++
-slug = "blog-workshop-2"
+slug = "2022-03-04-blog-workshop-2"
 title = "Blog Workshop: Part 2"
 date = 2022-03-04
 
@@ -26,11 +26,12 @@ focus on helping everybody set up their very own personal site. And pizza. We'll
 We will go over how to create templates, for your website, so all you have to worry about when writing your blog posts is what englightened thoughts you want to bless the masses with.
 We will also be going over styling, so people can enjoy your website without even reading it.
 
+Didn't attend the first meeting? No problem! **While recommended, it is not necessary to have attended the first blog workshop meeting to attend this one.**
+
 ## What do I need to know?
 
 You should know how to use git, and the basics of the static site generator zola. 
 Both things you should have learned in meeting 1!
-
 
 ## Sounds cool, where and when is this happening?
 

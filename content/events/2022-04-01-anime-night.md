@@ -1,5 +1,5 @@
 +++
-slug = "anime-night"
+slug = "2022-04-01-anime-night"
 title = "Anime Night"
 date = 2022-04-01
 
@@ -17,4 +17,5 @@ Watch anime with the ACM
 <!-- more -->
 
 ## Organizer
+
 * Hemant

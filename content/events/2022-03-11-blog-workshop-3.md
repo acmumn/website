@@ -1,7 +1,7 @@
 +++
-slug = "blog-workshop-1"
-title = "Blog Workshop: Part 1"
-date = 2022-02-25
+slug = "2022-03-11-blog-workshop-3"
+title = "Blog Workshop: Part 3"
+date = 2022-03-11
 
 template = "post.html"
 
@@ -12,7 +12,7 @@ tags = [ "food" ]
 ztime = "18:00"
 +++
 
-Set up version control for your portfolio site.
+Advanced(tm) features.
 
 <!-- more -->
 
@@ -23,17 +23,15 @@ focus on helping everybody set up their very own personal site. And pizza. We'll
 
 ## What is this specific meeting for?
 
-We'll be setting up your website from an ACM UMN designed template, version controlling it
-with Git, and deploying an initial version to the interwebs.
+We will be going over advanced features of zola, such creating different categories for different types of post.
 
 ## What do I need to know?
 
-Nothing! Well, optimally, you would know how to type and how to use Git. We'll help you get up
-to speed if you need help.
+You should have a reasonable understanding of how zola works, which you should have gotten from the first two meetings!
 
 ## Sounds cool, where and when is this happening?
 
-Keller Hall 3-125 at 18:00 on Feburary 25th. Be there or be square!
+Keller Hall 3-125 at 18:00 on March 11th. Be there or be square!
 
 ## Organizer
 
