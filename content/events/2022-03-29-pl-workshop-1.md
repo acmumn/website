@@ -9,7 +9,7 @@ template = "post.html"
 tags = ["food"]
 
 [extra]
-ztime = "TBA"
+ztime = "17:00"
 +++
 
 Ever want to implement your own programming language?
@@ -24,7 +24,7 @@ session.
 
 ## When will we be meeting?
 
-March 29, time TBA
+March 29, 5:00 PM (17:00)
 
 ## Where is this?
 
