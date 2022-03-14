@@ -30,6 +30,6 @@ Officers
 | Treasurer       | Andrew Pan      | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
 | Systems Admin   | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
 | Webmaster       | Minnerva Zou    | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
-| Membership      | Autumn Kenyo    | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
+| Membership      | Autumn Kenyon   | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
 | American Hero   | Charles Moonen  |                                             |
 | Faculty Advisor | Shana Watters   |                                             |
