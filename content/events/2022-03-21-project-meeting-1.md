@@ -32,6 +32,10 @@ This will also help us figure out some technical details, like what programming 
 
 There will be one meeting a week at the same time and day of the week of the first meeting, which is going to be decided by a whentomeet in [THIS FORM](https://docs.google.com/forms/d/e/1FAIpQLSf9xhvrCa-uLOTnSR-CSwhwjJPnsmI2_jv4M4rt4RkWP9HKDg/viewform?usp=sf_link)
 
+## Where will we be meeting?
+
+Keller 3-250
+
 ## What's the form I should fill out again?
 
 It's Here!: [CLICK ME!!!](https://docs.google.com/forms/d/e/1FAIpQLSf9xhvrCa-uLOTnSR-CSwhwjJPnsmI2_jv4M4rt4RkWP9HKDg/viewform?usp=sf_link)

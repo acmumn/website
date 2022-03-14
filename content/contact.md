@@ -25,10 +25,11 @@ Officers
 | Position        | Person          | UMN Email                                   |
 |-----------------|-----------------|---------------------------------------------|
 | President       | Kelton OBrien   | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
-| Vice President  | Shaun Loo       | [loo00013@umn.edu](loo00013@umn.edu)        |
+| Vice President  | Shaun Loo       | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
 | Treasurer       | Cole Greenlee   | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
 | Treasurer       | Andrew Pan      | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
 | Systems Admin   | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
 | Webmaster       | Minnerva Zou    | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
+| Membership      | Autumn Kenyo    | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
 | American Hero   | Charles Moonen  |                                             |
 | Faculty Advisor | Shana Watters   |                                             |
