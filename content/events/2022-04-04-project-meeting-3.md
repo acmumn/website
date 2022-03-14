@@ -1,7 +1,7 @@
 +++
-slug = "2022-04-18-project-meeting-6"
-title = "Project Meeting 6"
-date = 2022-04-18
+slug = "2022-04-04-project-meeting-3"
+title = "Project Meeting 3"
+date = 2022-04-04
 
 template = "post.html"
 
@@ -25,13 +25,17 @@ Some programming experience is required -- If you've taken freshman level comput
 You'll learn everything else you need to know while working on the project.
 
 ## What is this specific meeting for?
-We will be be finishing up the selected projects from the last meeting (specific details TBA).
+
+We will be continue working on the selected projects from the last meeting (specific details TBA). While it is recommended that you attend the last project meeting, **you do not need to have attended the last meeting to attend this one!**
 
 ## When will we be meeting?
-April 18, at 5:00 PM (17:00)
+
+April 4th, at 5:00 PM (17:00)
 
 ## Where will we be meeting?
+
 Keller 3-111
 
 ## Organizer
+
 * Kelton

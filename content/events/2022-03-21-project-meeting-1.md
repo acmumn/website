@@ -1,7 +1,7 @@
 +++
-slug = "2022-03-14-project-meeting-1"
+slug = "2022-03-21-project-meeting-1"
 title = "Project Meeting 1"
-date = 2022-03-14
+date = 2022-03-21
 
 template = "post.html"
 

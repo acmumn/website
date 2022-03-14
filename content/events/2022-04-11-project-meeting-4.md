@@ -1,7 +1,7 @@
 +++
-slug = "2022-03-28-project-meeting-3"
-title = "Project Meeting 3"
-date = 2022-03-28
+slug = "2022-04-11-project-meeting-4"
+title = "Project Meeting 4"
+date = 2022-04-11
 
 template = "post.html"
 
@@ -26,11 +26,11 @@ You'll learn everything else you need to know while working on the project.
 
 ## What is this specific meeting for?
 
-We will be continue working the selected projects from the last meeting (specific details TBA). While it is recommended that you attend the last project meeting, **you do not need to have attended the last meeting to attend this one!**
+We will be continue working on the selected projects from the last meeting (specific details TBA). While it is recommended that you have attended the meetings, **you are still free to join in on the meeting and potentially join a project!**
 
 ## When will we be meeting?
 
-March 28, at 5:00 PM (17:00)
+April 11, at 5:00 PM (17:00)
 
 ## Where will we be meeting?
 
