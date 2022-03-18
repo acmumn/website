@@ -34,7 +34,7 @@ April 18, at 5:00 PM (17:00)
 
 ## Where will we be meeting?
 
-Keller 3-111
+Keller 3-230
 
 ## Organizer
 
