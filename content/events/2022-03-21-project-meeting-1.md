@@ -34,7 +34,7 @@ There will be one meeting a week at the same time and day of the week of the fir
 
 ## Where will we be meeting?
 
-Keller 3-250
+Keller 3-230
 
 ## What's the form I should fill out again?
 
