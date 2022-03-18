@@ -3,8 +3,7 @@ title = "Resources"
 template = "page.html"
 +++
 
-Resources
-=========
+# 
 
 ACM UMN Produced
 ----------------
