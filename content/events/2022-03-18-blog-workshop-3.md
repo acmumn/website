@@ -1,7 +1,7 @@
 +++
-slug = "2022-03-11-blog-workshop-3"
+slug = "2022-03-18-blog-workshop-3"
 title = "Blog Workshop: Part 3"
-date = 2022-03-11
+date = 2022-03-18
 
 template = "post.html"
 
@@ -31,7 +31,7 @@ You should have a reasonable understanding of how zola works, which you should h
 
 ## Sounds cool, where and when is this happening?
 
-Keller Hall 3-125 at 18:00 on March 11th. Be there or be square!
+Keller Hall 3-125 at 18:00 on March 18th. Be there or be square!
 
 ## Organizer
 
