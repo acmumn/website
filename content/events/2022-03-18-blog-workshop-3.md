@@ -23,7 +23,7 @@ focus on helping everybody set up their very own personal site. And pizza. We'll
 
 ## What is this specific meeting for?
 
-We will be going over advanced features of zola, such creating different categories for different types of post.
+We will be going over advanced features of zola, such as creating different categories for different types of posts.
 
 ## What do I need to know?
 
