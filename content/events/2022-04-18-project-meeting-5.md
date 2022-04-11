@@ -12,7 +12,7 @@ tags = ["food"]
 ztime = "17:00"
 +++
 
-Continue building a cool thing with ACM!
+Continue building a cool eInk display with ACM!
 
 <!-- more -->
 Are you looking for a cool project to add to your resume?
@@ -26,7 +26,7 @@ You'll learn everything else you need to know while working on the project.
 
 ## What is this specific meeting for?
 
-We will be continue working on the selected projects from the last meeting (specific details TBA), finishing them up.
+We will be continue working from where we left off in the last meeting, ideally getting close to finishing up all displays (transit, weather, rss, visualization) for the eInk display.
 
 ## When will we be meeting?
 

@@ -1,7 +1,7 @@
 +++
-slug = "2022-04-11-project-meeting-4"
-title = "Project Meeting 4"
-date = 2022-04-11
+slug = "2022-04-25-project-meeting-6"
+title = "Project Meeting 6"
+date = 2022-04-25
 
 template = "post.html"
 
@@ -12,7 +12,7 @@ tags = ["food"]
 ztime = "17:00"
 +++
 
-**The eInk displays have finally arrived!** Continue building cool eInk displays with ACM!
+Finish building a cool eInk display with ACM!
 
 <!-- more -->
 Are you looking for a cool project to add to your resume?
@@ -26,11 +26,11 @@ You'll learn everything else you need to know while working on the project.
 
 ## What is this specific meeting for?
 
-We will be continue working on eInk displays (weather, transit, rss, visualization). While it is recommended that you have attended the meetings, **you are still free to join in on the meeting and potentially join a team; we are just getting started!**
+We will be continue working from where we left off in the last meeting, ideally finishing up all displays (transit, weather, rss, visualization) for the eInk display.
 
 ## When will we be meeting?
 
-April 11, at 5:00 PM (17:00)
+April 18, at 5:00 PM (17:00)
 
 ## Where will we be meeting?
 

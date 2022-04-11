@@ -20,7 +20,7 @@ Continue implementing your own programming language!
 
 Ever thought about implementing your own programming language? Look no further!
 This workshop will explore how to do so with a presentation followed by a live programming
-session, building off of the previous workshops.
+session, building off of the previous workshops. **Prior attendance is NOT required!**
 
 ## When will we be meeting?
 
