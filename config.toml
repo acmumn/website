@@ -1,7 +1,8 @@
 base_url = "https://acm.umn.edu/"
 build_search_index = false
 compile_sass = true
-generate_rss = true
+generate_feed = true
+feed_filename = "rss.xml"
 highlight_code = true
 title = "ACM UMN"
 
