@@ -21,5 +21,4 @@ nav_links = [
     { url = "/newsletters", text = "Newsletters" },
     { url = "/resources", text = "Resources" },
     { url = "/involvement", text = "Get	Involved" },
-    { url = "/mascot", text = "Mascot" }
 ]
