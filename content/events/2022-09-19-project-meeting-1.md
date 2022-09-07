@@ -23,6 +23,3 @@ We'll get together and work on a cool project every week, and by the end, you'll
 have some real world experience, and have a cool project to show for it!
 Some programming experience is required -- If you've taken freshman level computer science classes, that's enough!
 You'll learn everything else you need to know while working on the project.
-
-## Organizer
-* Kelton
