@@ -31,5 +31,6 @@ Officers
 | Treasurer       | Autumn Kenyon   | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
 | Secretary       | Cole Greenlee   | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
 | Webmaster       | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
+| Membership      | Eliza MacLean   | [macle119@umn.edu](mailto:macle119@umn.edu) |
 | American Hero   | Charles Moonen  |                                             |
 | Faculty Advisor | Shana Watters   |                                             |
