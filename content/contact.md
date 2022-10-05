@@ -23,14 +23,14 @@ Officers
 ========
 
 | Position        | Person          | UMN Email                                   |
-|-----------------|-----------------|---------------------------------------------|
-| President       | Kelton OBrien   | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
-| Vice President  | Andrew Pan      | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
-| Systems Admin   | Shaun Loo       | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
-| Treasurer       | Minnerva Zou    | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
-| Treasurer       | Autumn Kenyon   | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
-| Secretary       | Cole Greenlee   | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
-| Webmaster       | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
-| Membership      | Eliza MacLean   | [macle119@umn.edu](mailto:macle119@umn.edu) |
-| American Hero   | Charles Moonen  |                                             |
-| Faculty Advisor | Shana Watters   |                                             |
+|---------------------|-----------------|---------------------------------------------|
+| President           | Kelton OBrien   | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
+| Vice President      | Andrew Pan      | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
+| Systems Admin       | Shaun Loo       | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
+| Treasurer           | Minnerva Zou    | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
+| Treasurer           | Autumn Kenyon   | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
+| Secretary           | Cole Greenlee   | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
+| Webmaster           | Hemant Gouni    | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
+| Membership          | Eliza MacLean   | [macle119@umn.edu](mailto:macle119@umn.edu) |
+| Corpirate Ambassador| Charles Moonen  | [moone237@umn.edu](mailto:moone237@umn.edu) |
+| Faculty Advisor     | Shana Watters   |                                             |
