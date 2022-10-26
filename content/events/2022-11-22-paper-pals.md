@@ -1,6 +1,6 @@
 +++
 slug = "2022-11-22-paper-pals"
-title = "Paer Pals"
+title = "Paper Pals"
 date = 2022-11-22
 
 template = "post.html"
@@ -12,12 +12,12 @@ tags = []
 ztime = "18:00"
 +++
 
-Come read a paper with ACM! we will be reading the paper [Penrose: From Mathematical Notation to Beautiful Diagrams](https://penrose.cs.cmu.edu/media/Penrose_SIGGRAPH2020a.pdf), which is a very beginner friendly and interesting programming language/graphics paper!
-This event is aimed at beginners, so if you've never read an academic paper before, this is a great place to start!
+Come read a paper with ACM! Never read an academic paper before? This is a great place to start! 
 
 
 <!-- more -->
 
+We will be reading the paper [Penrose: From Mathematical Notation to Beautiful Diagrams](https://penrose.cs.cmu.edu/media/Penrose_SIGGRAPH2020a.pdf), which is a very beginner friendly and interesting programming language/graphics paper!
 ## What do i need to do beforehand?
 
 Ideally you would have read the paper ([Penrose: From Mathematical Notation to Beautiful Diagrams](https://penrose.cs.cmu.edu/media/Penrose_SIGGRAPH2020a.pdf)), but it's okay if you haven't!
