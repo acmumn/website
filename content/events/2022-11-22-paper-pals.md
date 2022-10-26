@@ -1,7 +1,7 @@
 +++
-slug = "2022-11-15-code-mini-golf"
+slug = "2022-11-22-paper-pals"
 title = "Paer Pals"
-date = 2022-11-15
+date = 2022-11-22
 
 template = "post.html"
 
