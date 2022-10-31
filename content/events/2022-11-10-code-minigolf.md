@@ -27,4 +27,4 @@ Check out the [Code Golf Stack Exchange Form](https://codegolf.stackexchange.com
 
 ## Where is this?
 
-TBD
+Keller Hall 2-260
