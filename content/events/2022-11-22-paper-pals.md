@@ -24,4 +24,4 @@ Ideally you would have read the paper ([Penrose: From Mathematical Notation to B
 
 ## Where is this?
 
-TBD
+Keller Hall 2-260
