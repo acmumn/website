@@ -22,10 +22,10 @@ Contact
 Officers
 ========
 
-| Position        | Person          | UMN Email                                   |
+| Position            | Person          | UMN Email                                   |
 |---------------------|-----------------|---------------------------------------------|
 | President           | Kelton OBrien   | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
-| Vice President      | Andrew Pan      | [pan00111@umn.edu](mailto:pan00111@umn.edu) |
+| Vice President      | Ash Ether       | [janik039@umn.edu](mailto:janik039@umn.edu) |
 | Systems Admin       | Shaun Loo       | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
 | Treasurer           | Minnerva Zou    | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
 | Treasurer           | Autumn Kenyon   | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
