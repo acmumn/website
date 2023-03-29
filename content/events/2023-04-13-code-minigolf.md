@@ -9,7 +9,7 @@ template = "post.html"
 tags = ["food","competition"]
 
 [extra]
-ztime = "18:00"
+ztime = "19:00"
 +++
 
 Make small programs with us!
