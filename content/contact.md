@@ -24,13 +24,13 @@ Officers
 
 | Position            | Person                    | UMN Email                                   |
 |---------------------|---------------------------|---------------------------------------------|
-| President           | Autumn Kenyon             | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
-| Vice President      | Kelton OBrien             | [janik039@umn.edu](mailto:janik039@umn.edu) |
-| Systems Admin       | Nadia Potteiger           | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
-| Treasurer           | Jasmine Joyce DeGuzman    | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
-| Treasurer           | Iris Gorton               | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
-| Secretary           | Minnerva Zou              | [gree2522@umn.edu](mailto:gree2522@umn.edu) |
-| Webmaster           | Shaun Loo                 | [gouni008@umn.edu](mailto:gouni008@umn.edu) |
-| Membership          | Ash Ether                 | [macle119@umn.edu](mailto:macle119@umn.edu) |
+| President           | Autumn Kenyon             | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
+| Vice President      | Kelton OBrien             | [obri0707@umn.edu](mailto:obri0707@umn.edu) |
+| Systems Admin       | Nadia Potteiger           | [potte488@umn.edu](mailto:potte488@umn.edu) |
+| Treasurer           | Jasmine Joyce DeGuzman    | [deguz033@umn.edu](mailto:deguz033@umn.edu) |
+| Treasurer           | Iris Gorton               | [gorto033@umn.edu](mailto:gorto033@umn.edu) |
+| Secretary           | Minnerva Zou              | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
+| Webmaster           | Shaun Loo                 | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
+| Membership          | Ash Ether                 | [janik039@umn.edu](mailto:janik039@umn.edu) |
 | Some Guy            | Charles Moonen            | [moone237@umn.edu](mailto:moone237@umn.edu) |
 | Faculty Advisor     | Shana Watters             |                                             |
