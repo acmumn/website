@@ -30,7 +30,7 @@ Officers
 | Treasurer           | Jasmine Joyce DeGuzman    | [deguz033@umn.edu](mailto:deguz033@umn.edu) |
 | Treasurer           | Iris Gorton               | [gorto033@umn.edu](mailto:gorto033@umn.edu) |
 | Secretary           | Minnerva Zou              | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
-| Webmaster           | Shaun Loo                 | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
-| Membership          | Ash Ether                 | [janik039@umn.edu](mailto:janik039@umn.edu) |
+| Webmaster           | Riley Loo                 | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
+| Membership          | Alice Ether               | [janik039@umn.edu](mailto:janik039@umn.edu) |
 | Some Guy            | Charles Moonen            | [moone237@umn.edu](mailto:moone237@umn.edu) |
 | Faculty Advisor     | Shana Watters             |                                             |
