@@ -9,7 +9,7 @@ template = "post.html"
 tags = []
 
 [extra]
-ztime = "5-6 PM"
+ztime = "17:00-18:00"
 +++
 
 Come play trivia!
@@ -24,4 +24,4 @@ guaranteed!
 
 ## Where?
 
-TBD
+The ACM room, Keller Hall 2-204.

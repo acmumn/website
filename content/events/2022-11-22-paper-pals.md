@@ -9,7 +9,7 @@ template = "post.html"
 tags = [ "food" ]
 
 [extra]
-ztime = "18:00"
+ztime = "17:30"
 +++
 
 Come read a paper with ACM! Never read an academic paper before? This is a great place to start! 
@@ -17,9 +17,10 @@ Come read a paper with ACM! Never read an academic paper before? This is a great
 
 <!-- more -->
 
-We will be reading a paper! TBD!
+We will be reading [**LanguageRefer: Spatial-Language Model for 3D
+Visual Grounding**](https://arxiv.org/pdf/2107.03438.pdf)!
 
-## What do i need to do beforehand?
+## What do I need to do beforehand?
 
 Nothing, just an inquisitive spirit!
 
