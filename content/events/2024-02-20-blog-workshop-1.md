@@ -6,11 +6,10 @@ date = 2024-02-20
 template = "post.html"
 
 [taxonomies]
-tags = ["food"]
 
 +++
 
-Attend the series of classes to make your own blog (woah!). It can be whatever you want it to be! Experience in web development is not needed to attend. We'll have pizza! 
+Attend the series of classes to make your own blog (woah!). It can be whatever you want it to be! Experience in web development is not needed to attend.
 
 <!-- more -->
 
