@@ -10,7 +10,7 @@ Social
 [Github](https://github.com/acmumn) - 
 [Facebook](https://www.facebook.com/acmuofmn) - 
 [Keybase](https://keybase.io/team/acmumn) -
-[Suggestion Box](https://z.umn.edu/suggest_acm)
+[Suggestion Box](suggest.md)
 
 **Join our [Discord](https://discord.gg/Uzt3adQ) and our [Mailing List](https://z.umn.edu/acmnews)!**
 
@@ -27,7 +27,7 @@ Officers
 | President           | Iris Gorton               | [gorto033@umn.edu](mailto:gorto033@umn.edu) |
 | Vice President      | Autumn Kenyon             | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
 | Treasurer           | Alice Janik               | [janik039@umn.edu](mailto:janik039@umn.edu) |
-| Secretary           | Minnerva Zou              | [zou00086@umn.edu](mailto:zou00086@umn.edu) |
+| Secretary           | Quinn Korsune             | [burma039@umn.edu](mailto:burma039@umn.edu) |
 | Systems Admin       | Nadia Potteiger           | [potte488@umn.edu](mailto:potte488@umn.edu) |
 | Webmaster           | Riley Loo                 | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
 | Membership          | Elena Nelson              | [nel02044@umn.edu](mailto:nel02044@umn.edu) |
