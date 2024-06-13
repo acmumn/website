@@ -24,7 +24,7 @@ Officers
 
 | Position            | Person                    | UMN Email                                   |
 |---------------------|---------------------------|---------------------------------------------|
-| President           | Iris Gorton               | [gorto033@umn.edu](mailto:gorto033@umn.edu) |
+| President           | Iris                      | [gorto033@umn.edu](mailto:gorto033@umn.edu) |
 | Vice President      | Autumn Kenyon             | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
 | Treasurer           | Alice Janik               | [janik039@umn.edu](mailto:janik039@umn.edu) |
 | Secretary           | Quinn Korsune             | [burma039@umn.edu](mailto:burma039@umn.edu) |
