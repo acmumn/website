@@ -5,10 +5,10 @@ jobs:
   site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: nixbuild/nix-quick-install-action@v5
-        with:
-          nix_version: 2.4pre20201205_a5d85d0
-          nix_conf: experimental-features = nix-command flakes
-      - name: nix build
+      - uses: actions/checkout@v3
+      - name: Check Nix flake inputs
+        uses: DeterminateSystems/flake-checker-action@v4 # This action
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v3
+      - name: Build site
         run: nix build -L .#site
