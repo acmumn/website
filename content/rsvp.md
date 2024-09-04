@@ -1,4 +1,4 @@
 +++
 template = "redirect.html"
-extra.url = "https://docs.google.com/forms/d/e/1FAIpQLSca3X3ImAfaMSdslS0-6_dQOUVPo7vVGvgE6tdvyYGfr4aktw/viewform?usp=pp_url&entry.733855829=Paper%20Pals"
+extra.url = "https://docs.google.com/forms/d/e/1FAIpQLSfe0WoRzwRd1adggn_oVsMmgAqsLJwH9GGXej85VU56jFPiwQ/viewform?usp=sf_link"
 +++
