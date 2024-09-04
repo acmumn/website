@@ -1,4 +1,4 @@
 +++
 template = "redirect.html"
-extra.url = "https://discord.gg/NBWXUT2"
+extra.url = "https://discord.gg/GAuHq8ybpb"
 +++
