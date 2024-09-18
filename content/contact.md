@@ -12,7 +12,7 @@ Social
 [Keybase](https://keybase.io/team/acmumn) -
 [Suggestion Box](suggest.md)
 
-**Join our [Discord](https://discord.gg/Uzt3adQ) and our [Mailing List](https://z.umn.edu/acmnews)!**
+**Join our [Mailing List](https://z.umn.edu/acmnews)!** We also have a **Discord** server, invites are available through the Discord UMN Student Hub, events, and in the room.
 
 Contact
 =======

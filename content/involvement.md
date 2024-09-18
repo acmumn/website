@@ -16,7 +16,7 @@ Check out our **[events listing](https://acm.umn.edu/events/)**. We run many eve
 Say Hello!
 ----------
 
-One way to get involved in ACM is to attend our Open Houses — we host an “Open House” every Tuesday from 4-6pm for new members where we just hang out, play music, study, and etc. **These open houses also count towards the three-event requirement for membership!**
+One way to get involved in ACM is to attend our Open Houses — we host an “Open House” every Wednesday from 4-6pm for new members where we just hang out, play music, study, and etc. **These open houses also count towards the three-event requirement for membership!**
 
 Otherwise, hang out around the room! The room is open to non-members outside of Open Houses when members are present. This doesn’t really count towards the three-event membership requirement, but if you’d like to get to know the ACM better, being around will give you a general idea of what happens; you might even make some new friends!
 
@@ -24,4 +24,4 @@ Otherwise, hang out around the room! The room is open to non-members outside of 
 Stay In Touch!
 -------------
 
-**Join our [Discord](https://discord.gg/Uzt3adQ) and our [Mailing List](https://z.umn.edu/acmnews)!** We post updates on events we’re running and general club business through those channels. As mentioned, attending three of our events will make you an ACM Member!
+**Join our [Mailing List](https://z.umn.edu/acmnews)!** We also have a **Discord** server, invites are available through the Discord UMN Student Hub, events, and in the room. We post updates on events we’re running and general club business through those channels. As mentioned, attending three of our events will make you an ACM Member!
