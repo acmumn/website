@@ -5,4 +5,8 @@
 
 /public/
 
+# i don't wanna accidentally commit nix builds >w<
+result
+.direnv
+
 *.bak
