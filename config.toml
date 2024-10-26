@@ -2,8 +2,7 @@ base_url = "https://acm.umn.edu/"
 build_search_index = false
 compile_sass = true
 generate_feeds = true
-feed_filename = "rss.xml"
-highlight_code = true
+feed_filenames = [ "rss.xml" ]
 title = "ACM UMN"
 
 # Enable if you want to check, but this is slow and dip doesn't send us back logs afaik.
@@ -12,6 +11,14 @@ title = "ACM UMN"
 taxonomies = [
     {name = "tags", rss = true}
 ]
+
+[markdown]
+highlight_code = true
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
 
 [extra]
 nav_links = [
