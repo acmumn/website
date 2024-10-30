@@ -5,6 +5,9 @@ date = 2024-11-19
 
 template = "post.html"
 
+[taxonomies]
+tags = [ ]
+
 [extra]
 ztime = "19:00"
 +++
