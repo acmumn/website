@@ -5,6 +5,11 @@ template = "page.html"
 
 # 
 
+ACM UMN devices
+---------------
+
+Please see our [systems](/resources/systems) page for details about ACM UMN system resources
+
 ACM UMN Produced
 ----------------
 
@@ -15,9 +20,11 @@ ACM UMN Produced
 -	[Unix Class 4 (Pipes and Filters)](https://jotunn.acm.umn.edu/archive/ACM-UNIX_2018-10-05_twopane.mp4)
 -->
 
-UNIX Class content for the F2021 semester will be posted here soon.
+Unix Class and Workshop events in Spring 2025 will be posted here. Stay tuned!
 
-Some books (including some books required for CSCI and MATH courses) may be checked out [from our club library](https://docs.google.com/spreadsheets/d/1E41HMi-UMuuOjOiDlHnmpadpqBOudx8P2hRbqV7zZOo/edit?usp=sharing) if you are a member. Generally we do not allow people to check books out for a whole semester, but you are free to reference them or check them out to use for an open-book test.
+Some books (including some books required for CSCI and MATH courses) are avaialable in our club room.
+We currently do not have infrastructure to track book loans, so books must stay in the room. However, feel free to drop by
+and check if our library has books you can use for reference or study within our room!
 
 ### Past CTF Challenge Info
 
