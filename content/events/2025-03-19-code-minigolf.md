@@ -27,4 +27,4 @@ There are no prises for this one, other than the fun you had and the smug self s
 
 ## Where is this?
 
-TBD
+Keller 3-111

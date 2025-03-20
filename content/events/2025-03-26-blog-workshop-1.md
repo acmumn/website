@@ -22,8 +22,9 @@ Ever wanted to make a blog, a portfolio website, or generally a cute little home
 
 ## Where is Blog Workshop?
 
-TBD
+Keller 3-111
 
 ## Organizer
 * Elena
+
 

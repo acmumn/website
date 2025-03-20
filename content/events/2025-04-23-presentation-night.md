@@ -22,7 +22,7 @@ Come talk to us about your favorite obscure programming language, tell a really 
 
 ## Where is this?
 
-TBD
+Keller 3-115
 
 ## Organizers
 * Autumn
