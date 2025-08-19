@@ -24,12 +24,12 @@ Officers
 
 | Position            | Person                    | UMN Email                                   |
 |---------------------|---------------------------|---------------------------------------------|
-| President           | Iris                      | [gorto033@umn.edu](mailto:gorto033@umn.edu) |
-| Vice President      | Autumn Kenyon             | [kenyo133@umn.edu](mailto:kenyo133@umn.edu) |
-| Treasurer           | Alice Janik               | [janik039@umn.edu](mailto:janik039@umn.edu) |
-| Secretary           | Quinn Korsune             | [burma039@umn.edu](mailto:burma039@umn.edu) |
-| Systems Admin       | Nadia Potteiger           | [potte488@umn.edu](mailto:potte488@umn.edu) |
-| Webmaster           | Riley Loo                 | [loo00013@umn.edu](mailto:loo00013@umn.edu) |
-| Membership          | Elena Nelson              | [nel02044@umn.edu](mailto:nel02044@umn.edu) |
-| John Bingus         | Kelton OBrien             |                                             |
+| President           | Alison Janik              | [janik039@umn.edu](mailto:janik039@umn.edu) |
+| Vice President      | John Bingus               |                                             |
+| Treasurer           | Ángel Carbajal-Castañeda           | [carba060@umn.edu](mailto:carba060@umn.edu) |
+| Treasurer           | Jason Guerra-Reyes        |  |
+| Secretary           | Crab Eater                | |
+| Systems Admin       | June                      |  |
+| Webmaster           | Nadia Potteiger           | [potte488@umn.edu](mailto:potte488@umn.edu) |
+| Membership          | Tomer Mikhaelides         | [liu02753@umn.edu](mailto:liu02753@umn.edu) |                                      
 | Faculty Advisor     | Shana Watters             |                                             |
