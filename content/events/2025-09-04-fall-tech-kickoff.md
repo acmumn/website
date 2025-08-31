@@ -12,7 +12,7 @@ tags = [ "booth" ]
 ztime = "18:00"
 +++
 
-Come learn more about the club at the Fall Tech Kickoff!
+Come learn more about the club at the Fall Tech Kickoff! We will be there with a table ready to see new faces.
 
 <!-- more -->
 
