@@ -7,7 +7,7 @@ template = "page.html"
 
 One of the most important resources ACM provides to students at and around the University of Minnesota is our club room: Keller Hall room 2-204. This space is configured to serve as a lounge and study area. Many ACM members spend a lot of their free time in this space: hanging out, working on projects, or chatting. **Generally, the best way to get involved with the group beyond events is to spend time in/around the club room**. If you're interested in getting more involved, drop by any time - people are usually around during most times of day during the year. 
 
-**Open Houses** are 16:00-18:00 on Wednesdays in our club room, Keller 2-204. This is a low-key general-meeting-like time that is a great opportunity for people interested in learning more and joining to drop by.
+**Open Houses** are 16:00-18:00 on Tuesdays in our club room, Keller 2-204. This is a low-key general-meeting-like time that is a great opportunity for people interested in learning more and joining to drop by.
 
 Connect with us on [Social Media, Discord, and Email](/contact).
 
