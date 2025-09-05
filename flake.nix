@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     utils.url = "github:numtide/flake-utils";
   };
 
@@ -14,6 +14,7 @@
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
+        lib = pkgs.lib;
       in
       {
         devShell = pkgs.mkShell { buildInputs = with pkgs; [ zola ]; };
@@ -26,7 +27,7 @@
             "unpackPhase"
             "buildPhase"
           ];
-          buildPhase = "zola build -o $out";
+          buildPhase = "${lib.getExe pkgs.zola} build -o $out";
         };
       }
     );
