@@ -14,21 +14,18 @@
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        lib = pkgs.lib;
       in
-      {
+      rec {
         devShell = pkgs.mkShell { buildInputs = with pkgs; [ zola ]; };
         packages.site = pkgs.stdenv.mkDerivation {
           name = "site";
-          src = pkgs.nix-gitignore.gitignoreSource [ ] ./.;
+          src = ./.;
 
-          buildInputs = with pkgs; [ zola ];
-          phases = [
-            "unpackPhase"
-            "buildPhase"
-          ];
-          buildPhase = "${lib.getExe pkgs.zola} build -o $out";
+          nativeBuildInputs = [ pkgs.zola ];
+          buildPhase = "zola build";
+          installPhase = "cp -r public $out";
         };
+        defaultPackage = self.packages.${system}.site;
       }
     );
 }
