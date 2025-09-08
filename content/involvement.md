@@ -24,4 +24,4 @@ Otherwise, hang out around the room! The room is open to non-members outside of 
 Stay In Touch!
 -------------
 
-**Join our [Mailing List](https://z.umn.edu/acmnews)!** We also have a **Discord** server, invites are available through the Discord UMN Student Hub, events, and in the room. We post updates on events we’re running and general club business through those channels. As mentioned, attending three of our events will make you an ACM Member!
+**Join our [Mailing List](https://z.umn.edu/acmnews)!** We also have a **[Discord](/discord)** server. We post updates on events we’re running and general club business through those channels. As mentioned, attending three of our events will make you an ACM Member!
