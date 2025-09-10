@@ -16,7 +16,7 @@ Contact
 
 **Club officer contact/mailing list: [acm@umn.edu](mailto:acm@umn.edu).** (This is the preferred contact for club business.)
 
-We are also available throughout the week in the room located at **2-204 in Keller Hall**. 
+We are also available throughout the week in the room located at **2-204 in Keller Hall**.
 
 Officers
 ========
@@ -24,11 +24,11 @@ Officers
 | Position            | Person                    | UMN Email                                   |
 |---------------------|---------------------------|---------------------------------------------|
 | President           | Alison Janik              | [janik039@umn.edu](mailto:janik039@umn.edu) |
-| Vice President      | John Bingus               |                                             |
-| Treasurer           | Ángel Carbajal-Castañeda  | [carba060@umn.edu](mailto:carba060@umn.edu) |
+| Vice President      | Ángel Carbajal-Castañeda  | [carba060@umn.edu](mailto:carba060@umn.edu) |
 | Treasurer           | Jason Guerra-Reyes        |                                             |
 | Secretary           | Crab Eater                |                                             |
 | Systems Admin       | June                      |                                             |
 | Webmaster           | Nadia Potteiger           | [potte488@umn.edu](mailto:potte488@umn.edu) |
 | Membership          | Tomer Mikhaelides         | [liu02753@umn.edu](mailto:liu02753@umn.edu) |
+| Chilling Smiler     | John Bingus               |                                             |
 | Faculty Advisor     | Shana Watters             |                                             |
