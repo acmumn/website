@@ -4,11 +4,11 @@
 
 {% block pagecontent %}
     <h1>Past Events</h1>
-    <p>
+    {# <p>
         <i class="fa fa-fw fa-cutlery" title="Food Provided"></i> = Food will be provided,
         <i class="fa fa-fw fa-handshake-o" title="Booth"></i> = We're running a booth (come say hi!),
         <i class="fa fa-fw fa-trophy" title="Competition"></i> = This is a competition (with prizes!)
-    </p>
+    </p> #}
     <br />
     <p>
         {{ events::eventlisting(events=section.pages | reverse) }}

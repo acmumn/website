@@ -16,14 +16,15 @@
   <li>Previous events can be found <a href="/old-events">here</a>.</li>
   <li>Previous event <b>finalists</b> can be found <a href="/events/finalists">here</a>.</li>
 </ul>
-<p>
+{# <p>
   <i class="fa fa-fw fa-cutlery" title="Food Provided"></i> = Food will be provided,
   <i class="fa fa-fw fa-handshake-o" title="Booth"></i> = We're running a booth (come say hi!),
   <i class="fa fa-fw fa-trophy" title="Competition"></i> = This is a competition (with prizes!)
-</p>
+</p> #}
 <br />
-<p>
-  {{ events::eventlisting(events=section.pages | reverse) }}
+<p style="text-align: center;">
+  {# {{ events::eventlisting(events=section.pages | reverse) }} #}
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&mode=AGENDA&showPrint=0&showTitle=0&showCalendars=0&src=Y181NDJkNmViZTRkY2MxYjk5NGI4NzA3NjAwYjg4MTRiYzc1Mzk0Nzc0ZWExOTM4MDFjM2EzOTI5ZjNiNzAzMzAzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23d50000" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </p>
 <br />
 <br />
