@@ -3,7 +3,6 @@
   font-optical-sizing: auto;
   font-display: swap; 
   src:
-    local("Open Sans"),
-    url("/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.woff2") format("woff2"),
-    url("/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+    url("/fonts/OpenSans/OpenSans-VariableFont.woff2") format("woff2")
+    url("/fonts/OpenSans/OpenSans-VariableFont.ttf") format("truetype");
 }
