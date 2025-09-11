@@ -12,7 +12,7 @@
 html,
 body {
     margin: 0; // margin-top: 40px;
-    // font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 200;
     font-size: 11pt; // @media (min-width: $screen-md-min) {
     //     font-size: 1.0em;
@@ -31,7 +31,7 @@ h5,
 h6,
 b {
     color: $brand;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 *::selection {

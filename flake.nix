@@ -16,7 +16,12 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       rec {
-        devShell = pkgs.mkShell { buildInputs = with pkgs; [ zola ]; };
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            zola
+            woff2
+          ];
+        };
         packages.site = pkgs.stdenv.mkDerivation {
           name = "site";
           src = ./.;
