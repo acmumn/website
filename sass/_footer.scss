@@ -7,11 +7,10 @@
 */
 
 .site-footer {
-    margin-top: 40px;
-    background-color: lighten($gray, 35%);
-    color: #999;
+    margin-top: 3.5rem;
+    background-color: lighten($gray, 70%);
+    color: $gray;
     padding: 3em 0 0;
-    font-size: 14.3px;
     position: relative;
     div#getintouch {
         h5 {
@@ -31,8 +30,7 @@
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         text-align: center;
     }
-    h5,
-    .h5 {
+    h1 {
         font-size: 1.2em;
         margin-bottom: 10px;
     }

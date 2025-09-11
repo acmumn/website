@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ACM UMN Student Chapter Website"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% if section.title %}{{ section.title }}{% elif page.title %}{{ page.title }} - {{ config.title }}{% else %}{{ config.title }}{% endif %}</title>
 
@@ -19,9 +20,9 @@
     <header>
         {{ layout::navbar(config=config) }}
     </header>
-    <div style="min-height: 50vh;">
+    <main style="min-height: 50vh;">
         {% block content %}{% endblock %}
-    </div>
+    </main>
     <footer class="site-footer site-footer--sticky">
         {{ layout::footer(config=config) }}
     </footer>

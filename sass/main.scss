@@ -194,3 +194,7 @@ div.box.bronze{ @include colored-box(#996633, 30%); }
         width: 45%;
     }
 }
+
+ul > li {
+    margin-bottom: 0.4em;
+}
