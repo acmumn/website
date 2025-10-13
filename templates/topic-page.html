@@ -4,8 +4,9 @@
 <div class="post-list">
     {% for page in section.pages | sort(attribute="date") | reverse %}
     <a href="{{ page.permalink | safe }}" class="post-list__card">
-        {{ page.title }}
-        <i>{{ page.date }}</i>
+        <h3>{{ page.title }}</h3>
+        <i>{{ page.date }}</i><br />
+        <br />
         {{ page.description }}
     </a>
     {% endfor %}

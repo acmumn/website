@@ -1,0 +1,70 @@
+$text: #0f0000;
+$bg-0: #fff;
+$bg-1: #f7f7f7;
+$bg-2: #f0f0f0;
+
+$primary: #b86475;
+$accent: #b42656;
+
+$std-rounding: 15px;
+
+@mixin font() {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 20px;
+    color: $text;
+}
+
+@mixin headings() {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        @content;
+    }
+}
+
+@mixin grid-scroller() {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@mixin grid-scroller__card() {
+    width: 1fr;
+    height: 1fr;
+    background-color: $bg-1;
+    border-radius: $std-rounding;
+    margin: 10px;
+    padding: 20px;
+    &:hover {
+        @include headings {
+            text-decoration: underline;
+        }
+        background-color: $bg-2;
+    }
+}
+
+body {
+    @include font;
+    background-color: $bg-0;
+}
+
+.post-list {
+    @include grid-scroller;
+}
+
+.post-list__card {
+    @include grid-scroller__card;
+}
+
+a {
+    color: $text;
+    text-decoration: none;
+}
+
+@include headings {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
