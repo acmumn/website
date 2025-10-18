@@ -1,3 +1,4 @@
 flake.lock
 .direnv
 public
+content/newsletters/newsletter*
