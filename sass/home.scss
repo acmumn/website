@@ -6,8 +6,6 @@
 
     padding: $hero-grid-padding;
 
-    font-size: 1.5em;
-
     .hero-grid-card {
         border-radius: $std-rounding;
         width: 100%;
@@ -30,13 +28,6 @@
             "content3 content3 image3",
         "image1 content1" "content2 image2" "image3 content3",
         "image1" "content1" "image2" "content2" "image3" "content3"
-    );
-
-    @include set-with-screen(
-        grid-template-columns,
-        repeat(3, 1fr),
-        repeat(2, 1fr),
-        repeat(1, 1fr)
     );
 }
 
