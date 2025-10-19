@@ -5,8 +5,12 @@ title = "ACM UMN"
 compile_sass = true
 build_search_index = false
 
+
 [markdown]
 highlight_code = true
 
+[slugify]
+paths = "on"
+anchors = "on"
+
 [extra]
-# Put all your custom variables here

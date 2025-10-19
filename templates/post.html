@@ -9,5 +9,6 @@
         >
     </p>
     <div class="spacer" />
+    {{ page.content | safe }}
 </section>
-{{ page.content | safe }} {% endblock content %}
+{% endblock content %}

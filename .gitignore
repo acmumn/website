@@ -1,4 +1,4 @@
 flake.lock
 .direnv
 public
-content/newsletters/newsletter*
+templates/post.html
