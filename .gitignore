@@ -1,4 +1,3 @@
 flake.lock
 .direnv
 public
-templates/post.html
