@@ -1,0 +1,9 @@
+@import "base.scss";
+
+.post-list {
+    @include grid-scroller;
+}
+
+.post-list__card {
+    @include grid-scroller__card;
+}

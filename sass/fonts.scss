@@ -1,0 +1,20 @@
+@mixin libre-franklin {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    src: url("fonts/LibreFranklin-Bold.ttf") format("truetype");
+    font-style: normal;
+}
+
+@mixin libre-franklin-bold {
+    font-weight: 700;
+}
+
+@mixin libre-franklin-extra-light {
+    font-weight: 100;
+}
+
+@mixin franklin-font {
+    font-family: "Libre Franklin", sans-serif;
+    color: $text;
+    font-size: 10px;
+}

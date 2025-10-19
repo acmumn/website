@@ -1,115 +1,39 @@
-$text: #0f0000;
-$bg-0: #fff;
-$bg-1: #f7f7f7;
-$bg-2: #f0f0f0;
+@import "base.scss", "theme.scss", "screens.scss";
+@import "home.scss", "newsletter.scss";
 
-$content-1: #c0b6b8;
-
-$primary: #b86475;
-$accent: #de1b4b;
-
-$std-rounding: 15px;
-
-$nav-height: 100px;
 $footer-height: 180px;
+$phone-footer-height: 250px;
 
-@mixin libre-franklin {
-    font-family: "Libre Franklin", sans-serif;
-    font-optical-sizing: auto;
-    src: url("fonts/LibreFranklin-Bold.ttf") format("truetype");
-    font-style: normal;
-}
-
-@mixin libre-franklin-bold {
-    font-weight: 700;
-}
-
-@mixin libre-franklin-extra-light {
-    font-weight: 100;
-}
-
-@mixin franklin-font {
-    font-family: "Libre Franklin", sans-serif;
-    color: $text;
-    font-size: 10px;
-}
-
-@mixin headings() {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        @content;
-    }
-}
-
-@mixin grid-scroller() {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-@mixin grid-scroller__card() {
-    width: 1fr;
-    height: 1fr;
-    background-color: $bg-1;
-    border-radius: $std-rounding;
-    margin: 10px;
-    padding: 20px;
-    &:hover {
-        @include headings {
-            text-decoration: underline;
-        }
-        background-color: $bg-2;
-    }
-}
-
-@mixin fullwidth-nopadding {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-@mixin grid-bar {
-    display: grid;
-    grid-template-rows: 1fr;
-    align-items: center;
-    justify-items: center;
-    gap: 15px;
-}
-
-@mixin hover-fixed {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    margin: 0;
-}
-
-@mixin light-title {
-    font-weight: 80;
-    text-decoration: underline;
-}
-
-body,
-html {
-    @include libre-franklin;
-    @include fullwidth-nopadding;
-    font-weight: 600;
-    background-color: $bg-0;
-}
+$nav-padd-in-out: 8px;
 
 .navbar {
     @include grid-bar;
+    gap: 0;
+    @include set-with-screen(
+        grid-template-columns,
+        repeat(6, 1fr),
+        repeat(3, 1fr),
+        repeat(1, 1fr)
+    );
+
     @include hover-fixed;
-    grid-auto-flow: column;
+    top: 0;
+
     background-color: $accent;
-    height: calc($nav-height - 8px);
-    padding-top: 8px;
+    padding-top: $nav-padd-in-out;
+    padding-bottom: $nav-padd-in-out;
 
     a h2 {
         @include light-title;
-        font-size: 1.7em;
+        @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
     }
+
+    @include set-with-screen(
+        height,
+        $nav-height - $nav-padd-in-out * 2,
+        $small-nav-height - $nav-padd-in-out * 2,
+        $phone-nav-height - $nav-padd-in-out * 2
+    );
 }
 
 .footer {
@@ -118,8 +42,18 @@ html {
     align-items: center;
     justify-items: center;
     background-color: $content-1;
-    height: calc($footer-height - 50px);
+
+    @include set-with-screen(
+        height,
+        $footer-height - 80px,
+        $footer-height - 80px,
+        $phone-footer-height - 80px
+    );
+
     padding-top: 50px;
+    padding-bottom: 30px;
+
+    margin-top: $pg-bottom-space;
     gap: 0px;
 
     h3 {
@@ -136,32 +70,36 @@ html {
         font-weight: 50;
         font-size: 1.1em;
     }
+
+    .horiz-grid {
+        @include grid-bar;
+        @include set-with-screen(
+            grid-template-columns,
+            repeat(3, 1fr),
+            repeat(3, 1fr),
+            repeat(1, 1fr)
+        );
+        @include set-with-screen(gap, 15px, 15px, 0px);
+    }
 }
 
 .section {
-    padding-top: $nav-height;
-    min-height: calc(100% - $nav-height - $footer-height);
+    display: flex;
+    flex-direction: column;
+
+    padding: $section-padding;
+    padding-bottom: 0;
+
+    height: fit-content;
 }
 
-.post-list {
-    @include grid-scroller;
-}
-
-.post-list__card {
-    @include grid-scroller__card;
-}
-
-a {
-    color: $text;
-    text-decoration: none;
-}
-
-@include headings {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.horiz-grid {
-    @include grid-bar;
-    grid-auto-flow: column;
+body {
+    .section:first-of-type {
+        @include set-with-screen(
+            padding-top,
+            calc($nav-height + $section-padding),
+            calc($small-nav-height + $section-padding),
+            calc($phone-nav-height + $section-padding)
+        );
+    }
 }

@@ -1,9 +1,13 @@
 {% extends "base.html" %} {% block content %}
-<h1 class="title">{{ page.title }}</h1>
-<p class="subtitle">
-    <strong
-        >{{ page.date }}{% for author in page.authors %}, {{ author}}{% endfor
-        %}</strong
-    >
-</p>
+
+<section class="section">
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="subtitle">
+        <strong
+            >{{ page.date }}{% for author in page.authors %}, {{ author}}{%
+            endfor %}</strong
+        >
+    </p>
+    <div class="spacer" />
+</section>
 {{ page.content | safe }} {% endblock content %}

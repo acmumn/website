@@ -1,0 +1,94 @@
+@import "fonts.scss", "theme.scss", "screens.scss";
+
+@mixin headings() {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        @content;
+    }
+}
+
+@mixin fullwidth-nopadding {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin grid-bar {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    gap: 15px;
+}
+
+@mixin hover-fixed {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+@mixin light-title {
+    font-weight: 80;
+    text-decoration: underline;
+}
+
+@mixin grid-scroller() {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @include small-screen {
+        grid-template-columns: 1fr;
+    }
+}
+
+@mixin grid-scroller__card() {
+    width: 1fr;
+    height: 1fr;
+    background-color: $bg-1;
+    border-radius: $std-rounding;
+    margin: 10px;
+    padding: 20px;
+    &:hover {
+        @include headings {
+            text-decoration: underline;
+        }
+        background-color: $bg-2;
+    }
+}
+
+.content-block {
+    padding: $section-padding;
+    width: 100%;
+    height: 100%;
+}
+
+body,
+html {
+    @include libre-franklin;
+    @include fullwidth-nopadding;
+    font-weight: 450;
+    background-color: $bg-0;
+    height: 100%;
+}
+
+a {
+    color: $text;
+    text-decoration: none;
+}
+
+@include headings {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.spacer {
+    width: 100%;
+    height: $pg-bottom-space;
+}
+
+hr {
+    margin-top: $hr-spacing;
+    margin-bottom: $hr-spacing;
+}
