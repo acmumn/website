@@ -1,7 +1,7 @@
 +++
 title = "ACM UMN Newsletter"
 sort_by = "date"
-template = "topic-page.html"
+template = "list-topic-page.html"
 page_template = "newsletter.html"
 +++
 

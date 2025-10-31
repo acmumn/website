@@ -1,24 +1,24 @@
 @import "theme.scss", "screens.scss";
 
-@mixin hero-grid-item {
+@mixin home-grid-item {
     width: 1fr;
     min-height: 120px;
 
-    padding: $hero-grid-padding;
+    padding: $home-grid-padding;
 
-    .hero-grid-card {
+    .home-grid-card {
         border-radius: $std-rounding;
         width: 100%;
         height: 100%;
         object-fit: cover;
         border: 1px solid $text;
         div {
-            padding: $hero-grid-padding;
+            padding: $home-grid-padding;
         }
     }
 }
 
-.hero-grid {
+.home-grid {
     display: grid;
     width: 100%;
 
@@ -31,33 +31,32 @@
     );
 }
 
-.hero-content {
-    @include hero-grid-item;
+.home-content {
+    @include home-grid-item;
 }
 
-.hero-image {
+.home-image {
     align-self: center;
 
     @include set-with-screen(
         max-height,
-        $hero-image-height,
-        $small-hero-image-height,
-        $phone-hero-image-height
+        $home-image-height,
+        $small-home-image-height,
+        $phone-home-image-height
     );
 
     @include set-with-screen(
         padding-bottom,
         calc(
-            100vh - 259px - $hero-image-height - 2 * $home-hero-padding -
-                $nav-height
+            100vh - 259px - $home-image-height - 2 * $home-padding - $nav-height
         ),
         calc(
-            100vh - 300px - 1em - $small-hero-image-height - 2 *
-                $small-home-hero-padding - $small-nav-height
+            100vh - 300px - 1em - $small-home-image-height - 2 *
+                $small-home-padding - $small-nav-height
         ),
         calc(
-            100vh - 300px - $phone-hero-image-height - 2 *
-                $phone-home-hero-padding - $phone-nav-height
+            100vh - 300px - $phone-home-image-height - 2 * $phone-home-padding -
+                $phone-nav-height
         )
     );
 }
@@ -65,15 +64,15 @@
 .site-title {
     @include set-with-screen(
         padding-top,
-        $home-hero-padding,
-        $small-home-hero-padding,
-        $phone-home-hero-padding
+        $home-padding,
+        $small-home-padding,
+        $phone-home-padding
     );
     @include set-with-screen(
         padding-bottom,
-        $home-hero-padding,
-        $small-home-hero-padding,
-        $phone-home-hero-padding
+        $home-padding,
+        $small-home-padding,
+        $phone-home-padding
     );
 
     align-self: center;

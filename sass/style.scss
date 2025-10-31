@@ -41,7 +41,13 @@ $nav-padd-in-out: 8px;
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
+
     background-color: $content-1;
+
+    margin-top: $pg-bottom-space;
+    gap: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 
     @include set-with-screen(
         height,
@@ -50,16 +56,9 @@ $nav-padd-in-out: 8px;
         $phone-footer-height - 80px
     );
 
-    padding-top: 50px;
-    padding-bottom: 30px;
-
-    margin-top: $pg-bottom-space;
-    gap: 0px;
-
     h3 {
         text-decoration: none;
     }
-
     a h3 {
         text-decoration: underline;
     }

@@ -13,17 +13,19 @@
 h1 {
     font-size: 2.9em;
 }
-
 h2 {
     font-size: 2.4em;
 }
-
 h3 {
     font-size: 2em;
 }
-
 h4 {
     font-size: 1.7em;
+}
+
+@include headings {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 p {
@@ -57,11 +59,6 @@ p {
 
 @mixin grid-scroller() {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    @include small-screen {
-        grid-template-columns: 1fr;
-    }
 
     @include set-with-screen(
         grid-template-columns,
@@ -86,12 +83,6 @@ p {
     }
 }
 
-.content-block {
-    padding: $section-padding;
-    width: 100%;
-    height: 100%;
-}
-
 body,
 html {
     @include libre-franklin;
@@ -106,16 +97,6 @@ a {
     text-decoration: none;
 }
 
-@include headings {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.spacer {
-    width: 100%;
-    height: $pg-bottom-space;
-}
-
 hr {
     margin-top: $hr-spacing;
     margin-bottom: $hr-spacing;
@@ -123,4 +104,15 @@ hr {
     width: 100%;
     border-radius: 1px;
     background-color: $text;
+}
+
+.spacer {
+    width: 100%;
+    height: $pg-bottom-space;
+}
+
+.content-block {
+    padding: $section-padding;
+    width: 100%;
+    height: 100%;
 }
