@@ -19,8 +19,7 @@ It also uses the SCSS flavor of [Sass](https://sass-lang.com/) for styling.
 
 ## Contributing
 
-Feel free to open an issue or PR.
-I can also transfer the ownership of this repo to ACM UMN if need be.
+See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Licence
 
