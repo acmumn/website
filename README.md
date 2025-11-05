@@ -21,6 +21,10 @@ It also uses the SCSS flavor of [Sass](https://sass-lang.com/) for styling.
 
 See [CONTRIBUTING](CONTRIBUTING.md).
 
+## Project Organization
+
+See [PROJECT_ORGANIZATION](PROJECT_ORGANIZATION.md).
+
 ## Licence
 
 [MIT](LICENCE)
