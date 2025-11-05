@@ -30,6 +30,7 @@
 .tinker-grid {
     display: grid;
     width: 100%;
+
     @include set-with-screen(
         grid-template-areas,
         "tech-text workshop-text room-text" "tech-img workshop-img room-img",
@@ -37,6 +38,12 @@
             "room-img",
         "tech-text" "tech-img" "workshop-text" "workshop-img" "room-text"
             "room-img"
+    );
+    @include set-with-screen(
+        grid-template-columns,
+        repeat(3, 1fr),
+        1fr,
+        1fr
     );
 }
 

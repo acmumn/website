@@ -30,6 +30,7 @@ $nav-padd-in-out: 8px;
             @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
         }
         &:hover {
+            text-decoration: none;
             @include headings {
                 text-decoration: none;
             }
