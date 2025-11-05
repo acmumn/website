@@ -8,7 +8,6 @@ $nav-padd-in-out: 8px;
 
 .navbar {
     @include grid-bar;
-    gap: 0;
     @include set-with-screen(
         grid-template-columns,
         repeat(6, 1fr),
@@ -22,10 +21,19 @@ $nav-padd-in-out: 8px;
     background-color: $accent;
     padding-top: $nav-padd-in-out;
     padding-bottom: $nav-padd-in-out;
+    gap: 0;
 
-    a h2 {
-        @include light-title;
-        @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
+    a {
+        @include headings {
+            color: #fff;
+            @include light-title;
+            @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
+        }
+        &:hover {
+            @include headings {
+                text-decoration: none;
+            }
+        }
     }
 
     @include set-with-screen(
@@ -41,7 +49,13 @@ $nav-padd-in-out: 8px;
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
+
     background-color: $content-1;
+
+    margin-top: $pg-bottom-space;
+    gap: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 
     @include set-with-screen(
         height,
@@ -50,16 +64,9 @@ $nav-padd-in-out: 8px;
         $phone-footer-height - 80px
     );
 
-    padding-top: 50px;
-    padding-bottom: 30px;
-
-    margin-top: $pg-bottom-space;
-    gap: 0px;
-
     h3 {
         text-decoration: none;
     }
-
     a h3 {
         text-decoration: underline;
     }

@@ -1,18 +1,6 @@
 $small-screen: 1100px;
 $phone-screen: 580px;
 
-@mixin small-screen() {
-    @media (max-width: $small-screen) {
-        @content;
-    }
-}
-
-@mixin phone-screen() {
-    @media (max-width: $phone-screen) {
-        @content;
-    }
-}
-
 @mixin set-with-screen($prop, $normal, $small, $phone) {
     #{$prop}: $normal;
     @media (max-width: $small-screen) {
