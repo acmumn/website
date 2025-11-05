@@ -1,0 +1,23 @@
+# Project Organization
+
+This site uses [Zola](https://www.getzola.org/) with [Sass](https://sass-lang.com/).
+
+## Page Text Content
+
+Adding text content to the site is a pretty easy way to help with this that would be super appreciated.
+
+Almost all of the text content for the pages is in content/. The content/newsletter/ directory has all of the previous newsletters. The description field is for the newsletter list page. The old newsletters don't have descriptions, so we will have to either add those or clean them up somehow.
+
+There is a small amount of text page content for the home page in templates/index.html for the home page. It dosen't really make sense to pull this out into markdown organizationally, but the text is pretty easy to find in a few p tags.
+
+## Newsletter Redirect
+
+newsletter/join/_index.md uses the redirect template (templates/redirect.html) to directly redirect to join our newsletter. The reason to have a redirect here is that if we ever want to change the link to our newsletter, we will only have to change the description of this page, rather than looking for the newsletter link through the whole site.
+
+## Styling
+
+The styling is [Sass](https://sass-lang.com/) (the SCSS flavor/syntax) and can be found in the sass/ directory. The sass/theme.scss file has varables that determine a lot of the look and minor styling of the site. Important pages like the newsletter and home get their own scss file.
+
+## Environment
+
+Right now the only environment is a nix flake but we should probably add a simple docker container. Really the only thing you should need installed is Zola.
