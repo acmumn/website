@@ -8,7 +8,6 @@ $nav-padd-in-out: 8px;
 
 .navbar {
     @include grid-bar;
-    gap: 0;
     @include set-with-screen(
         grid-template-columns,
         repeat(6, 1fr),
@@ -22,10 +21,18 @@ $nav-padd-in-out: 8px;
     background-color: $accent;
     padding-top: $nav-padd-in-out;
     padding-bottom: $nav-padd-in-out;
+    gap: 0;
 
-    a h2 {
-        @include light-title;
-        @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
+    a {
+        @include headings {
+            @include light-title;
+            @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
+        }
+        &:hover {
+            @include headings {
+                text-decoration: none;
+            }
+        }
     }
 
     @include set-with-screen(

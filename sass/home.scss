@@ -11,24 +11,47 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border: 1px solid $text;
         div {
             padding: $home-grid-padding;
         }
     }
 }
 
-.home-grid {
+.newsletter-grid {
     display: grid;
     width: 100%;
+    @include set-with-screen(grid-template-columns, 1fr 2fr, 1fr 1fr, 1fr);
+}
 
+.tinker-header {
+    text-align: center;
+}
+
+.tinker-grid {
+    display: grid;
+    width: 100%;
     @include set-with-screen(
-        grid-template,
-        "image1 content1 image2" "image1 content2 content2"
-            "content3 content3 image3",
-        "image1 content1" "content2 image2" "image3 content3",
-        "image1" "content1" "image2" "content2" "image3" "content3"
+        grid-template-areas,
+        "tech-text workshop-text room-text" "tech-img workshop-img room-img",
+        "tech-text" "tech-img" "workshop-text" "workshop-img" "room-text"
+            "room-img",
+        "tech-text" "tech-img" "workshop-text" "workshop-img" "room-text"
+            "room-img"
     );
+}
+
+.room-call {
+    text-align: center;
+}
+
+.overlay-all {
+    * {
+        position: absolute;
+        text-align: center;
+        width: calc(100% - $section-padding * 2);
+    }
+    height: 3em;
+    width: 100%;
 }
 
 .home-content {

@@ -95,6 +95,12 @@ html {
 a {
     color: $text;
     text-decoration: none;
+
+    @include headings {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 hr {
