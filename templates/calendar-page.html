@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %}
+
+<section class="section">
+    <div class="section-content">
+        {{ page.content | safe }}
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FChicago&amp;mode=AGENDA&amp;showPrint=0&amp;showTitle=0&amp;showCalendars=0&amp;src=Y181NDJkNmViZTRkY2MxYjk5NGI4NzA3NjAwYjg4MTRiYzc1Mzk0Nzc0ZWExOTM4MDFjM2EzOTI5ZjNiNzAzMzAzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23d50000" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <div class="spacer" />
+    </div>
+</section>
+{% endblock content %}
