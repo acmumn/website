@@ -1,9 +1,10 @@
 {% extends "base.html" %} {% block content %}
 
 <section class="section">
-    <h1 class="title">{{ section.title }}</h1>
-    {{ section.content | safe }}
-    <hr />
+    <div class="section-content">
+        <h1 class="title">{{ section.title }}</h1>
+        {{ section.content | safe }}
+    </div>
     <div class="post-list">
         {% for page in section.pages | sort(attribute="date") | reverse %}
         <a href="{{ page.permalink | safe }}" class="post-list__card">

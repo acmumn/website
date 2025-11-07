@@ -99,6 +99,13 @@ $nav-padd-in-out: 8px;
     padding-bottom: 0;
 
     height: fit-content;
+
+    .section-content {
+        padding: 10px;
+        .title {
+            padding-bottom: 30px;
+        }
+    }
 }
 
 body {
