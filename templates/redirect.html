@@ -1,14 +1,10 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>ACM UMN</title>
-        <link rel="stylesheet" href="/style.css" />
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, user-scalable=no"
-        />
-        <meta http-equiv="refresh" content="0; URL={{ section.description }}" />
-    </head>
-</html>
+{% extends "base.html" %} {% block content %}
+<meta http-equiv="refresh" content="1; URL={{ page.description }}" />
+<section class="section">
+    <div class="section-content">
+        <h2>Redirecting ...</h2>
+        <a href="{{ page.description }}" >Click here</a> if you are not redirected within 5 seconds.
+        <div class="spacer" />
+    </div>
+</section>
+{% endblock content %}

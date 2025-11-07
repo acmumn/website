@@ -11,15 +11,19 @@ author = "Arbor"
 
 #### Club Contact
 
-Club Email: [acm@umn.edu](acm@umn.edu)
+Club Email: acm@umn.edu
 
-Suggestion Box: [https://z.umn.edu/acm2026suggest](https://z.umn.edu/acm2026suggest)
+Suggestion Box: [form link](@/suggestions.md)
+
+Discord: [invite](@/discord.md)
+
+Github: [profile](@/github.md)
 
 #### Officers
 
-President: Alison Janik ([janik039@umn.edu](janik039@umn.edu))
+President: Alison Janik (janik039@umn.edu)
 
-Vice President: Ángel Carbajal-Castañeda ([carba060@umn.edu](carba060@umn.edu))
+Vice President: Ángel Carbajal-Castañeda (carba060@umn.edu)
 
 Treasurer: Jason Guerra-Reyes
 
