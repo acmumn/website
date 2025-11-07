@@ -11,25 +11,21 @@
 }
 
 h1 {
-    font-size: 2.9em;
-}
-h2 {
-    font-size: 2.4em;
-}
-h3 {
     font-size: 2em;
 }
-h4 {
+h2 {
     font-size: 1.7em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.3em;
 }
 
 @include headings {
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-p {
-    font-size: 1.3em;
 }
 
 @mixin fullwidth-nopadding {
@@ -75,11 +71,12 @@ p {
     border-radius: $std-rounding;
     margin: 10px;
     padding: 20px;
+    text-decoration: none;
     &:hover {
         @include headings {
             text-decoration: underline;
         }
-        background-color: $bg-2;
+        background-color: $light-accent;
     }
 }
 
@@ -89,17 +86,15 @@ html {
     @include fullwidth-nopadding;
     font-weight: 450;
     background-color: $bg-0;
+    font-size: $text-size;
     height: 100%;
 }
 
 a {
     color: $text;
-    text-decoration: none;
-
-    @include headings {
-        &:hover {
-            text-decoration: underline;
-        }
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
     }
 }
 

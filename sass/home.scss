@@ -1,18 +1,97 @@
 @import "theme.scss", "screens.scss";
 
-@mixin home-grid-item {
-    width: 1fr;
-    min-height: 120px;
+@mixin home-section {
+    display: grid;
 
-    padding: $home-grid-padding;
+    width: 100%;
+    @include set-with-screen(
+        padding-bottom,
+        200px,
+        140px,
+        60px
+    );
 
-    .home-grid-card {
+    padding-top: 70px;
+
+    img {
         border-radius: $std-rounding;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        div {
-            padding: $home-grid-padding;
+        max-width: 800px;
+    }
+
+    div {
+        p {
+            max-width: 700px;
+        }
+    }
+
+    svg {
+        width: 100px;
+        path{
+            fill: $accent;
+            opacity: 0.44;
+        }
+    }
+}
+
+.home-section-left {
+    @include home-section;
+    grid-template-columns: 1fr 800px;
+}
+
+.home-section-right {
+    @include home-section;
+    grid-template-columns: 800px 1fr;
+}
+
+.home-section-center {
+    @include home-section;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    * {
+        max-width: 680px;
+    }
+    .post-list {
+        max-width: 1000px;
+        min-height: 400px;
+
+        @include set-with-screen(
+            grid-template-columns,
+            repeat(3, 1fr),
+            repeat(1, 1fr),
+            repeat(1, 1fr)
+        );
+    }
+}
+
+.home-section-double {
+    @include home-section;
+
+    @include set-with-screen(
+        grid-template-columns,
+        repeat(2, 1fr),
+        1fr,
+        1fr
+    );
+
+    row-gap: 60px;
+    column-gap: 20px;
+
+    div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            min-height: 100px;
+        }
+        img {
+            max-width: 600px;
         }
     }
 }
@@ -21,41 +100,6 @@
     display: grid;
     width: 100%;
     @include set-with-screen(grid-template-columns, 1fr 2fr, 1fr 1fr, 1fr);
-}
-
-.tinker-header {
-    text-align: center;
-}
-
-.tinker-grid {
-    display: grid;
-    width: 100%;
-    @include set-with-screen(
-        grid-template-areas,
-        "tech-text workshop-text room-text" "tech-img workshop-img room-img",
-        "tech-text" "tech-img" "workshop-text" "workshop-img" "room-text"
-            "room-img",
-        "tech-text" "tech-img" "workshop-text" "workshop-img" "room-text"
-            "room-img"
-    );
-}
-
-.room-call {
-    text-align: center;
-}
-
-.overlay-all {
-    * {
-        position: absolute;
-        text-align: center;
-        width: calc(100% - $section-padding * 2);
-    }
-    height: 3em;
-    width: 100%;
-}
-
-.home-content {
-    @include home-grid-item;
 }
 
 .home-image {
@@ -111,10 +155,6 @@
 
     width: fit-content;
     @include set-with-screen(word-spacing, auto, 100vw, 100vw);
-}
-
-.leader {
-    background-color: $primary;
 }
 
 .leader-image {
