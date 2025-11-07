@@ -7,10 +7,14 @@ slug = "membership"
 [extra]
 author = "Arbor"
 +++
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+# Membership
 
-!help
-- how to become a member
-- what being a member means
-- benefits
-- seperateion from acm national
+We welcome new members! We have members from lots of majors and colleges, it's not just for Computer Science majors. Members get card access to our club room, discord access, and VMs on our servers (as available). Stop by the room during [open house](@/events/_index.md) and we can help you with the process.
+
+## Becoming a Member
+
+Members are required to attend 3 events before joining. These can be open house, the officers meeting, a workshop, or anything on the [events calendar](@/events/_index.md). If you believe you have done this, talk to an officer in the club room or on the discord and we can help get you signed off.
+
+### ACM National
+
+ACM UMN is distinct from ACM National, and membership in ACM UMN does not provide membership in ACM National.
