@@ -17,6 +17,18 @@ It also uses the SCSS flavor of [Sass](https://sass-lang.com/) for styling.
 3. Run `zola serve` from the root of the project.
 4. The site will be served to `localhost:1111`.
 
+### Other Environments
+
+#### Docker
+
+There is a docker-compose file provided.
+To build with Docker run `sudo docker compose up -d` or equivalent.
+
+#### Nix
+
+The project also contains a nix flake and .envrc file.
+These just install Zola right now, but will be updated to include any other dependencies that are added.
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md).
