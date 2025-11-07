@@ -10,9 +10,9 @@ Almost all of the text content for the pages is in content/. The content/newslet
 
 There is a small amount of text page content for the home page in templates/index.html for the home page. It doesn't really make sense to pull this out into markdown organizationally, but the text is pretty easy to find in a few p tags.
 
-## Newsletter Redirect
+## Link Redirects
 
-newsletter/join/_index.md uses the redirect template (templates/redirect.html) to directly redirect to join our newsletter. The reason to have a redirect here is that if we ever want to change the link to our newsletter, we will only have to change the description of this page, rather than looking for the newsletter link through the whole site.
+Pages that use the templates/redirect.html template are redirects. The reason to have a redirect here is that if we ever want to change the link to those pages, or they are changed by someone else, we will only have to change where these redirects point and not every instance of the link in the site. The redirect pages description determines where they redirect to. The title doesn't matter but the template has to be the redirect template.
 
 ## Styling
 
