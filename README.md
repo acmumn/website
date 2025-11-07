@@ -12,10 +12,10 @@ It also uses the SCSS flavor of [Sass](https://sass-lang.com/) for styling.
 
 ### Building
 
-1. Install Zola.
-2. Clone this repo with `git clone git@github.com:arbormoss/acm-site.git`.
+1. Install [Zola](https://www.getzola.org/).
+2. Clone this repo with `git clone git@github.com:acmumn/new-acm-site.git`.
 3. Run `zola serve` from the root of the project.
-4. Go to `localhost:1111`.
+4. The site will be served to `localhost:1111`.
 
 ## Contributing
 

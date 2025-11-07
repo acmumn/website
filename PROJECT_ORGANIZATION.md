@@ -4,11 +4,11 @@ This site uses [Zola](https://www.getzola.org/) with [Sass](https://sass-lang.co
 
 ## Page Text Content
 
-Adding text content to the site is a pretty easy way to help with this that would be super appreciated.
+Adding text content to the site is a pretty easy way to help that would be super appreciated.
 
 Almost all of the text content for the pages is in content/. The content/newsletter/ directory has all of the previous newsletters. The description field is for the newsletter list page. The old newsletters don't have descriptions, so we will have to either add those or clean them up somehow.
 
-There is a small amount of text page content for the home page in templates/index.html for the home page. It dosen't really make sense to pull this out into markdown organizationally, but the text is pretty easy to find in a few p tags.
+There is a small amount of text page content for the home page in templates/index.html for the home page. It doesn't really make sense to pull this out into markdown organizationally, but the text is pretty easy to find in a few p tags.
 
 ## Newsletter Redirect
 
@@ -16,7 +16,7 @@ newsletter/join/_index.md uses the redirect template (templates/redirect.html) t
 
 ## Styling
 
-The styling is [Sass](https://sass-lang.com/) (the SCSS flavor/syntax) and can be found in the sass/ directory. The sass/theme.scss file has varables that determine a lot of the look and minor styling of the site. Important pages like the newsletter and home get their own scss file.
+The styling is [Sass](https://sass-lang.com/) (the SCSS flavor/syntax) and is all in the sass/ directory. The sass/theme.scss file has variables that determine a lot of the look and minor styling of the site. Important pages like the newsletter and home get their own scss file.
 
 ## Environment
 
