@@ -1,14 +1,16 @@
 {% extends "base.html" %} {% block content %}
 
 <section class="section">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="subtitle">
+    <h1 class="title section-content">{{ page.title }}</h1>
+    <p class="subtitle section-content">
         <strong
             >{{ page.date }}{% for author in page.authors %}, {{ author}}{%
             endfor %}</strong
         >
     </p>
-    {{ page.content | safe }}
-    <div class="spacer" />
+    <div class="section-content">
+        {{ page.content | safe }}
+    </div>
+    <div class="spacer section-content" />
 </section>
 {% endblock content %}

@@ -7,3 +7,10 @@ slug = "about-us"
 [extra]
 author = "Arbor"
 +++
+# About Us
+
+!help
+- detailed club room description
+- detailed event description
+- acm histroy
+- acm national history
