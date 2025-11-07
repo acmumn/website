@@ -17,63 +17,45 @@
         />
     </svg>
     <div class="spacer" ></div>
-    <div class="newsletter-grid">
-        <div class="home-content">
-            <image class="home-grid-card" src="images/laptop.jpeg" />
-        </div>
-        <div class="home-content">
-            <a href="{{ get_url(path='@/newsletter/_index.md') }}">
-                <h2>Join our Newsletter!</h2>
-            </a>
-            <p>
-                !help newsletter description Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            </p>
-        </div>
-    </div>
-    <div class="spacer" ></div>
-    <div class="tinker-header">
-        <h2>A Place to Tinker</h2>
+    <div class="home-section-center">
+        <h2>Join our Newsletter</h2>
         <p>
-            !help club vibe description Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+            Keep up to date with the latest events and updates from ACM UMN! Either <a href="{{ get_url(path='@/newsletter/join/_index.md') }}">sign up</a> or check out the <a href="{{ get_url(path='@/newsletter/_index.md') }}">archive</a>.
         </p>
+        <div class="post-list">
+            {% set section = get_section(path = "newsletter/_index.md" ) %}
+            {% for page in section.pages | sort(attribute="date") | reverse | slice(start=1, end=4) %}
+            <a href="{{ page.permalink | safe }}" class="post-list__card">
+                <h3>{{ page.title }}</h3>
+                <i>{{ page.date }}</i><br />
+                <br />
+                {{ page.description }}
+            </a>
+            {% endfor %}
+        </div>
+        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m16.5 11.995c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25zm-6.75 0c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25zm-6.75 0c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25z"/></svg>
     </div>
-    <div class="spacer" ></div>
-    <div class="tinker-grid">
-        <div class="home-content" style="grid-area: tech-text">
+    <div class="home-section-double">
+        <div>
             <h2>Technology</h2>
             <p>
-                !help server + tech description Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.
+                We are big fans of old laptops and self-hosting. Our club also has it's own server closet, where we host virtual machines for <a href="{{ get_url(path='@/membership.md') }}">members</a>.
             </p>
+            <image src="images/rainbow.jpeg" />
         </div>
-        <div class="home-content" style="grid-area: workshop-text">
+        <div>
             <h2>Workshops</h2>
             <p>
-                !help workshop description Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.
+                ACM UMN hosts workshops to teach important fundamentals like Git and Unix, as well as more free-form events like drawing night. The events are open to everyone, including students of other majors. Go check out our <a href="{{ get_url(path='@/events/_index.md') }}">events page</a> to learn more!
             </p>
-        </div>
-        <div class="home-content" style="grid-area: room-text">
-            <h2>Club Room</h2>
-            <p>
-                !help room description Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.
-            </p>
-        </div>
-        <div class="home-content" style="grid-area: tech-img">
-            <image class="home-grid-card" src="images/rainbow.jpeg" />
-        </div>
-        <div class="home-content" style="grid-area: workshop-img">
-            <image class="home-grid-card" src="images/laptop.jpeg" />
-        </div>
-        <div class="home-content" style="grid-area: room-img">
-            <image class="home-grid-card" src="images/whiteboard.jpeg" />
+            <image src="images/laptop.jpeg" />
         </div>
     </div>
-    <div class="spacer" ></div>
-    <div class="room-call">
+    <div class="home-section-center">
         <h2>Stop By!</h2>
         <p>
-            !help room is welcoming description (keller 2-204) Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+            Our club room is in <a href="https://campusmaps.umn.edu/kenneth-h-keller-hall">Keller 2-204</a>. Feel free to stop by during our weekly <a href="{{ get_url(path='@/events/_index.md') }}">open house</a> or any time the door is open!
         </p>
     </div>
-    <div class="spacer" ></div>
 </section>
 {% endblock content %}
