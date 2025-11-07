@@ -5,7 +5,7 @@
         <h1 class="title">{{ section.title }}</h1>
         {{ section.content | safe }}
     </div>
-    <div class="post-list">
+    <div class="post-list full-width">
         {% for page in section.pages | sort(attribute="date") | reverse %}
         <a href="{{ page.permalink | safe }}" class="post-list__card">
             <h3>{{ page.title }}</h3>

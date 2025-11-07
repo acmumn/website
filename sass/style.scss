@@ -122,7 +122,7 @@ $nav-padd-in-out: 8px;
     }
 
     .full-width {
-        max-width: none;
+        max-width: 1400px;
         width: 100%;
 
         @include headings {
@@ -130,6 +130,7 @@ $nav-padd-in-out: 8px;
         }
         p, hr {
             margin: 10px;
+            width: unset;
         }
     }
 }
