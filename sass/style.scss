@@ -1,8 +1,8 @@
 @import "base.scss", "theme.scss", "screens.scss";
 @import "home.scss", "newsletter.scss";
 
-$footer-height: 180px;
-$phone-footer-height: 250px;
+$footer-height: 100px;
+$phone-footer-height: 170px;
 
 $nav-padd-in-out: 8px;
 
@@ -53,16 +53,15 @@ $nav-padd-in-out: 8px;
 
     background-color: $content-1;
 
-    margin-top: $pg-bottom-space;
     gap: 0px;
     padding-top: 50px;
     padding-bottom: 30px;
 
     @include set-with-screen(
         height,
-        $footer-height - 80px,
-        $footer-height - 80px,
-        $phone-footer-height - 80px
+        $footer-height,
+        $footer-height,
+        $phone-footer-height
     );
 
     h3 {
@@ -94,16 +93,38 @@ $nav-padd-in-out: 8px;
 .section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     padding: $section-padding;
     padding-bottom: 0;
 
     height: fit-content;
 
+    @include set-with-screen (
+        min-height,
+        calc(100vh - $nav-height - $footer-height -  110px), // this is to compensate for the margins
+        calc(100vh - $small-nav-height - $footer-height - 110px),
+        calc(100vh - $phone-nav-height - $phone-footer-height - 110px),
+    );
+
     .section-content {
         padding: 10px;
         .title {
             padding-bottom: 30px;
+        }
+
+        max-width: 1000px;
+    }
+
+    .full-width {
+        max-width: none;
+        width: 100%;
+
+        @include headings {
+            margin: 10px;
+        }
+        p, hr {
+            margin: 10px;
         }
     }
 }

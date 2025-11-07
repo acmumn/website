@@ -11,16 +11,16 @@
 }
 
 h1 {
-    font-size: 2.9em;
-}
-h2 {
-    font-size: 2.4em;
-}
-h3 {
     font-size: 2em;
 }
-h4 {
+h2 {
     font-size: 1.7em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.3em;
 }
 
 @include headings {
