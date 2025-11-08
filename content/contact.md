@@ -8,6 +8,8 @@ Social
 
 [Github](https://github.com/acmumn) -
 [Discord](/discord)
+[Blue Sky](https://bsky.app/profile/acm.umn.edu)
+[Twitter](https://x.com/acmumn)
 
 **Join our [Mailing List](https://z.umn.edu/acmnews)!**
 
@@ -27,8 +29,7 @@ Officers
 | Vice President      | Ángel Carbajal-Castañeda  | [carba060@umn.edu](mailto:carba060@umn.edu) |
 | Treasurer           | Jason Guerra-Reyes        |                                             |
 | Secretary           | Crab Eater                |                                             |
-| Systems Admin       | June                      |                                             |
+| Systems Admin       | June                      | [osher005@umn.edu](mailto:osher005@umn.edu) |
 | Webmaster           | Nadia Potteiger           | [potte488@umn.edu](mailto:potte488@umn.edu) |
 | Membership          | Tomer Mikhaelides         | [liu02753@umn.edu](mailto:liu02753@umn.edu) |
-| Chilling Smiler     | John Bingus               |                                             |
 | Faculty Advisor     | Shana Watters             |                                             |
