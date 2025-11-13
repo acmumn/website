@@ -1,10 +1,5 @@
-{% extends "base.html" %} {% block content %}
-<meta http-equiv="refresh" content="1; URL={{ page.description }}" />
-<section class="section">
-    <div class="section-content">
-        <h2>Redirecting ...</h2>
-        <a href="{{ page.description }}" >Click here</a> if you are not redirected within 5 seconds.
-        <div class="spacer" />
-    </div>
-</section>
+{% block content %}
+<head>
+  <meta http-equiv="refresh" content="0; URL={{ page.description }}" />
+</head>
 {% endblock content %}
