@@ -1,18 +1,15 @@
 +++
-title = "2023-09-11 Newsletter"
+title = "Upcoming Events"
 template = "post.html"
 
+description = "Upcoming announcements and resume workshop."
+
 date = 2023-09-11
+
 slug = "newsletter-2023-09-11"
 
-description = "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. "
-
-[extra]
-author = "riley"
+authors = ["riley"]
 +++
-
-<!-- more -->
-
 **Upcoming event announcements**
 
 Hello all,
@@ -40,11 +37,11 @@ to get some advice on getting a spiffy, sleek resume ready for the Fall Career F
 
 ----------
 
-Visit us at [https://acm.umn.edu/](https://acm.umn.edu/)!
+Visit us at [https://acm.umn.edu/](/)!
 
 Our administrative meetings are held on Fridays at 6pm, and are open to all members who would like to get more involved. We also hold a general meeting/open house in our club room at Keller 2-204!
 
-You can join our Discord server here [https://z.umn.edu/acm-discord](https://z.umn.edu/acm-discord)!
+You can join our Discord server here [https://z.umn.edu/acm-discord](@/discord.md)!
 
 Lots of love,
 The ACM Officers
