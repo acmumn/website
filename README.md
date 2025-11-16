@@ -33,6 +33,10 @@ These just install Zola right now, but will be updated to include any other depe
 
 See [CONTRIBUTING](CONTRIBUTING.md).
 
+## For Officers
+
+See [OFFICER_CONTACT_CARDS](OFFICER_CONTACT_CARDS.md).
+
 ## Project Organization
 
 See [PROJECT_ORGANIZATION](PROJECT_ORGANIZATION.md).
