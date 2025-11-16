@@ -1,4 +1,4 @@
-@import "theme.scss";
+@import "theme.scss", "screens.scss";
 
 .officer-card {
     padding: 0px;
@@ -22,4 +22,13 @@
     a {
         color: unset;
     }
+}
+
+.contact-card-list {
+    @include set-with-screen(
+        grid-template-columns,
+        repeat(2, 1fr),
+        repeat(1, 1fr),
+        repeat(1, 1fr)
+    );
 }
