@@ -9,7 +9,7 @@ Follow the steps in [CONTRIBUTING](CONTRIBUTING.md) to submit your card PR.
 These cards are meant to allow officers to express themselves, while providing contact information to users.
 They are displayed on the contact page of the site.
 
-- The cards are 320 pixels tall, or the value of `$officer-card-height` in sass/theme.scss.
+- The cards are 420 pixels tall, or the value of `$officer-card-height` in sass/theme.scss.
 - The cards are variable width, going from 680 pixels for most users down to around 270 pixels on small phones.
 - The cards can be personalized as long as they contain the Required Information and follows our [constitution](static/doc/constitution.pdf), [bylaws](static/doc/bylaws.pdf), and [rules](static/doc/rules.pdf).
 
