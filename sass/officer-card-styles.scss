@@ -44,8 +44,12 @@
         padding-left: 15px;
     }
 
-    .links-holder {
-        padding-left: 20px;
+    .content-holder {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      .links-holder, pre {
+        margin: 10px;
+      }
     }
 
     a {
