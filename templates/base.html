@@ -36,13 +36,9 @@
         <div class="footer">
             <h3>GET IN TOUCH</h3>
             <div class="horiz-grid">
-                <a href="{{ get_url(path='/') }}">
-                    <h3>acm@umn.edu</h3>
-                </a>
+                <a href="mailto:acm@umn.edu">acm@umn.edu</a>
                 <h3>2-204 Keller Hall</h3>
-                <a href="{{ get_url(path='@/newsletter/_index.md') }}">
-                    <h3>mailing list</h3>
-                </a>
+                <a href="{{ get_url(path='@/newsletter/_index.md') }}">mailing list</a>
             </div>
             <h3>Copyright (c) 1972-{{ now() | date(format="%Y") }} ACM UMN</h3>
         </div>
