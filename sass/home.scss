@@ -6,8 +6,8 @@
     width: 100%;
     @include set-with-screen(
         padding-bottom,
-        200px,
-        140px,
+        100px,
+        80px,
         60px
     );
 
@@ -58,7 +58,7 @@
     }
     .post-list {
         max-width: 1000px;
-        min-height: 400px;
+        min-height: 285px;
 
         @include set-with-screen(
             grid-template-columns,
