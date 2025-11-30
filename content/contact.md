@@ -9,12 +9,14 @@ author = "Arbor"
 +++
 # Contact
 
-#### Club Contact
+### Club Contact
 
-Club Email: acm@umn.edu
+Email: acm@umn.edu
 
-Discord: [invite](@/discord.md)
+[Discord Invite Link](@/discord.md)
 
-Github: [profile](@/github.md)
+[ACM UMN Github Profile](@/github.md)
+
+### Officer Contacts
 
 ---
