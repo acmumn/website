@@ -1,0 +1,58 @@
+.example-officer-style {
+    // Style for example officer is placed here.
+
+    // Avoid selecting generally for officer cards, instead
+    // use a class named <officer name>-officer-style and
+    // style it and it's children.
+
+    background-color: #000;
+    color: #fff;
+}
+
+// Google fonts is probably the easiest way to import specific fonts for your card.
+
+// https://www.fontpair.co/
+// https://fonts.google.com
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "screens.scss";
+
+@mixin fira-code-font {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin playfair-display-font {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.arbor-officer-style {
+    @include fira-code-font;
+
+    background-color: #0b192c;
+    color: #e5f5ff;
+
+    .name {
+        @include playfair-display-font;
+
+        font-size: 120px;
+        height: 120px;
+        line-height: 87%;
+        padding-left: 15px;
+    }
+
+    .links-holder, pre {
+      margin: 25px;
+    }
+
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

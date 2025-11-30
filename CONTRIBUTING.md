@@ -17,11 +17,17 @@ Check out [PROJECT_ORGANIZATION](PROJECT_ORGANIZATION.md) to get an idea of the 
 6. Ask someone (`arbormoss@woodsprite.dev` or another contributor) to review your code by email
 7. Once your PR is merged, make sure your feature branch is deleted
 
-For PRs that are just content and already have an issue, you don't need to discuss, just leave a comment and have at it. For larger changes and refactors, make sure to have a discussion in the Github Issues before starting work or making a PR.
+For PRs that are just content and already have an issue, you don't need to discuss, just leave a comment and have at it.
+For larger changes and refactors, make sure to have a discussion in the Github Issues before starting work or making a PR.
+
+## Officers Making a Contact Card
+
+The contacts page of the site has a place to put officer contact cards.
+If you are an officer who has not made a contact card, see [OFFICER_CONTACT_CARDS](OFFICER_CONTACT_CARDS.md) to learn how to set one up.
 
 ## Notes
 
-- Try to follow [conventional commits](www.conventionalcommits.org/en/v1.0.0/) commit format.
+- Try to follow the [conventional commits](www.conventionalcommits.org/en/v1.0.0/) commit format.
 - Small text content PRs are welcomed.
 - Feel free to open an issue, even just to ask a question or have a discussion.
-- I can transfer the ownership of this repo to ACM UMN if that's helpful at some point.
+- ~~I can transfer the ownership of this repo to ACM UMN if that's helpful at some point.~~ This repo is now under the ownership of ACM UMN
