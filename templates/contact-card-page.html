@@ -1,23 +1,22 @@
 {% extends "base.html" %} {% block content %}
 
 <section class="section">
-    <div class="full-width">
+    <div class="section-content">
         {{ page.content | safe }}
     </div>
-    <div class="post-list full-width contact-card-list">
-        <!--
+    <div class="post-list section-content contact-card-list">
+        <!---
         <div class="post-list__card officer-card">
-            {% include "officer-cards/_example.html" %}
+            <img src="/officer-cards/example-officer.png">
         </div>
         -->
 
         <!-- Add new officer cards here -->
-        <div class="officer-card">
-            {% include "officer-cards/angel.html" %}
+        <div class="post-list__card officer-card">
+            <img src="/officer-cards/june.jpeg">
         </div>
-
-        <div class="officer-card">
-            {% include "officer-cards/arbor.html" %}
+        <div class="post-list__card officer-card">
+            <img src="/officer-cards/arbor.jpeg">
         </div>
     </div>
     <div class="spacer" />

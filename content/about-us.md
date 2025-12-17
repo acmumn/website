@@ -10,6 +10,7 @@ author = "Arbor"
 # About Us
 
 We are the University of Minnesota Twin Cities Student Chapter of the Association for Computing Machinery.
+
 Our club is a place for students to foster their interest in computing through shared study, workshops, events, and resources.
 Our biggest event is [MinneHack](https://www.minnehack.com/), a yearly hackathon with prompts focused on building communities and civic engagement.
 We welcome members of all majors, and our club room is a great place to study and hang out!
@@ -17,8 +18,8 @@ We welcome members of all majors, and our club room is a great place to study an
 ## ACM Club Room
 
 Our club room in Keller Hall 2-204 is open during our [open house](@/events.md), as well as any time the lights are on and the door is open!
-It has tables to study and chat, modern and retro electronics, and a server closet where we host this site.
-The best way to learn about ACM UMN is to come check it out.
+It has tables to study and chat, modern and retro electronics, and a server closet where we host virtual machines for members and this website.
+The best way to learn about ACM UMN is to come visit our club room.
 
 ## ACM National
 
