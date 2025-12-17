@@ -10,7 +10,8 @@ author = "Arbor"
 # Membership
 
 We welcome new members from all majors and colleges.
-Members get card access to our club room, [discord](@/discord.md) access, and virtual machines on our servers (as available).
+Members get access to our club room, [discord](@/discord.md), and virtual machines on our servers (as available).
+Our club room is open whenever the lights are on and the door is open, which is pretty often!
 Stop by the room during [open house](@/events.md) and we can help you with becoming a member.
 
 ### Becoming a Member
