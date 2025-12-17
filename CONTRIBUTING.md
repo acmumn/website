@@ -23,11 +23,11 @@ For larger changes and refactors, make sure to have a discussion in the Github I
 ## Officers Making a Contact Card
 
 The contacts page of the site has a place to put officer contact cards.
-If you are an officer who has not made a contact card, see [OFFICER_CONTACT_CARDS](OFFICER_CONTACT_CARDS.md) to learn how to set one up.
+If you are an officer who has not made a contact card, see [OFFICER_STICKY_NOTES](OFFICER_STICKY_NOTES.md) to learn how to set one up.
 
 ## Notes
 
-- Try to follow the [conventional commits](www.conventionalcommits.org/en/v1.0.0/) commit format.
+- Try to follow the [Conventional Commits](www.conventionalcommits.org/en/v1.0.0/) commit format.
 - Small text content PRs are welcomed.
 - Feel free to open an issue, even just to ask a question or have a discussion.
-- ~~I can transfer the ownership of this repo to ACM UMN if that's helpful at some point.~~ This repo is now under the ownership of ACM UMN
+- ~~I can transfer the ownership of this repo to ACM UMN if that's helpful at some point.~~ This repo is now under the ownership of ACM UMN.
