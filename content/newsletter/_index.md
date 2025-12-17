@@ -4,11 +4,11 @@ sort_by = "date"
 template = "list-topic-page.html"
 page_template = "post.html"
 +++
-#### [Join Now](@/join-newsletter.md)
-Get ACM UMN news right in your inbox!
-Sign up to stay up to date, or look through our archive.
+To sign up for email updates, use this [newsletter sign up link](@/join-newsletter.md).
 
+Our newsletter has updates on events, workshops, and club happenings.
+Either sign up or view past updates here.
 
-### Archive
+## Archive
 
 ---
