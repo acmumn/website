@@ -29,7 +29,7 @@ Thanks to everyone who showed interest in Microhack, we have good news! The hack
 
 # Open House
 
-Our Open House for this semester will be every Wednesday 4:00PM - 6:00PM! Come hang out with us at the ACM Club Room at Keller 2-204! Come hang, introduce yourself, lounge and chill. We promise we don't bite!he door lock on Keller 2-204 does not work right now (>_<), but we anticipate the door lock working for Open House. If it does, drop by for a quick celebration! If not, we'll let you know on our Discord:
+Our Open House for this semester will be every Wednesday 4:00PM - 6:00PM! Come hang out with us at the ACM Club Room at Keller 2-204! Come hang, introduce yourself, lounge and chill. We promise we don't bite!he door lock on Keller 2-204 does not work right now (>_<), but we anticipate the door lock working for Open House. If it does, drop by for a quick celebration! If not, we'll let you know on our Discord
 
 ----------
 
