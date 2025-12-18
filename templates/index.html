@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block content %}
 <section class="section">
     <h1 class="site-title">ACM UMN</h1>
-    <img class="home-image" src="/images/esp32.png" />
+    <img class="home-image" alt="an esp32 with Hello World displayed on it" src="/images/esp32.png" />
     <svg
         class="leader-image"
         clip-rule="evenodd"
@@ -41,14 +41,14 @@
             <p>
                 We are big fans of old laptops and self-hosting. Our club also has it's own server closet, where we host virtual machines for <a href="{{ get_url(path='@/membership.md') }}">members</a>.
             </p>
-            <image src="images/rainbow.jpeg" />
+            <img alt="rainbow ribbon cables" src="images/rainbow.jpeg" />
         </div>
         <div>
             <h1>Workshops</h1>
             <p>
                 ACM UMN hosts workshops to teach important fundamentals like Git and Unix, as well as more free-form events like drawing night. The events are open to everyone, including students of other majors. Go check out our <a href="{{ get_url(path='@/events.md') }}">events page</a> to learn more!
             </p>
-            <image src="images/laptop.jpeg" />
+            <img alt="A laptop running debian with fastfetch in the terminal" src="images/laptop.jpeg" />
         </div>
     </div>
     <div class="home-section-center">
