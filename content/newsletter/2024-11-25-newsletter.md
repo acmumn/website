@@ -2,7 +2,7 @@
 title = "ACM Week 13 • Prepare for Presentation Night!"
 template = "post.html"
 
-description = ""
+description = "December 3rd at 5pm, Amundson 120."
 slug = "2024-f-w13"
 
 date = 2024-11-25
@@ -21,15 +21,13 @@ But on the Tuesday right after the break, ACM will be hosting...
 - Dec. 3 at 5pm in Amundson 120
 - Please RSVP so we get enough pizza → [acm.umn.edu/rsvp](@/rsvp.md)
 
+```
 +
-
 Open House
-
 Wednesdays 4-6pm
-
 ACM Room (Keller 2-204)
-
 Come say hi
+```
 
 
 

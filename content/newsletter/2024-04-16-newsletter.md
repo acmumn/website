@@ -2,7 +2,7 @@
 title = "Week 14: Tax Day"
 template = "post.html"
 
-description = ""
+description = "Cast your ballot in the ACM UMN Officership Election."
 slug = "2024-w14"
 
 date = 2024-04-16

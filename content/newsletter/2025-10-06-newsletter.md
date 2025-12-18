@@ -2,10 +2,10 @@
 title = "ACM F25 Week 6"
 template = "post.html"
 
-description = ""
+description = "Unix 3 is on programming environments. Come by the ACM Room in Keller 2-204!"
 slug = "2025-f-w6"
 
-date = 2024-10-06
+date = 2025-10-06
 
 authors = ["Ángel"]
 +++

@@ -2,10 +2,10 @@
 title = "ACM F25 Week 11"
 template = "post.html"
 
-description = ""
+description = "No open house. PIZZA IN ATTENDANCE at the Typst workshop this week."
 slug = "2025-f-w11"
 
-date = 2024-11-10
+date = 2025-11-10
 
 authors = ["Ángel"]
 +++

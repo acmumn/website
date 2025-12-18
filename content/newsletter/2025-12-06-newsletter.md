@@ -2,10 +2,10 @@
 title = "ACM F25 Week 15"
 template = "post.html"
 
-description = ""
+description = "Show and Tell your cool knowledge and LaTeX beamer slides at Show and Tell this Thursday."
 slug = "2025-f-w15"
 
-date = 2024-12-06
+date = 2025-12-06
 
 authors = ["Ángel"]
 +++

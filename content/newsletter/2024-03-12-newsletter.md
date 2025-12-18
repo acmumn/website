@@ -2,7 +2,7 @@
 title = "Week 9"
 template = "post.html"
 
-description = ""
+description = "Capture the Flag 2024, MicroHack."
 slug = "2024-w9"
 
 date = 2024-03-12

@@ -2,7 +2,7 @@
 title = "Week 2: UNIX Class"
 template = "post.html"
 
-description = ""
+description = "Amundson B75, Sept 17, 5:30."
 slug = "2024-f-w2"
 
 date = 2024-09-10

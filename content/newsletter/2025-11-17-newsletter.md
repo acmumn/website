@@ -2,10 +2,10 @@
 title = "ACM F25 Week 12"
 template = "post.html"
 
-description = ""
+description = "Blog club friends. Drawing Night. Open house."
 slug = "2025-f-w12"
 
-date = 2024-11-17
+date = 2025-11-17
 
 authors = ["Ángel"]
 +++

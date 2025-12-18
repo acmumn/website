@@ -2,7 +2,7 @@
 title = "ACM Week 11: Typesetting Workshop with Typst!"
 template = "post.html"
 
-description = ""
+description = "Study with Plumb Bob or typset in Typst at our upcoming workshop."
 slug = "2024-f-w11"
 
 date = 2024-11-11
@@ -38,15 +38,13 @@ As finals begin to approach, we are teaming up with Plumb Bob to offer a nice gr
 - Keller Hall Room 2-204
 - RSVP: [acm.umn.edu/rsvp](@/rsvp.md)
 
+```
 +
-
 open house
-
 wednesdays 4-6pm
-
 acm room (keller 2-204)
-
 come say hi
+```
 
 Weekly,
 

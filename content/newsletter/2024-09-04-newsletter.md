@@ -2,7 +2,7 @@
 title = "ACM Week 1: Initiating Fall 2024"
 template = "post.html"
 
-description = ""
+description = "Welcome to a new year of ACM UMN!"
 slug = "2024-f-w1"
 
 date = 2024-09-04

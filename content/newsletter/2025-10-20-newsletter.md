@@ -2,10 +2,10 @@
 title = "ACM F25 Week 8"
 template = "post.html"
 
-description = ""
+description = "Learn to self host your own organic, GMO-free blog on home-grown ACM hardware!"
 slug = "2025-f-w8"
 
-date = 2024-10-20
+date = 2025-10-20
 
 authors = ["Ángel"]
 +++

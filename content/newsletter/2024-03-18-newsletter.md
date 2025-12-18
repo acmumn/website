@@ -2,7 +2,7 @@
 title = "Week 10: It's actually Week 10????"
 template = "post.html"
 
-description = ""
+description = "Come by the room on Thursday for Presentation Night."
 slug = "2024-w10"
 
 date = 2024-03-18

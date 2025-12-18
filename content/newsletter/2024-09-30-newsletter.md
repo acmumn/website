@@ -2,7 +2,7 @@
 title = "ACM Week 5: TURBO Telescope Project Opportunity"
 template = "post.html"
 
-description = ""
+description = "Unix class 3 and an opportunity to work on Astrophysics."
 slug = "2024-f-w5"
 
 date = 2024-09-30

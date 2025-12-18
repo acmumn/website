@@ -2,10 +2,10 @@
 title = "ACM S25 Week 14"
 template = "post.html"
 
-description = ""
+description = "Let an ACM UMN Officer know if you would like to present for Presentation Night."
 slug = "2025-s-w14"
 
-date = 2024-04-22
+date = 2025-04-22
 
 authors = ["Quinn"]
 +++

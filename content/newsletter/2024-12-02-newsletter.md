@@ -2,7 +2,7 @@
 title = "ACM Week 14 • Presentation Night!"
 template = "post.html"
 
-description = ""
+description = "Tell us about an obscure programming language or tell a really elaborate joke! Dec 3, 5pm, Amundson 120."
 slug = "2024-f-w14"
 
 date = 2024-12-02
@@ -23,15 +23,13 @@ Good job on thanksgiving! Now get ready because this week we are hosting our las
 // (and let an officer know if you plan to present)
 ```
 
+```
 +
-
 Open House
-
 Wednesdays 4-6pm
-
 ACM Room (Keller 2-204)
-
 Come say hi
+```
 
 
 

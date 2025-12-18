@@ -2,7 +2,7 @@
 title = "ACM Week 7: All Quiet in the Twin Cities"
 template = "post.html"
 
-description = ""
+description = "Self hosting workshop on the horizon."
 slug = "2024-f-w7"
 
 date = 2024-10-14

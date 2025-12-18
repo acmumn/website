@@ -2,10 +2,10 @@
 title = "ACM S25 Week 9"
 template = "post.html"
 
-description = ""
+description = "Blog Workshop next thursday. We will be building some simple blogs using the Zola framework."
 slug = "2025-s-w9"
 
-date = 2024-03-17
+date = 2025-03-17
 
 authors = ["Quinn"]
 +++

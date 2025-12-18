@@ -2,7 +2,7 @@
 title = "ACM Week 12 • Study Night + Drawing Night"
 template = "post.html"
 
-description = ""
+description = "Come chat with friends and draw on a big sheet of paper at drawing night."
 slug = "2024-f-w12"
 
 date = 2024-11-17
@@ -27,16 +27,13 @@ If you're reading this you've made it to week 12. As a reward, help yourself to 
 - Tuesday 11/19 at 5pm
 - Keller 2-204
 
+```
 +
-
 open house
-
 wednesdays 4-6pm
-
 acm room (keller 2-204)
-
 come say hi
-
+```
 
 
 Of course,

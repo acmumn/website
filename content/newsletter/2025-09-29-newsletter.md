@@ -2,10 +2,10 @@
 title = "ACM F25 Week 5"
 template = "post.html"
 
-description = ""
+description = "Second Unix class is on Git. Have a merge conflict with your pizza."
 slug = "2025-f-w5"
 
-date = 2024-09-29
+date = 2025-09-29
 
 authors = ["Ángel"]
 +++

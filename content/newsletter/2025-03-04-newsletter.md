@@ -2,10 +2,10 @@
 title = "ACM S25 Week 7"
 template = "post.html"
 
-description = ""
+description = "Join us in Keller for Drawing Night."
 slug = "2025-s-w7"
 
-date = 2024-03-04
+date = 2025-03-04
 
 authors = ["Quinn"]
 +++

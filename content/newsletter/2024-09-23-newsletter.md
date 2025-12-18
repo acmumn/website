@@ -2,7 +2,7 @@
 title = "ACM Week 4: UNIX Class 2!"
 template = "post.html"
 
-description = ""
+description = "We are learning Git, and there's free pizza."
 slug = "2024-f-w4"
 
 date = 2024-09-23

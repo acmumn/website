@@ -2,7 +2,7 @@
 title = "ACM Week 6: (U)NIX Class "
 template = "post.html"
 
-description = ""
+description = "Last week of Unix class and the regular."
 slug = "2024-f-w6"
 
 date = 2024-10-07

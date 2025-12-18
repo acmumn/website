@@ -2,7 +2,7 @@
 title = "Week 15: Finals..."
 template = "post.html"
 
-description = ""
+description = "The new ACM Officers and getting into finalmode."
 slug = "2024-w15"
 
 date = 2024-04-22
@@ -15,13 +15,13 @@ Soon we'll all be in finalmode... (Some of us already are...)
 
 Thank you to everyone who voted in the 2024-2025 ACM Officer Elections! Here are our results!
 
-President: Iris Gorton
-Vice President: Autumn Kenyon
-Treasurer: Alice Janik
-Systems Administrator: Nadia Potteiger
-Webmaster: Riley Loo
-Membership: Elena Nelson
-Secretary: Quinn Korsune
+- President: Iris Gorton
+- Vice President: Autumn Kenyon
+- Treasurer: Alice Janik
+- Systems Administrator: Nadia Potteiger
+- Webmaster: Riley Loo
+- Membership: Elena Nelson
+- Secretary: Quinn Korsune
 
 We (the 2024-2025 ACM Officers) are looking forward to see you in the 2024-2025 academic year!
 

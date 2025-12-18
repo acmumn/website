@@ -2,7 +2,7 @@
 title = "Week 3: Look at the Trees!"
 template = "post.html"
 
-description = ""
+description = "Unix class 2 coming up! Make sure to RSVP."
 slug = "look-at-the-trees"
 
 date = 2024-01-29

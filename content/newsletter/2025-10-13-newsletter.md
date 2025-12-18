@@ -2,10 +2,10 @@
 title = "ACM F25 Week 7"
 template = "post.html"
 
-description = ""
+description = "The end of Unix Class: Post-Unix environments and NixOS."
 slug = "2025-f-w7"
 
-date = 2024-10-13
+date = 2025-10-13
 
 authors = ["Ángel"]
 +++

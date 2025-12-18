@@ -2,10 +2,10 @@
 title = "ACM S25 Week 2"
 template = "post.html"
 
-description = ""
+description = "RSVP for Unix class. The first workshop will cover the basics of using the shell."
 slug = "2025-s-w2"
 
-date = 2024-01-27
+date = 2025-01-27
 
 authors = ["Quinn"]
 +++

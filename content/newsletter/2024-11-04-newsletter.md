@@ -2,7 +2,7 @@
 title = "ACM Week 10: Capture the Flag (CTF) Event!"
 template = "post.html"
 
-description = ""
+description = "Learn to \"hack\" and reverse engineer with free pizza provided."
 slug = "2024-f-w10"
 
 date = 2024-11-04
@@ -29,15 +29,13 @@ Learn typesetting at Typesetting Workshop!
 - Wednesday, Nov. 13 at 5pm in Amundson 116.
 - Free pizza provided 🍕 (RSVP to our events so we get enough pizza: acm.umn.edu/rsvp)
 
+```
 +
-
 weekly open house
-
 wednesdays 4-6pm
-
 acm room (keller 2-204)
-
 come say hi
+```
 
 
 Like Myshkin from Dostoevsky's The Idiot,

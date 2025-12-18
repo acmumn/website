@@ -2,10 +2,10 @@
 title = "ACM S25 Week 1"
 template = "post.html"
 
-description = ""
+description = "Looking forward to MinneHack, the biggest hackathon in Minnesota."
 slug = "2025-s-w1"
 
-date = 2024-01-21
+date = 2025-01-21
 
 authors = ["Quinn"]
 +++

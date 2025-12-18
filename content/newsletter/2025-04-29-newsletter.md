@@ -2,10 +2,10 @@
 title = "ACM S25 Week 15"
 template = "post.html"
 
-description = ""
+description = "Figuring out officers for next year."
 slug = "2025-s-w15"
 
-date = 2024-04-29
+date = 2025-04-29
 
 authors = ["Quinn"]
 +++
