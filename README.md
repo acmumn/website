@@ -2,8 +2,7 @@
 
 ## Background
 
-The UMN ACM website has been in need of an upgrade.
-In order to keep the site current and useful to our club this repo has been created as an eventual replacement for the old one.
+This is the website for the University of Minnesota Student Chapter of the Association for Computing Machinery.
 
 ## Development
 
