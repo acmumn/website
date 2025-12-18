@@ -9,4 +9,4 @@ generate_feeds = true
 feed_filenames = ["rss.xml", "atom.xml"]
 
 [markdown]
-highlight_code = true
+highlight_code = false
