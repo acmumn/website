@@ -1,19 +1,36 @@
 {
-  description = "quick zola flake";
-
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    utils.url = "github:numtide/flake-utils";
   };
-  outputs = { self, nixpkgs, ... }:
-  let
-    system = "x86_64-linux";
-    pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
-  in
-  {
-    devShells.${pkgs.system}.default = pkgs.mkShell {
-      packages = with pkgs; [
-      	zola
-      ];
-    };
-  };
+
+  outputs =
+    {
+      self,
+      nixpkgs,
+      utils,
+    }:
+    utils.lib.eachDefaultSystem (
+      system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in
+      rec {
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            zola
+            woff2
+          ];
+        };
+        packages.site = pkgs.stdenv.mkDerivation {
+          name = "site";
+          src = ./.;
+
+          nativeBuildInputs = [ pkgs.zola ];
+          buildPhase = "zola build";
+          installPhase = "cp -r public $out";
+        };
+        defaultPackage = self.packages.${system}.site;
+      }
+    );
 }
