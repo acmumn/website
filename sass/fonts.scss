@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Libre Franklin";
+    src: url("/fonts/LibreFranklin-VariableFont_wght.ttf") format('truetype');
+}
+
 @mixin libre-franklin {
     font-family: "Libre Franklin", sans-serif;
-    src: url("fonts/LibreFranklin-Bold.ttf") format("truetype");
     font-style: normal;
 }
