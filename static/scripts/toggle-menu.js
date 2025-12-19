@@ -1,29 +1,35 @@
-let isMenuOpen = true;
+let isMenuOpen = false;
 
 function toggleMenu() {
     isMenuOpen = !isMenuOpen;
-    updateMenu();
+    updateNavbar();
 }
 
-function updateMenu() {
-    if (isMenuOpen) {
-        $('.navbar').children('a').css('display', 'grid');
-        $('.section:nth-child(0)').css('height', '100px');
+function updateNavbar() {
+    const children = document.getElementById('navbar').children;
+    let display = 'grid';
+
+    // not on a phone
+    if (window.innerWidth > 580) {
+        document.getElementById('navbar').style.height = '100px';
+
+        for (let i = 0; i < children.length; i++) {
+            if (i == 0) { continue; }
+            children[i].style.display = display;
+        }
         return;
     }
 
-    $('.navbar').children('a').css('display', 'none');
-    $('.section:nth-child(0)').css('height', '800px');
-}
+    document.getElementById('navbar').style.height = 'fit-content';
 
-function resize() {
-    isMenuOpen = true;
-    if (window.innerWidth <= 580) {
-        isMenuOpen = false;
+    if (!isMenuOpen) {
+        display = 'none';
     }
-
-    updateMenu();
+    for (let i = 0; i < children.length; i++) {
+        if (i == 0) { continue; }
+        children[i].style.display = display;
+    }
 }
 
-$(document).ready(resize);
-window.addEventListener("resize", resize);
+document.onreadystatechange = updateNavbar;
+window.addEventListener("resize", updateNavbar);

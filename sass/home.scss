@@ -120,7 +120,7 @@
         ),
         calc(
             100vh - 300px - 1em - $small-home-image-height - 2 *
-                $small-home-padding - $small-nav-height
+                $small-home-padding - $nav-height
         ),
         calc(
             100vh - 300px - $phone-home-image-height - 2 * $phone-home-padding -

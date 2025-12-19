@@ -119,7 +119,7 @@ $nav-padd-in-out: 8px;
     @include set-with-screen (
         min-height,
         calc(100vh - $nav-height - $footer-height -  110px), // this is to compensate for the margins
-        calc(100vh - $small-nav-height - $footer-height - 110px),
+        calc(100vh - $nav-height - $footer-height - 110px),
         0
     );
 
@@ -156,7 +156,7 @@ body {
         @include set-with-screen(
             padding-top,
             calc($nav-height + $section-padding),
-            calc($small-nav-height + $section-padding),
+            calc($nav-height + $section-padding),
             calc($phone-nav-height + $section-padding)
         );
     }
