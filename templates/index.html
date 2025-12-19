@@ -26,7 +26,7 @@
             {% set section = get_section(path = "newsletter/_index.md" ) %}
             {% for page in section.pages | sort(attribute="date") | reverse | slice(start=0, end=3) %}
             <a href="{{ page.permalink | safe }}" class="post-list__card">
-                <h3>{{ page.title }}</h3>
+                <h1 style="font-size: 1.5em;">{{ page.title }}</h1>
                 <i>{{ page.date }}</i><br />
                 <br />
                 {{ page.description }}
