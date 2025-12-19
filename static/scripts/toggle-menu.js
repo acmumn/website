@@ -1,4 +1,4 @@
-let isMenuOpen = false;
+let isMenuOpen = true;
 
 function toggleMenu() {
     isMenuOpen = !isMenuOpen;
@@ -17,3 +17,12 @@ function updateMenu() {
 }
 
 $(document).ready(updateMenu);
+
+window.addEventListener("resize", () => {
+    isMenuOpen = true;
+    if (window.innerWidth <= 580) {
+        isMenuOpen = false;
+    }
+
+    updateMenu();
+});
