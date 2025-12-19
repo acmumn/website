@@ -19,6 +19,7 @@ $nav-padd-in-out: 8px;
     top: 0;
 
     background-color: $accent;
+    height: fit-content;
     padding-top: $nav-padd-in-out;
     padding-bottom: $nav-padd-in-out;
     gap: 0;
@@ -38,12 +39,25 @@ $nav-padd-in-out: 8px;
         }
     }
 
-    @include set-with-screen(
-        height,
-        $nav-height - $nav-padd-in-out * 2,
-        $small-nav-height - $nav-padd-in-out * 2,
-        $phone-nav-height - $nav-padd-in-out * 2
-    );
+    .nav-menu {
+
+        @include set-with-screen(
+            display,
+            none,
+            none,
+            grid
+        );
+        width: 40px;
+        height: 40px;
+
+        background: transparent;
+        border: none;
+        * {
+            fill: white;
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
 
 .footer {
@@ -102,13 +116,11 @@ $nav-padd-in-out: 8px;
     padding: $section-padding;
     padding-bottom: 0;
 
-    height: fit-content;
-
     @include set-with-screen (
         min-height,
         calc(100vh - $nav-height - $footer-height -  110px), // this is to compensate for the margins
-        calc(100vh - $small-nav-height - $footer-height - 110px),
-        calc(100vh - $phone-nav-height - $phone-footer-height - 110px),
+        calc(100vh - $nav-height - $footer-height - 110px),
+        0
     );
 
     .section-content {
@@ -144,7 +156,7 @@ body {
         @include set-with-screen(
             padding-top,
             calc($nav-height + $section-padding),
-            calc($small-nav-height + $section-padding),
+            calc($nav-height + $section-padding),
             calc($phone-nav-height + $section-padding)
         );
     }
