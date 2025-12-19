@@ -1,7 +1,4 @@
 let isMenuOpen = false;
-if (window.innerWidth >= 580) {
-    isMenuOpen = true;
-}
 
 function toggleMenu() {
     isMenuOpen = !isMenuOpen;
