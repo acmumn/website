@@ -16,13 +16,14 @@ function updateMenu() {
     $('.section:nth-child(0)').css('height', '800px');
 }
 
-$(document).ready(updateMenu);
-
-window.addEventListener("resize", () => {
+function resize() {
     isMenuOpen = true;
     if (window.innerWidth <= 580) {
         isMenuOpen = false;
     }
 
     updateMenu();
-});
+}
+
+$(document).ready(resize);
+window.addEventListener("resize", resize);

@@ -104,6 +104,7 @@
 
 .home-image {
     align-self: center;
+    max-width: 100%;
 
     @include set-with-screen(
         max-height,
