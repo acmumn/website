@@ -9,6 +9,8 @@ To sign up for email updates, use this [newsletter sign up link](@/join-newslett
 Our newsletter has updates on events, workshops, and club happenings.
 Either sign up or view past updates here.
 
+You can also read updates through our [rss feed](/rss.xml).
+
 ## Archive
 
 ---
