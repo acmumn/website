@@ -19,6 +19,14 @@ In order to become a member, you must attend 3 events.
 These can be open house, the officers meeting, a workshop, or anything on the [events calendar](@/events.md).
 If you believe you have done this, talk to an officer in the club room or on the discord and we can help get you signed off.
 
+## Leading Documents
+
+[ACM UMN Constitution](/doc/constitution.pdf)
+
+[ACM UMN Bylaws](/doc/bylaws.pdf)
+
+[ACM UMN Rules](/doc/rules.pdf)
+
 ## ACM National
 
 ACM UMN is distinct from ACM National, and membership in ACM UMN does not provide membership in ACM National.
