@@ -1,7 +1,8 @@
 {% extends "base.html" %} {% block content %}
 <section role="main" class="section">
     <h1 class="site-title">ACM UMN</h1>
-    <img class="home-image" alt="an esp32 microcontroller with Hello World displayed on it" src="/images/esp32.png" />
+    {% set logo = load_data(path="images/acm-logo.svg") %}
+    {{ logo | safe }}
     <svg
         class="leader-image"
         clip-rule="evenodd"
