@@ -4,6 +4,7 @@
     {% set logo = load_data(path="images/acm-logo.svg") %}
     {{ logo | safe }}
     <svg
+        aria-label="An icon of a downwards-facing triangle."
         class="leader-image"
         clip-rule="evenodd"
         fill-rule="evenodd"
@@ -34,7 +35,7 @@
             </a>
             {% endfor %}
         </div>
-        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m16.5 11.995c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25zm-6.75 0c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25zm-6.75 0c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25z"/></svg>
+        <svg aria-label='Icon of three dots.' clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m16.5 11.995c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25zm-6.75 0c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25zm-6.75 0c0-1.242 1.008-2.25 2.25-2.25s2.25 1.008 2.25 2.25-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25z"/></svg>
     </div>
     <div class="home-section-double">
         <div>
@@ -42,14 +43,14 @@
             <p>
                 We are big fans of old laptops and self-hosting. Our club also has it's own server closet, where we host virtual machines for <a href="{{ get_url(path='@/membership.md') }}">members</a>.
             </p>
-            <img alt="rainbow ribbon cables" src="images/rainbow.jpeg" />
+            <img alt="Rainbow ribbon cables." src="images/rainbow.jpeg" />
         </div>
         <div>
             <h1>Workshops</h1>
             <p>
                 ACM UMN hosts workshops to teach important fundamentals like Git and Unix, as well as more free-form events like drawing night. The events are open to everyone, including students of other majors. Go check out our <a href="{{ get_url(path='@/events.md') }}">events page</a> to learn more!
             </p>
-            <img alt="A laptop running debian with fastfetch in the terminal" src="images/laptop.jpeg" />
+            <img alt="A laptop running Debian with Fastfetch in the terminal." src="images/laptop.jpeg" />
         </div>
     </div>
     <div class="home-section-center">
