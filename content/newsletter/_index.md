@@ -9,7 +9,7 @@ Either sign up or view past updates here.
 
 To sign up for email updates, use this [newsletter sign up link](@/join-newsletter.md).
 
-We also have a [web feed](/rss.xml) (RSS feed) you can subscribe to.
+We also have a [Web Feed](/rss.xml) (RSS feed) you can subscribe to.
 To get started with feeds and learn how to subscribe, visit [About Feeds](https://aboutfeeds.com/).
 
 ## Archive
