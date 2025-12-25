@@ -6,7 +6,7 @@ $phone-footer-height: 170px;
 
 $nav-padd-in-out: 8px;
 
-.navbar {
+#navbar {
     @include grid-bar;
     @include set-with-screen(
         grid-template-columns,
