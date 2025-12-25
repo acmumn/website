@@ -20,7 +20,10 @@
     <div class="home-section-center">
         <h1>Join our Newsletter</h1>
         <p>
-            Keep up to date with the latest events and updates from ACM UMN! Either <a href="{{ get_url(path='@/join-newsletter.md') }}">sign up</a> or check out the <a href="{{ get_url(path='@/newsletter/_index.md') }}">archive</a>.
+            Keep up to date with the latest events and updates from ACM UMN! Either
+            <a href="{{ get_url(path='@/join-newsletter.md') }}">sign up</a> for the newsletter,
+            subscribe to the <a href="/rss.xml">RSS Feed</a>,
+            or check out the <a href="{{ get_url(path='@/newsletter/_index.md') }}">archive</a>.
         </p>
         <div class="post-list">
             {% set section = get_section(path = "newsletter/_index.md" ) %}
