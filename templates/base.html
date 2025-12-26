@@ -5,7 +5,6 @@
         <meta name="description" content="University of Minnesota's ACM Student Chapter">
         <title>ACM UMN</title>
         <link rel="stylesheet" href="/style.css" />
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
@@ -14,10 +13,10 @@
     </head>
 
     <body>
-        <div id="navbar" class="navbar">
+        <div role="navigation" id="navbar">
 
-            <button aria-label="Navigation bar hamburger menu" class="nav-menu" onclick="toggleMenu()" >
-                <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+            <button aria-label="Navigation bar hamburger menu." class="nav-menu" onclick="toggleMenu()" >
+                <svg aria-label="Hamburger icon." clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
             </button>
 
             <a href="{{ get_url(path='/') }}">

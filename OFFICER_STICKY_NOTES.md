@@ -32,8 +32,11 @@ The new block should look something like this:
 
 ```html
 <div class="post-list__card officer-card">
-    <img src="/officer-cards/<your name>.png">
+    <img alt="<alt text for your card>"src="/officer-cards/<your name>.png">
 </div>
 ```
+
+Make sure to add alternate text for the image.
+It doesn't have to be overly detailed, but make sure to end it with a period.
 
 Once your card is done, finish up the steps in [CONTRIBUTING](CONTRIBUTING.md) to submit your card to be added to the site.

@@ -6,13 +6,13 @@ $phone-footer-height: 170px;
 
 $nav-padd-in-out: 8px;
 
-.navbar {
+#navbar {
     @include grid-bar;
     @include set-with-screen(
         grid-template-columns,
-        repeat(6, 1fr),
-        repeat(3, 1fr),
-        repeat(1, 1fr)
+        repeat(6, auto),
+        repeat(3, auto),
+        repeat(1, auto)
     );
 
     @include hover-fixed;
