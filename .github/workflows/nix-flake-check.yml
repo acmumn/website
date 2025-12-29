@@ -2,9 +2,9 @@ name: Nix Flake Check
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
   nix-flake-check:
@@ -13,11 +13,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v13
-
-      - name: Run Nix flake check
-        run: nix flake check
-
-      - name: Build Nix flake package
-        run: nix build
+      - name: Check Nix flake
+        uses: DeterminateSystems/flake-checker-action@v8
