@@ -15,3 +15,12 @@ jobs:
 
       - name: Check Nix flake
         uses: DeterminateSystems/flake-checker-action@v8
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v13
+
+      - name: Run Nix flake check
+        run: nix flake check
+
+      - name: Build Nix flake package
+        run: nix build
