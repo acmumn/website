@@ -11,7 +11,7 @@ function updateNavbar() {
 
     // not on a phone
     if (window.innerWidth > 580) {
-        document.getElementById('navbar').style.height = '100px';
+        document.getElementById('navbar').style.height = 'none';
 
         for (let i = 0; i < children.length; i++) {
             if (i == 0) { continue; }
@@ -20,7 +20,7 @@ function updateNavbar() {
         return;
     }
 
-    document.getElementById('navbar').style.height = 'fit-content';
+    document.getElementById('navbar').style.height = 'none';
 
     if (!isMenuOpen) {
         display = 'none';
