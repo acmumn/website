@@ -17,7 +17,7 @@ Stop by the room during [open house](@/events.md) and we can help you with becom
 
 In order to become a member, you must attend 3 events.
 These can be open house, the officers meeting, a workshop, or anything on the [events calendar](@/events.md).
-If you believe you have done this, talk to an officer in the club room or on the discord and we can help get you signed off.
+If you believe you have done this, fill out the [membership signup form](@/member.md) and contact an officer.
 
 ## ACM National
 
