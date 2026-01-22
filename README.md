@@ -1,13 +1,11 @@
 # ACM UMN Website
 
-## Background
-
 This is the website for the University of Minnesota Student Chapter of the Association for Computing Machinery.
 
 ## Development
 
-This uses [Zola](https://www.getzola.org/) for static site generation (just like the old site).
-It also uses the SCSS flavor of [Sass](https://sass-lang.com/) for styling.
+- [Zola](https://www.getzola.org/): Static site generator.
+- [Sass](https://sass-lang.com/): An extension of CSS to add more features. This uses the SCSS flavor.
 
 ### Building
 

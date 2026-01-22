@@ -28,13 +28,14 @@ $nav-padd-in-out: 8px;
         @include headings {
             color: #fff;
             @include light-title;
-            @include set-with-screen(font-size, 1.7em, 1.5em, 1.2em);
+            @include set-with-screen(font-size, 1.4em, 1.5em, 1.2em);
+            text-decoration: none;
         }
         text-decoration: none;
         &:hover {
-            text-decoration: none;
+            color: #ffcc33;
             @include headings {
-                text-decoration: none;
+                color: #ffcc33;
             }
         }
     }
