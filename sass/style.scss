@@ -156,7 +156,7 @@ body {
         @include set-with-screen(
             padding-top,
             calc($nav-height + $section-padding),
-            calc($nav-height + $section-padding),
+            calc($mid-nav-height + $section-padding),
             calc($phone-nav-height + $section-padding)
         );
     }
