@@ -32,9 +32,9 @@ $nav-padd-in-out: 8px;
         }
         text-decoration: none;
         &:hover {
-            color: #ffcc33;
+            color: $umn-gold;
             @include headings {
-                color: #ffcc33;
+                color: $umn-gold;
             }
         }
     }
