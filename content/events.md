@@ -8,7 +8,7 @@ template = "calendar-page.html"
 In addition to our weekly open house, we host regular workshops and social events.
 Events are open to anyone, and being a member or student is not required.
 
-Open house is every Tuesday, 4pm - 6pm in our club room, Keller 2-264.
+Open house is every Monday, 4:30pm - 6:30pm, and Friday, 4:30pm - 6:30pm, in our club room, Keller 2-264.
 
 ## Officer Meetings
 
