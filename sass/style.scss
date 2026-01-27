@@ -19,7 +19,6 @@ $nav-padd-in-out: 8px;
     top: 0;
 
     background-color: $accent;
-    height: fit-content;
     padding-top: $nav-padd-in-out;
     padding-bottom: $nav-padd-in-out;
     gap: 0;
@@ -157,7 +156,7 @@ body {
         @include set-with-screen(
             padding-top,
             calc($nav-height + $section-padding),
-            calc($nav-height + $section-padding),
+            calc($mid-nav-height + $section-padding),
             calc($phone-nav-height + $section-padding)
         );
     }
