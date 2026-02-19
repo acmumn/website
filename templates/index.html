@@ -23,12 +23,12 @@
         <h1>Join our Newsletter</h1>
         <p>
             Keep up to date with the latest events and updates from ACM UMN! Either
-            <a href="{{ get_url(path='@/join-newsletter.md') }}">sign up</a> for the newsletter,
+            <a href="{{ get_url(path='@/newsletter.md') }}">sign up</a> for the newsletter,
             subscribe to the <a href="/rss.xml">RSS Feed</a>,
-            or check out the <a href="{{ get_url(path='@/newsletter/_index.md') }}">archive</a>.
+            or check out the <a href="{{ get_url(path='@/blog/_index.md') }}">archive</a>.
         </p>
         <div class="post-list">
-            {% set section = get_section(path = "newsletter/_index.md" ) %}
+            {% set section = get_section(path = "blog/_index.md" ) %}
             {% for page in section.pages | sort(attribute="date") | reverse | slice(start=0, end=3) %}
             <a href="{{ page.permalink | safe }}" class="post-list__card">
                 <h1 style="font-size: 1.5em;">{{ page.title }}</h1>
