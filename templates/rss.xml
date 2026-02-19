@@ -19,7 +19,7 @@
       <language>{{ lang }}</language>
       <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
       {% if last_updated is defined %}<lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>{% endif %}
-      {% set section = get_section(path = "newsletter/_index.md" ) %}
+      {% set section = get_section(path = "blog/_index.md" ) %}
       {%- for page in section.pages | sort(attribute="date") | reverse %}
       <item>
           <title>{{ page.title }}</title>
