@@ -59,7 +59,6 @@ date = $next_meeting
 tags = ["next-meeting-topics"]
 +++
 
-# $next_meeting Meeting Topics
 EOF
 fi
 
