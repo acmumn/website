@@ -23,7 +23,7 @@ next_meeting_file="$ACM_WEBSITE_ROOT/content/meeting-minutes/next.md"
 echo "opening $next_meeting_file"
 
 # switch to main and pull before we write anything
-git -C "$ACM_WEBSITE_ROOT" switch main
+#git -C "$ACM_WEBSITE_ROOT" switch main # commented out to test it out
 git -C "$ACM_WEBSITE_ROOT" pull
 
 # open the file and edit it.
