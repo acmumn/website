@@ -17,18 +17,17 @@ of the acm website git repo on your machine"
 	exit 1
 fi
 
-echo "pulling ACM_WEBSITE from $ACM_WEBSITE_ROOT"
 
 next_meeting_file="$ACM_WEBSITE_ROOT/content/meeting-minutes/next.md"
 echo "opening $next_meeting_file"
 
 # switch to main and pull before we write anything
 #git -C "$ACM_WEBSITE_ROOT" switch main # commented out to test it out
+echo "pulling ACM_WEBSITE from $ACM_WEBSITE_ROOT"
 git -C "$ACM_WEBSITE_ROOT" pull
 
 # open the file and edit it.
 $EDITOR "$next_meeting_file"
-wait
 
 # add it and commit the change
 git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
