@@ -19,7 +19,7 @@ fi
 
 echo "pulling ACM_WEBSITE from $ACM_WEBSITE_ROOT"
 
-next_meeting_file="$ACM_WEBSITE_ROOT/content/meeting-topics/next.md"
+next_meeting_file="$ACM_WEBSITE_ROOT/content/meeting-minutes/next.md"
 echo "opening $next_meeting_file"
 
 # switch to main and pull before we write anything
@@ -31,8 +31,7 @@ $EDITOR "$next_meeting_file"
 wait
 
 # add it and commit the change
-#git -C "$ACM_WEBSITE_ROOT" add "$next_meeting_file"
-git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/$next_meeting: " -e "$next_meeting_file"
+git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
 
 
 #push the change
