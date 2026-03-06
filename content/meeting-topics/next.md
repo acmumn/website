@@ -1,0 +1,18 @@
++++
+title = "Next Meeting Topics"
+template = "post.html"
+date = 2026-03-18
+tags = ["next-meeting-topics"]
++++
+
+- shipt meeting
+- election results
+- eating uko
+- reserving great hall
+- poster designing in summer
+- poster maker role
+
+# next meeting topics script!
+talk about the new meeting topics scripts!
+
+
