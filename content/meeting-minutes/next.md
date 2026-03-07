@@ -14,6 +14,7 @@ tags = ["meeting-minutes"]
 - poster designing in summer
 - poster maker role
 - uko 🫃???
+- door notif (ntfy "acmdoorcast") 🤰
 
 # next meeting topics script!
 
