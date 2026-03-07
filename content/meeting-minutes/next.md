@@ -27,6 +27,8 @@ tags = ["meeting-minutes"]
 - take items to lost and found
 - come up with a system to move things to lost and found
 - transfer git.sr.ht/~arbormoss/door to acm
+- srht build system (evil hee hee)
+- ntfy.acm.umn.edu
 
 # next meeting topics script!
 
