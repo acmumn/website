@@ -1,0 +1,12 @@
+image: alpine/edge
+secrets:
+  - 8f261d68-b887-4b66-9095-848d814c3173
+sources:
+  - git@git.sr.ht:~acmumn/website
+tasks:
+  - rebuild: |
+      ssh \
+      -i ~/.ssh/8f261d68-b887-4b66-9095-848d814c3173 \
+      -o "StrictHostKeyChecking=no" \
+      root@acm.umn.edu \
+      systemctl\ restart\ acm.umn.edu
