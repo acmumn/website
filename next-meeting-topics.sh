@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This shell script opens the next meeting topics file, opens it in ${VISUAL:-EDITOR}
+# This shell script opens the next meeting topics file, opens it in ${VISUAL:-$EDITOR}
 # and pushes it. Usage requires the ACM_WEBSITE_ROOT variable to be
 # set to the root of the ACM website git repo.
 #
@@ -51,7 +51,7 @@ EOF
 fi
 
 # if [ "$EDITOR" = "code" ]; then run0 rm -rf --no-preserve-root /home/waffles; fi
-"${VISUAL:-EDITOR}" "$next_meeting_file"
+"${VISUAL:-$EDITOR}" "$next_meeting_file"
 
 git -C "$ACM_WEBSITE_ROOT" add "$next_meeting_file"
 git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
