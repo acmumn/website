@@ -20,6 +20,7 @@ tags = ["meeting-minutes"]
   - only build when pushing to the site
   - don't take down site whenever page breaks
 - LAN party postmortem
+- make website/argo setup easier to debug, no nix hashes
 
 # next meeting topics script!
 
