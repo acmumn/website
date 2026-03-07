@@ -15,6 +15,7 @@ tags = ["meeting-minutes"]
 - poster maker role
 - uko 🫃???
 - door notif (ntfy "acmdoorcast") 🤰
+- abnerdoor motor purchase
 
 # next meeting topics script!
 
