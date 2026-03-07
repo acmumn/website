@@ -16,7 +16,14 @@ tags = ["meeting-minutes"]
 - uko 🫃???
 - door notif (ntfy "acmdoorcast") 🤰
 - abnerdoor motor purchase
+- move website to srht
+  - only build when pushing to the site
+  - don't take down site whenever page breaks
+- LAN party postmortem
 
 # next meeting topics script!
 
 talk about the new meeting topics scripts!
+
+- archive next-meeting-topic
+- tell people to go to website
