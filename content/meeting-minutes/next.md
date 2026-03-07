@@ -33,6 +33,9 @@ tags = ["meeting-minutes"]
 - door notif (ntfy "acmdoorcast") 🤰
   - ntfy.acm.umn.edu
   - gotify instead???? - angel
+- irc server for club
+  - bouncer too?
+  - ergo.chat doesn't need it
 
 # next meeting topics script!
 
