@@ -33,3 +33,7 @@ talk about the new meeting topics scripts!
 
 - archive next-meeting-topic
 - tell people to go to website
+
+# treasurer
+
+- ledger from justin, how much money we have
