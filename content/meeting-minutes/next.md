@@ -26,6 +26,7 @@ tags = ["meeting-minutes"]
 - get rid of drawstring bags, keep the black ones for next minnehack
 - take items to lost and found
 - come up with a system to move things to lost and found
+- transfer git.sr.ht/~arbormoss/door to acm
 
 # next meeting topics script!
 
