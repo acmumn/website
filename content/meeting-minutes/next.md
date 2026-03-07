@@ -13,6 +13,7 @@ tags = ["meeting-minutes"]
 - reserving great hall
 - poster designing in summer
 - poster maker role
+- uko 🫃???
 
 # next meeting topics script!
 
