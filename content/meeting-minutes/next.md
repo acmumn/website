@@ -7,28 +7,32 @@ tags = ["meeting-minutes"]
 
 # Meeting Topics
 
-- shipt meeting
+- minnehack
+  - get rid of drawstring bags, keep the black ones for next year
+  - shipt meeting
+  - reserving great hall
 - election results
-- eating uko
-- reserving great hall
+  - poster maker role
 - poster designing in summer
-- poster maker role
-- uko 🫃???
-- door notif (ntfy "acmdoorcast") 🤰
-- abnerdoor motor purchase
-- move website to srht
+- eating uko 🫃???
+- door
+  - transfer git.sr.ht/~arbormoss/door to acm
+  - abnerdoor motor purchase
+- LAN party postmortem
+  - getting building contact for closet access
+  - ticket for getting ports there to work
+  - begging IT to not need mac address registration
+- take items to lost and found
+  - lost bookstore bag
+  - make system to move things to lost and found
+- make website/argo setup easier to debug, no nix hashes
+- switch build systems for acm.umn.edu?
+  - builds.sr.ht (evil hee hee)
   - only build when pushing to the site
   - don't take down site whenever page breaks
-- LAN party postmortem
-- make website/argo setup easier to debug, no nix hashes
-- lost bookstore bag
-- switch build systems for acm.umn.edu?
-- get rid of drawstring bags, keep the black ones for next minnehack
-- take items to lost and found
-- come up with a system to move things to lost and found
-- transfer git.sr.ht/~arbormoss/door to acm
-- srht build system (evil hee hee)
-- ntfy.acm.umn.edu
+- door notif (ntfy "acmdoorcast") 🤰
+  - ntfy.acm.umn.edu
+  - gotify instead???? - angel
 
 # next meeting topics script!
 
