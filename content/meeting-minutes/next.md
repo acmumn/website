@@ -23,6 +23,9 @@ tags = ["meeting-minutes"]
 - make website/argo setup easier to debug, no nix hashes
 - lost bookstore bag
 - switch build systems for acm.umn.edu?
+- get rid of drawstring bags, keep the black ones for next minnehack
+- take items to lost and found
+- come up with a system to move things to lost and found
 
 # next meeting topics script!
 
