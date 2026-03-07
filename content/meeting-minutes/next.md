@@ -21,6 +21,8 @@ tags = ["meeting-minutes"]
   - don't take down site whenever page breaks
 - LAN party postmortem
 - make website/argo setup easier to debug, no nix hashes
+- lost bookstore bag
+- switch build systems for acm.umn.edu?
 
 # next meeting topics script!
 
