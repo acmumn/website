@@ -36,6 +36,7 @@ tags = ["meeting-minutes"]
 - irc server for club
   - bouncer too?
   - ergo.chat doesn't need it
+- wentworth invoice finance people
 
 # next meeting topics script!
 
