@@ -48,3 +48,4 @@ talk about the new meeting topics scripts!
 # treasurer
 
 - ledger from justin, how much money we have
+- what should we use the money we have left on.
