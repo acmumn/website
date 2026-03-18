@@ -37,6 +37,7 @@ tags = ["meeting-minutes"]
   - bouncer too?
   - ergo.chat doesn't need it
 - wentworth invoice finance people
+    - the check has been sent
 
 # next meeting topics script!
 
@@ -49,3 +50,67 @@ talk about the new meeting topics scripts!
 
 - ledger from justin, how much money we have
 - what should we use the money we have left on.
+- we have $70 dollars left not tied to any event
+- run anywhere has not paid us, if they get sent to collections that's fine
+    - jason will send them another email
+- we really don't want to loose PCards when shanah retires
+
+# MinneHack
+
+- get rid of the drawstring bags, except the black ones
+    - keep the black draw string bags for next year
+    - order the same black draw string bags next year, they are in the drive
+- mentors were not used as much as we would have liked, it would be good to come
+  up with a better system to handle that
+    - a few hours prior to minnehack to talk to mentors? like a small career
+      fair?
+- sponsorship info document is way too long, it should be trimmed down to make
+  it more readable to read and do
+- shipt wants to do more stuff with us, we should try to do more events with
+  them
+    - unix class 3 could be about containerization, and shipt could present it?
+
+# unix class
+
+- we should work on improving unix class
+- ask professors about things that they want for this
+- we should sit down and send emails to our professors, ask questions, go in
+  person, and try to get professors to give input
+- getting input from professors also helps us advertise
+- it would be good to try to get money from the department and/or have sponsored
+  unix class events
+
+# lan party post mortem
+
+- went super well on our end
+- DHCP was a little goofy but did get fixed
+- no one played overwatch, league
+- popular games: super tux cart, fighting game rotation, minecraft, ddr,
+  quake/saurbrotten
+- turnout was ~50 people
+- gamer food companies have sponsored this in the past
+
+# uko
+
+- possibly ammend uko constitution to have it's elections just be the acm ones,
+  and uko officers are just acm ones by proxy
+- we want UKO stuff (actual computer science) to continue even if UKO explodes
+- we _really_ want to keep our PCards
+
+# TODOs
+
+- ask IEEE how to get free plates/utensils as a student org
+    - get plates/utensils
+- reserve the great hall for MinneHack THIS WEEK!!
+    - we need to figure out when, probably 2 weeks after break
+- we should have an official way to handle lost and found items
+- jason: get chartstring to arbor
+- arbor: get abnerdoor motor
+- arbor: srht official, github mirror for site
+- june: get new sysadmin and arbor on service gateway after election
+- jason: get james on Umarket
+- make a standard way of making posters, standard way to edit them
+    - decide on a standard (inkscape? gimp?)
+- make it someone's role to make posters
+- make a bunch of posters over summer
+- DO ELECTION
