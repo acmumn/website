@@ -58,3 +58,5 @@ git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/next.md: " -e "$next_meetin
 
 git -C "$ACM_WEBSITE_ROOT" pull --rebase || error "failed to pull from origin"
 git -C "$ACM_WEBSITE_ROOT" push || error "failed to push change"
+
+ssh sitebuilder@acm.umn.edu
