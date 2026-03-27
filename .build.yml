@@ -1,0 +1,18 @@
+image: alpine/3.23
+packages:
+  - zola=0.21.0-r0
+  - rsync=3.4.1-r1
+submitter:
+  git.sr.ht:
+    enabled: true
+    allow-refs:
+      - refs/heads/main
+      - "refs/tags/*"
+secrets:
+  - 5ce10427-a01f-456c-bcd6-a4ce5eab94a2
+sources:
+  - git@git.sr.ht:~acmumn/website
+tasks:
+  - rebuild: |
+      cd website
+      ./rebuild.sh ~/.ssh/5ce10427-a01f-456c-bcd6-a4ce5eab94a2

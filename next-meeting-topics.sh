@@ -16,15 +16,15 @@ error() {
 }
 
 if [ -z "$ACM_WEBSITE_ROOT" ]; then
-	error "\$ACM_WEBSITE_ROOT needs to be set to the root of the acm website git repo"
+	error "\$ACM_WEBSITE_ROOT needs to be set to the root of the acm website git repo."
 fi
 
 case "$ACM_WEBSITE_ROOT" in
-	*~*) error "use \$HOME, not ~ in \$ACM_WEBSITE_ROOT" ;;
+	*~*) error "Use \$HOME, not ~ in \$ACM_WEBSITE_ROOT. Relative paths are not allowed." ;;
 esac
 
 if [ ! "$(git -C "$ACM_WEBSITE_ROOT" rev-parse --show-toplevel)" = "$ACM_WEBSITE_ROOT" ]; then
-	error "\$ACM_WEBSITE_ROOT not a git root directory"
+	error "\$ACM_WEBSITE_ROOT not a git root directory. It should point to the root of the website repo."
 fi
 
 next_meeting_file="$ACM_WEBSITE_ROOT/content/meeting-minutes/next.md"
@@ -50,13 +50,10 @@ tags = ["meeting-minutes"]
 EOF
 fi
 
-# if [ "$EDITOR" = "code" ]; then run0 rm -rf --no-preserve-root /home/waffles; fi
 "${VISUAL:-$EDITOR}" "$next_meeting_file"
 
 git -C "$ACM_WEBSITE_ROOT" add "$next_meeting_file"
 git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
 
-git -C "$ACM_WEBSITE_ROOT" pull --rebase || error "failed to pull from origin"
-git -C "$ACM_WEBSITE_ROOT" push || error "failed to push change"
-
-ssh sitebuilder@acm.umn.edu
+git -C "$ACM_WEBSITE_ROOT" pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
+git -C "$ACM_WEBSITE_ROOT" push || error "Failed to push change. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
