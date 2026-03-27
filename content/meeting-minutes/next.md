@@ -8,3 +8,5 @@ tags = ["meeting-minutes"]
 # Meeting Topics
 
 - rebuild site with `ssh sitebuilder@acm.umn.edu`
+- updated meeting topics script
+- site build fail notifications at ntfy.sh/acmumnwebsite
