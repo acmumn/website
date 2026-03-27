@@ -1,7 +1,5 @@
 # Project Organization
 
-This site uses [Zola](https://www.getzola.org/) with [Sass](https://sass-lang.com/).
-
 ## Page Text Content
 
 Text content for pages is in `content/` and is in Markdown.
@@ -25,8 +23,3 @@ The title doesn't matter but the template has to be the redirect template.
 The styling is [Sass](https://sass-lang.com/) (the SCSS flavor/syntax) and is all in the `sass/` directory.
 The `sass/theme.scss` file has variables that determine a lot of the look and minor styling of the site.
 Important pages like the newsletter and home get their own scss file.
-
-## Environment
-
-There are docker-compose and nix flake environments.
-Really the only thing you should need installed is Zola.
