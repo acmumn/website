@@ -46,7 +46,3 @@ They are not currently used but might be nice for development.
 ## Project Organization
 
 See [PROJECT_ORGANIZATION](PROJECT_ORGANIZATION.md).
-
-## Licence
-
-[MIT](LICENCE)
