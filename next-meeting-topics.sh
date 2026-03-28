@@ -1,40 +1,30 @@
 #!/bin/sh
 
 # This shell script opens the next meeting topics file, opens it in ${VISUAL:-$EDITOR}
-# and pushes it. Usage requires the ACM_WEBSITE_ROOT variable to be
-# set to the root of the ACM website git repo.
+# and pushes it.
 #
 # The secretary will mv this to meeting-minutes/$DATE.md after the $DATE meeting
 # is over.
 #
-# Example usage:
-# alias nmt='a="/home/waffles/Desktop/website" && ACM_WEBSITE_ROOT=$a $a/next-meeting-topics.sh'
-# nmt
+
+# acm_website_root will find the directory of this script.
+# NOTE: this path can have symlinks, git -C traverse symlinks correctly.
+acm_website_root=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)
 
 error() {
 	echo "$@" >&2; exit 1
 }
 
-if [ -z "$ACM_WEBSITE_ROOT" ]; then
-	error "\$ACM_WEBSITE_ROOT needs to be set to the root of the acm website git repo."
+if [ ! "$(git -C "$acm_website_root" rev-parse --show-toplevel)" = "$acm_website_root" ]; then
+	error "script must be at a git root directory"
 fi
 
-case "$ACM_WEBSITE_ROOT" in
-	*~*) error "Use \$HOME, not ~ in \$ACM_WEBSITE_ROOT. Relative paths are not allowed." ;;
-esac
-
-if [ ! "$(git -C "$ACM_WEBSITE_ROOT" rev-parse --show-toplevel)" = "$ACM_WEBSITE_ROOT" ]; then
-	error "\$ACM_WEBSITE_ROOT not a git root directory. It should point to the root of the website repo."
-fi
-
-next_meeting_file="$ACM_WEBSITE_ROOT/content/meeting-minutes/next.md"
+next_meeting_file="$acm_website_root/content/meeting-minutes/next.md"
 echo "opening $next_meeting_file"
 
 # switch to main and pull before we write anything
-git -C "$ACM_WEBSITE_ROOT" switch main || error "failed to switch to main"
-
-echo "pulling ACM_WEBSITE from $ACM_WEBSITE_ROOT"
-git -C "$ACM_WEBSITE_ROOT" pull --rebase
+git -C "$acm_website_root" switch main || error "failed to switch to main"
+git -C "$acm_website_root" pull --rebase
 
 # create meeting file template if it does not exist
 if [ ! -f "$next_meeting_file" ]; then
@@ -52,8 +42,8 @@ fi
 
 "${VISUAL:-$EDITOR}" "$next_meeting_file"
 
-git -C "$ACM_WEBSITE_ROOT" add "$next_meeting_file"
-git -C "$ACM_WEBSITE_ROOT" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
+git -C "$acm_website_root" add "$next_meeting_file"
+git -C "$acm_website_root" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
 
-git -C "$ACM_WEBSITE_ROOT" pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
-git -C "$ACM_WEBSITE_ROOT" push || error "Failed to push change. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
+git -C "$acm_website_root" pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
+git -C "$acm_website_root" push || error "Failed to push change. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"

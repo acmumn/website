@@ -11,10 +11,13 @@ This needs to be run in your repository root each time you clone the repo.
 
 ## Meeting Minutes
 
-Usage: `ACM_WEBSITE_ROOT="$(pwd)" ./next-meeting-topics.sh`
+Usage: `./next-meeting-topics.sh`
 
 The `next-meeting-topics.sh` script will open the next meeting minutes file in your `$EDITOR` (or `$VISUAL`).
 When the editor is closed, it will get pushed and the site will be rebuilt.
+
+mext-meeting-topics.sh can be safely aliases.
+Example: `alias nmt=/home/waffles/acm_website/next-meeting-topics.sh`
 
 ## Rebuilding
 
