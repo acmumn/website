@@ -65,8 +65,9 @@ fi
 
 "${VISUAL:-$EDITOR}" "$next_meeting_file"
 
+month_day_of_next_meeting="${next_meeting##[0123456789][0123456789][0123456789][0123456789]-}"
 git -C "$acm_website_root" add "$next_meeting_file"
-git -C "$acm_website_root" commit -m "meeting-topics/next.md: " -e "$next_meeting_file"
+git -C "$acm_website_root" commit -m "$month_day_of_next_meeting meeting: " -e "$next_meeting_file"
 
 git -C "$acm_website_root" pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
 git -C "$acm_website_root" push || error "Failed to push change. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
