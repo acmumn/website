@@ -106,6 +106,15 @@ $nav-padd-in-out: 8px;
             font-weight: $light-font-weight;
         }
     }
+
+    .horiz-list {
+        display: flex;
+        flex-direction: horizontal;
+        gap: 40px;
+        * {
+            font-weight: $light-font-weight;
+        }
+    }
 }
 
 .section {

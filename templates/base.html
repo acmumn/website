@@ -46,7 +46,10 @@
                 <h3>2-204 Keller Hall</h3>
                 <a href="{{ get_url(path='@/newsletter.md') }}">mailing list</a>
             </div>
-            <h3>Copyright (c) 1972-{{ now() | date(format="%Y") }} ACM UMN</h3>
+            <div class="horiz-list">
+                <img class="status-icon" src="https://builds.sr.ht/~acmumn/website.svg"/>
+                <h3>Copyright (c) 1972-{{ now() | date(format="%Y") }} ACM UMN</h3>
+            </div>
         </div>
     </body>
 </html>
