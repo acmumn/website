@@ -63,7 +63,7 @@ tags = ["meeting-minutes"]
 EOF
 fi
 
-"${VISUAL:-$EDITOR}" "$next_meeting_file"
+"${VISUAL:-${EDITOR:-vi}}" "$next_meeting_file"
 
 month_day_of_next_meeting="${next_meeting##[0123456789][0123456789][0123456789][0123456789]-}"
 git -C "$acm_website_root" add "$next_meeting_file"
