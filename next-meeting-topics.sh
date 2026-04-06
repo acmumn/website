@@ -1,19 +1,31 @@
 #!/bin/sh
 
-# This shell script opens the next meeting topics file, opens it in ${VISUAL:-$EDITOR}
-# and pushes it.
+# This shell script opens the next officer meeting file in your editor of choice
+# (read from $VISUAL then $EDITOR and finally vi if those are not set). Once
+# your editor exits, if you've added to the next officer meeting file, it will
+# prompt you for a commit message and push it up for you!
 #
-# The secretary will change the date in $acm_website_root/next after the meeting
-# is over. This will then move everyone to writing in the next officer meeting
-# file.
+# To use this script members simply run it.
 #
-
-# acm_website_root will find the directory of this script.
-# NOTE: this path can have symlinks, git -C traverse symlinks correctly.
-acm_website_root=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)
+# pro-tip: alias this script so you can run it anywhere!
+# `alias nmt='$WHERE_YOU_HAVE_THIS_GIT_REPO/next-meeting-topics.sh'` works in
+# bash.
+# now you can just run `nmt` to add something to the meeting topics!
+#
+# secretary job:
+# To point to the correct next meeting, the secretary has to change the date in
+# `next`. All that is required is changing the date in there and that will cause
+# everyone to write to the appropriate file.
+# date(1) can output the correct format with `date -d "datestring" "+%Y-%m-%d"`.
+# if you are real lazy (assuming wednesday meetings)
+# `date -d "next wednesday" "+%Y-%m-%d"  > next` works just fine.
 
 error() {
-	echo "$@" >&2; exit 1
+	exitcode=$?
+	if [ $exitcode -eq 0 ]; then
+		exitcode=1
+	fi
+	echo "$@" >&2; exit $exitcode
 }
 
 # validates that the date in next is of the correct format.
@@ -31,20 +43,23 @@ valid_date_format() {
 esac
 }
 
-# switch to main and pull before we write anything
-git -C "$acm_website_root" switch main || error "failed to switch to main"
-git -C "$acm_website_root" pull --rebase || { git -C "$acm_website_root" status
-error "failed to pull, the above need to be resolved first"
-}
+# cd into the directory of this script.
+CDPATH='' cd -- "$(dirname -- "$0")" || error "unable to cd into the directory of next-meeting-topics.sh.
+We messed up, we gotta go bald!"
 
-next_meeting="$(cat "$acm_website_root"/next)" || error "unable to access the next file"
+# switch to main and pull before we write anything
+git switch main || error "failed to switch to main"
+git pull --rebase || { git status; error "failed to pull, the above need to be resolved first";}
+
+
+next_meeting="$(cat next)" || error "unable to access the next file"
 next_meeting=${next_meeting#"${next_meeting%%[![:space:]]*}"} # trim off leading white space
 next_meeting=${next_meeting%"${next_meeting##*[![:space:]]}"} # trim off trailing white space
 if ! valid_date_format "$next_meeting"; then
 	error "invalid date format \"$next_meeting\" in next file, expected date in YYYY-MM-DD format"
 fi
 
-next_meeting_file="$acm_website_root/content/meeting-minutes/$next_meeting.md"
+next_meeting_file="content/meeting-minutes/$next_meeting.md"
 echo "opening $next_meeting_file"
 
 # create meeting file template if it does not exist
@@ -71,8 +86,8 @@ then
 	exit 0
 fi
 
-git -C "$acm_website_root" add "$next_meeting_file"
-git -C "$acm_website_root" commit -m "$month_day_of_next_meeting meeting: " -e "$next_meeting_file"
+git add -- "$next_meeting_file"
+git commit -m "$month_day_of_next_meeting meeting: " -e -- "$next_meeting_file"
 
-git -C "$acm_website_root" pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
-git -C "$acm_website_root" push || error "Failed to push change. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
+git pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
+git push || error "Failed to push change. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
