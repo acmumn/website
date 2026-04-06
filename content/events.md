@@ -15,3 +15,5 @@ Open house is every Monday, 4:30pm - 6:30pm, and Friday, 4:30pm - 6:30pm, in our
 Officer meetings are Wednesdays, 5pm - 6pm.
 
 The meeting minutes can be found at: [https://acm.umn.edu/meeting-mintues](@/meeting-minutes/_index.md)
+
+The topics for the next officer meeting can be found at: [https://acm.umn.edu/next](@/next.md)
