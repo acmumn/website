@@ -31,10 +31,6 @@ valid_date_format() {
 esac
 }
 
-if [ ! "$(git -C "$acm_website_root" rev-parse --show-toplevel)" = "$acm_website_root" ]; then
-	error "script must be at a git root directory"
-fi
-
 # switch to main and pull before we write anything
 git -C "$acm_website_root" switch main || error "failed to switch to main"
 git -C "$acm_website_root" pull --rebase
