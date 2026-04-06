@@ -33,13 +33,15 @@ esac
 
 # switch to main and pull before we write anything
 git -C "$acm_website_root" switch main || error "failed to switch to main"
-git -C "$acm_website_root" pull --rebase
+git -C "$acm_website_root" pull --rebase || { git -C "$acm_website_root" status
+error "failed to pull, the above need to be resolved first"
+}
 
 next_meeting="$(cat "$acm_website_root"/next)" || error "unable to access the next file"
 next_meeting=${next_meeting#"${next_meeting%%[![:space:]]*}"} # trim off leading white space
 next_meeting=${next_meeting%"${next_meeting##*[![:space:]]}"} # trim off trailing white space
 if ! valid_date_format "$next_meeting"; then
-	error "invalid date format in next file, ensure its in YYYY-MM-DD"
+	error "invalid date format \"$next_meeting\" in next file, expected date in YYYY-MM-DD format"
 fi
 
 next_meeting_file="$acm_website_root/content/meeting-minutes/$next_meeting.md"
@@ -62,6 +64,13 @@ fi
 "${VISUAL:-${EDITOR:-vi}}" "$next_meeting_file"
 
 month_day_of_next_meeting="${next_meeting##[0123456789][0123456789][0123456789][0123456789]-}"
+
+if git diff-files --quiet --ignore-submodules "$next_meeting_file"
+then
+	echo "no change to $next_meeting_file, exiting"
+	exit 0
+fi
+
 git -C "$acm_website_root" add "$next_meeting_file"
 git -C "$acm_website_root" commit -m "$month_day_of_next_meeting meeting: " -e "$next_meeting_file"
 
