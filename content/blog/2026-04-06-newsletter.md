@@ -20,7 +20,7 @@ pizza money!
 ## Blog Workshop ✍️
 Today 5:30-7PM, Keller 3-125
 
-![closeup of horse behind barbed wire representing the modern cooped up web experience](https://blogclub.org/horse.jpg)
+![closeup of horse behind barbed wire representing the modern cooped up web experience](/images/horse.jpg)
 
 > "You can lead a horse to [WordPress](https://w.org/), but you can't make it blog."
 
@@ -32,7 +32,7 @@ own website **without any coding experience**. Free pizza too 🍕!
 ## Fear and Loathing Book Club 🏜️🚗
 Thursday April 9 5-6PM, Vincent 213
 
-![Fear and Loathing poster](https://blogclub.org/posters/fear-and-loathing.jpeg)
+![Fear and Loathing poster](/images/fear-and-loathing.jpeg)
 
 Blog club book club is discussing _Fear and Loathing in Las Vegas_ this week!
 200 pages with pictures, so if you're reading this on Monday, you can still
