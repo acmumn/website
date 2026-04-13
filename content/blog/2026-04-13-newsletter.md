@@ -2,7 +2,7 @@
 title = "ACM S26 Week 13"
 template = "post.html"
 
-description = "Blog Workshop"
+description = "registration"
 slug = "2026-s-w13"
 
 date = 2026-04-13
