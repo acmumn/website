@@ -80,13 +80,13 @@ fi
 
 month_day_of_next_meeting="${next_meeting##[0123456789][0123456789][0123456789][0123456789]-}"
 
+git add -- "$next_meeting_file"
 if git diff-files --quiet --ignore-submodules "$next_meeting_file"
 then
 	echo "no change to $next_meeting_file, exiting"
 	exit 0
 fi
 
-git add -- "$next_meeting_file"
 git commit -m "$month_day_of_next_meeting meeting: " -e -- "$next_meeting_file"
 
 git pull --rebase || error "Failed to pull from origin. Does your sourcehut user have read/write access to git.sr.ht/~acmumn/website?"
