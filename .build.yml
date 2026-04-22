@@ -1,7 +1,7 @@
 image: alpine/3.23
 packages:
-  - zola=0.21.0-r0
-  - rsync=3.4.1-r1
+  - zola
+  - rsync
 submitter:
   git.sr.ht:
     enabled: true
