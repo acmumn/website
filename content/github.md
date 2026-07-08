@@ -1,5 +1,5 @@
 +++
 title = "link to the github"
 template = "redirect.html"
-description = "https://github.com/acmumn"
+extra.url = "https://github.com/acmumn"
 +++
