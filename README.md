@@ -7,7 +7,7 @@ This is the website for the University of Minnesota Student Chapter of the Assoc
 The `next-meeting-topics.sh` script will open the next meeting minutes file in your `$EDITOR` (or `$VISUAL`).
 When the editor is closed, the changes will be pushed and the site will be rebuilt.
 
-mext-meeting-topics.sh can be safely aliases.
+mext-meeting-topics.sh can be safely aliased.
 Example: `alias nmt=/home/waffles/acm_website/next-meeting-topics.sh`
 
 ## Publishing
