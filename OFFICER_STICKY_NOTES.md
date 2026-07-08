@@ -18,4 +18,3 @@ The new block should look like this:
 ```
 
 Make sure to add alternate text for the image.
-It doesn't have to be overly detailed, but make sure to end it with a period.
